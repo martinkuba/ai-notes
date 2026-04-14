@@ -16,7 +16,7 @@ See source: [These Pros Were Stunned By Openai Deep Research](../sources/these-p
 ### Perplexity Deep Research
 Competitive alternative, available for free. Nearly matches OpenAI's quality.
 
-See source: [Perplexity AI S Deep Research Tool](../sources/perplexity-ai-s-deep-research-tool.md)
+See source: [Perplexity AI S Deep Research Tool](../sources/perplexity-ai-s-deep-research-tool-is-almost-as-good-as.md)
 
 ### Google AI Co-Scientist
 Research-focused agent aimed at scientific discovery — a specialized deep research agent for academia.

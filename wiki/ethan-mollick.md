@@ -26,7 +26,13 @@ See source: [A Guide To Which AI To Use In The Agentic Era](../sources/a-guide-t
 ### Near-Term Impacts
 Argues for focusing on AI's present-day impacts rather than distant AGI scenarios. Current AI already transforms work, education, and creativity.
 
-See source: [The Present Future AI S Impact](../sources/the-present-future-ai-s-impact.md)
+See source: [The Present Future AI S Impact](../sources/the-present-future-ai-s-impact-long-before-superintelligence.md)
+
+### AI Model Strategy Analysis
+
+Analyzes the diverging strategies of AI companies through four lenses: AI models (frontier vs on-device), models of use (open-ended vs narrow), business models ($20/month vs free vs API), and mental models of the future (AGI-first vs practical utility). Apple's bet on small on-device models with cloud fallback represents a fundamentally different philosophy from frontier model companies — prioritizing "it just works" reliability over open-ended capability.
+
+See source: [What Apple's AI Tells Us: Experimental Models](../sources/what-apple-s-ai-tells-us-experimental-models4.md)
 
 ## Related
 

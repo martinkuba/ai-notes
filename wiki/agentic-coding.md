@@ -27,12 +27,12 @@ An intuitive, conversational style of coding with AI — describing what you wan
 In the agentic era, code becomes malleable material — easily reshaped, regenerated, and restructured. The cost of writing code drops to near zero, shifting value to judgment about *what* to build. See source: [Code Is Clay](../sources/code-is-clay.md)
 
 ### Reading vs Writing
-A growing tension: AI makes writing code trivially easy but reading AI-generated code remains hard. Code review burden increases as the ratio of generated-to-handwritten code grows. See source: [It S Harder To Read Code Than To Write It](../sources/it-s-harder-to-read-code-than-to-write-it.md)
+A growing tension: AI makes writing code trivially easy but reading AI-generated code remains hard. Code review burden increases as the ratio of generated-to-handwritten code grows. See source: [It S Harder To Read Code Than To Write It](../sources/it-s-harder-to-read-code-than-to-write-it-especially-when.md)
 
 ## Productivity Evidence
 
 - [Andrej Karpathy](andrej-karpathy.md): Reports 10x productivity gains but warns of "slopacolypse" — a flood of low-quality AI-generated code. See source: [A Few Random Notes From Claude Coding Quite A Bit](../sources/a-few-random-notes-from-claude-coding-quite-a-bit.md)
-- METR study (early 2025): Measured actual productivity impact on experienced open-source developers — results more nuanced than hype suggests. See source: [Measuring The Impact Of Early 2025 AI On Experienced Open Source Developers](../sources/measuring-the-impact-of-early-2025-ai-on-experienced-open-source-developers.md)
+- METR study (early 2025): Measured actual productivity impact on experienced open-source developers — results more nuanced than hype suggests. See source: [Measuring The Impact Of Early 2025 AI On Experienced Open Source Developers](../sources/measuring-the-impact-of-early-2025-ai-on-experienced-open.md)
 - The "outship 10x" claim: Small teams leveraging AI agents can match output of much larger teams. See source: [How To Outship Teams 10x Your Size](../sources/how-to-outship-teams-10x-your-size.md)
 
 ## Best Practices

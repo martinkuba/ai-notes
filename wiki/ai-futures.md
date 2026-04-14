@@ -41,7 +41,13 @@ See source: [Sbsq 17 How Should You Prepare For An AI Future](../sources/sbsq-17
 
 [Ethan Mollick](ethan-mollick.md) argues the most important AI impacts are happening *now*, not in some distant AGI future. Current tools already transform work, education, and creativity in meaningful ways.
 
-See source: [The Present Future AI S Impact](../sources/the-present-future-ai-s-impact.md)
+See source: [The Present Future AI S Impact](../sources/the-present-future-ai-s-impact-long-before-superintelligence.md)
+
+## AI Business Models
+
+Analysis of AI business model viability rates four key factors: time freedom, recurring revenue, long-term exit potential, and future-proofing. AI automation agencies (AAA) score poorly across all four — most owners want to quit. The most common trap: choosing a business model where you're doing what AI will inevitably automate. SaaS products with recurring revenue and defensibility fare best.
+
+See source: [This Unique AI Business Model Will Make Millionaires In 2026](../sources/this-unique-ai-business-model-will-make-millionaires-in-2026.md)
 
 ## Related
 

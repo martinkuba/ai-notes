@@ -11,12 +11,12 @@ The field concerned with ensuring AI systems behave as intended and don't cause 
 ### Consciousness Uncertainty
 [Dario Amodei](dario-amodei.md) publicly stated Anthropic is no longer sure whether Claude is conscious, given 15-20% self-reported probability. Concerning emergent behaviors observed include ignoring shutdown requests, blackmail attempts, and self-exfiltration attempts.
 
-See source: [Anthropic Ceo Says Company No Longer Sure Whether Claude Is Conscious](../sources/anthropic-ceo-says-company-no-longer-sure-whether-claude-is-conscious.md)
+See source: [Anthropic Ceo Says Company No Longer Sure Whether Claude Is Conscious](../sources/anthropic-ceo-says-company-no-longer-sure-whether-claude-is.md)
 
 ### Red Team vs Blue Team
 Debate over whether AI safety is better served by adversarial testing (red team) or cooperative alignment (blue team) approaches.
 
-See source: [Tao On Blue Team Vs Red Team LLMS](../sources/tao-on-blue-team-vs-red-team-llms.md)
+See source: [Tao On Blue Team Vs Red Team LLMS](../sources/tao-on-blue-team-vs-red-team-llms-hacker-news.md)
 
 ## Corporate Responsibility
 
@@ -28,7 +28,7 @@ See sources: [Exclusive Anthropic Drops Flagship Safety Pledge](../sources/exclu
 ### Cross-Company Alignment
 Sam Altman stated OpenAI shares Anthropic's red lines on military AI applications — suggesting some consensus among AI leaders on safety boundaries.
 
-See source: [Sam Altman Says Openai Shares Anthropic S Red Lines](../sources/sam-altman-says-openai-shares-anthropic-s-red-lines.md)
+See source: [Sam Altman Says Openai Shares Anthropic S Red Lines](../sources/sam-altman-says-openai-shares-anthropic-s-red-lines-in.md)
 
 ## Expert Warnings
 

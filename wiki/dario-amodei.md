@@ -26,13 +26,13 @@ See source: [Dario Amodei Machines Of Loving Grace](../sources/dario-amodei-mach
 
 Publicly stated Anthropic is no longer sure whether Claude is conscious, given 15-20% self-reported probability.
 
-See source: [Anthropic Ceo Says Company No Longer Sure Whether Claude Is Conscious](../sources/anthropic-ceo-says-company-no-longer-sure-whether-claude-is-conscious.md)
+See source: [Anthropic Ceo Says Company No Longer Sure Whether Claude Is Conscious](../sources/anthropic-ceo-says-company-no-longer-sure-whether-claude-is.md)
 
 ## On Job Displacement
 
 Predicted 10-20% unemployment spike and 50% entry-level job losses within 1-5 years.
 
-See source: [Behind The Curtain Top AI Ceo Foresees White Collar Bloodbath](../sources/behind-the-curtain-top-ai-ceo-foresees-white-collar-bloodbath.md)
+See source: [Behind The Curtain Top AI Ceo Foresees White Collar Bloodbath](../sources/behind-the-curtain-top-ai-ceo-foresees-white-collar.md)
 
 ## The Adolescence of Technology
 

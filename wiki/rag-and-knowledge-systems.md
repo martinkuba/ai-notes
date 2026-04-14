@@ -15,7 +15,7 @@ The core technical challenge: building the "brain" behind knowledge-augmented AI
 - **Vector databases** — Storing and searching embeddings efficiently
 - **Query-time retrieval** — Matching questions to relevant chunks
 
-See source: [Indexing In RAG Systems Building The Brain](../sources/indexing-in-rag-systems-building-the-brain.md)
+See source: [Indexing In RAG Systems Building The Brain](../sources/indexing-in-rag-systems-building-the-brain-behind-knowledge.md)
 
 ## AI-Native Reading
 
@@ -35,9 +35,9 @@ See source: [LLM Knowledge Bases](../sources/llm-knowledge-bases.md)
 
 ## AI + Obsidian
 
-Integration of Claude with Obsidian for enhanced knowledge management — combining AI capabilities with networked note-taking.
+Integration of Claude with Obsidian for enhanced knowledge management — combining AI capabilities with networked note-taking. The key insight: Obsidian CLI gives Claude Code access not just to files but to the *inter-relationships* between them, enabling the agent to surface latent patterns across your vault that you wouldn't notice yourself. The better the context you feed (via files, not re-explanation), the more complex the delegation.
 
-See sources: [Claude Obsidian Got A Level Up](../sources/claude-obsidian-got-a-level-up.md), [How To Build Your AI Second Brain Using Obsidian Claude Code](../sources/how-to-build-your-ai-second-brain-using-obsidian-claude-code.md), [How To Build Your Second Brain](../sources/how-to-build-your-second-brain.md), [Obsidian Claude Code 101](../sources/obsidian-claude-code-101.md)
+See sources: [Claude Obsidian Got A Level Up](../sources/claude-obsidian-got-a-level-up.md), [How To Build Your AI Second Brain Using Obsidian Claude Code](../sources/how-to-build-your-ai-second-brain-using-obsidian-claude-code.md), [How To Build Your Second Brain](../sources/how-to-build-your-second-brain.md), [Obsidian Claude Code 101](../sources/obsidian-claude-code-101.md), [How I Use Obsidian + Claude Code To Run My Life](../sources/how-i-use-obsidian-claude-code-to-run-my-life.md)
 
 ## This Wiki
 

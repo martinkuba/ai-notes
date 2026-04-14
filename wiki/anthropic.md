@@ -21,7 +21,7 @@ A complex and evolving picture:
 
 ## Technical Capabilities
 
-- Claude Opus 4.6 uncovered 500+ zero-day vulnerabilities in open-source code. See source: [Anthropic S Claude Opus 4 6 Uncovers 500 Zero Day Flaws In Open Source Code](../sources/anthropic-s-claude-opus-4-6-uncovers-500-zero-day-flaws-in-open-source-code.md)
+- Claude Opus 4.6 uncovered 500+ zero-day vulnerabilities in open-source code. See source: [Anthropic S Claude Opus 4 6 Uncovers 500 Zero Day Flaws In Open Source Code](../sources/anthropic-s-claude-opus-4-6-uncovers-500-zero-day-flaws-in.md)
 - Extended thinking for complex reasoning. See source: [Claude S Extended Thinking](../sources/claude-s-extended-thinking.md)
 - Long context window prompting. See source: [Prompt Engineering For Claude S Long Context Window](../sources/prompt-engineering-for-claude-s-long-context-window.md)
 
