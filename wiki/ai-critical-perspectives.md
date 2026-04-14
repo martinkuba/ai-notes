@@ -10,20 +10,20 @@ Skeptical and critical views on AI hype, adoption claims, and economic impact. A
 
 Cory Doctorow argues the AI boom is a growth stock bubble: companies burning cash on speculative capability, creating "reverse centaurs" (humans reduced to AI supervisors) rather than genuine augmentation. Advocates for policy solutions including sectoral bargaining and copyright reform.
 
-See source: [AI Companies Will Fail We Can Salvage Something From The Wreckage](../sources/ai-companies-will-fail-we-can-salvage-something-from-the-wreckage.md)
+See source: [AI Companies Will Fail We Can Salvage Something From The Wreckage](../sources/ai-companies-will-fail-we-can-salvage-something-from-the.md)
 
 ## The Productivity Gap
 
 Hard evidence that AI hype outpaces reality:
-- **Thousands of CEOs** admit no measurable productivity or employment impact. See source: [Thousands Of Ceos Just Admitted AI Had No Impact](../sources/thousands-of-ceos-just-admitted-ai-had-no-impact.md)
-- **95% of enterprise AI pilots fail** (MIT). See source: [Mit Report 95 Of Generative AI Pilots Are Failing](../sources/mit-report-95-of-generative-ai-pilots-are-failing.md)
-- **But**: The shadow AI economy tells a different story — employees adopt AI tools independently, outside official programs. See source: [Mit Report Misunderstood Shadow AI Economy](../sources/mit-report-misunderstood-shadow-ai-economy.md)
+- **Thousands of CEOs** admit no measurable productivity or employment impact. See source: [Thousands Of Ceos Just Admitted AI Had No Impact](../sources/thousands-of-ceos-just-admitted-ai-had-no-impact-on.md)
+- **95% of enterprise AI pilots fail** (MIT). See source: [Mit Report 95 Of Generative AI Pilots Are Failing](../sources/mit-report-95-of-generative-ai-pilots-at-companies-are.md)
+- **But**: The shadow AI economy tells a different story — employees adopt AI tools independently, outside official programs. See source: [Mit Report Misunderstood Shadow AI Economy](../sources/mit-report-misunderstood-shadow-ai-economy-booms-while.md)
 
 ## The First Year Assessment
 
 Financial Times review of the "AI revolution's first year" finds modest real-world impact despite enormous investment and media attention.
 
-See source: [The AI Revolutions First Year](../sources/the-ai-revolutions-first-year.md)
+See source: [The AI Revolutions First Year](../sources/the-ai-revolutions-first-year-has-anything-changed.md)
 
 ## The Discourse Gap
 
@@ -36,6 +36,12 @@ See sources: [A Lot Of Problems With AI Discourse](../sources/a-lot-of-problems-
 AI risks are more likely to manifest as creeping societal deterioration than robot apocalypse: disinformation, labor market disruption, algorithmic bias amplification.
 
 See source: [Robot Takeover Not Quite](../sources/robot-takeover-not-quite-heres-what-ai-doomsday-would-look.md)
+
+## Historical Perspective on Tech Disruption
+
+Paul Krugman and Barry Ritholtz argue that the dominant AI narratives — bubble crash or mass unemployment — are both likely wrong. Historical precedent shows every major technology caused wrenching change but the outcome was "something wholly unexpected." The Satrini Research memo (fictional 2028 look-back at 2026-27 crisis) went viral as a more nuanced displacement scenario. Markets are "fairly random" day-to-day; narrative explanations are often hindsight bias.
+
+See source: [Talking With Barry Ritholtz](../sources/talking-with-barry-ritholtz.md)
 
 ## Skeptical Voices
 

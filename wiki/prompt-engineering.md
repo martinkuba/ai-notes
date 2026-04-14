@@ -44,6 +44,16 @@ Mollick warns against the "lazy tyranny of the wait calculation" — procrastina
 
 See source: [The Lazy Tyranny Of The Wait Calculation](../sources/the-lazy-tyranny-of-the-wait-calculation.md)
 
+## Beyond Prompting: Customization Levers
+
+Prompting is just one of four levers for escaping the "averaged out" default AI experience. By default, models optimize for the median user via RLHF training. The full customization stack:
+1. **Memory** — Persistent facts across conversations (platform-specific: ChatGPT conversation history, Claude project-scoped memory, Gemini Google app integration)
+2. **Instructions** — Persistent behavioral guidance (custom instructions, project instructions, CLAUDE.md files, style profiles)
+3. **Style controls** — Uploading writing samples for tone matching (Claude's style feature is particularly underused)
+4. **Apps and tools** — MCP connectors, web search, code execution, file access
+
+See source: [90% Of AI Users Are Getting Mediocre Output](../sources/90-of-ai-users-are-getting-mediocre-output-don-t-be-one-of.md)
+
 ## Related
 
 - [Spec Driven Development](spec-driven-development.md)

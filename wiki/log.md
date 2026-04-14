@@ -2,6 +2,30 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-04-14] ingest + fix | Integrate 15 new sources, fix 29 broken links
+
+**Link fixes:** Fixed 29 broken source links across all wiki pages caused by filename truncation mismatch (Readwise sync generates longer filenames than the wiki was referencing).
+
+**New sources integrated (15):** Added references for 15 previously unreferenced sources across 12 wiki pages. No new pages created — all sources fit existing categories.
+
+Pages updated:
+- **claude-code** — Added Claude Skills (5 use cases), worktree support, Obsidian CLI inter-relationships, Boris Cherny impact interview (4% GitHub commits, "coding is largely solved")
+- **prompt-engineering** — Added "Beyond Prompting" section (4 customization levers: memory, instructions, style, tools)
+- **andrej-karpathy** — Added "How I Use LLMs" tutorial (lossy zip file model, token streams, tool use)
+- **how-llms-work** — Added Karpathy's zip file mental model, Apple vs frontier model strategies (Mollick), 2023 tool landscape, early ChatGPT/Bard assistant tests
+- **agentic-ai** — Added Ezra Klein/Jack Clark on agents ripping through the economy (talkers → doers transition)
+- **ai-and-jobs** — Added Ezra Klein economic speed discussion, Krugman/Ritholtz historical perspective
+- **ai-critical-perspectives** — Added Krugman/Ritholtz historical tech disruption analysis
+- **ai-and-software-engineering-jobs** — Added early 2023 predictions, Boris "coding is solved" claims
+- **ai-impact-on-software-engineering** — Added Boris Cherny "coding is solved" section
+- **ai-governance** — Added NYT newsroom AI adoption, March 2026 governance snapshot (AI Data Center Moratorium Act, Anthropic injunction)
+- **ethan-mollick** — Added Apple AI model strategy analysis
+- **agi-timelines** — Added ARC-AGI-3 benchmark results (Symbolica 36% vs frontier models < 1%)
+- **ai-futures** — Added AI business model viability analysis
+- **rag-and-knowledge-systems** — Added Obsidian CLI inter-relationship access
+
+1 source skipped (untitled-01ke68th.md — empty/no content).
+
 ## [2026-04-14] ingest | Incorporate 14 new sources + 45 previously unreferenced sources
 
 Updated 8 wiki pages with references to newly synced and previously unreferenced source documents:
