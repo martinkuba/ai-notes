@@ -12,6 +12,12 @@ The shift from manually writing code to directing AI agents that write code on y
 - **Cursor** — IDE with built-in agent mode, Plan Mode for structured planning, and rules/skills for extending agent behavior. See source: [Best Practices For Coding With Agents](../sources/best-practices-for-coding-with-agents.md)
 - **GitHub Copilot** — Context-aware code completion using a prompt engineering pipeline (snippet extraction, context dressing, prioritization). See source: [A Developer S Guide To Prompt Engineering And LLMS](../sources/a-developer-s-guide-to-prompt-engineering-and-llms.md)
 
+## Three Eras
+
+Michael Truell (Cursor CEO) identifies three eras of AI-assisted development: tab completion → agents → cloud agents. In the latest era, developers manage fleets of autonomous agents running on cloud VMs. 35% of Cursor PRs already come from autonomous agents.
+
+See source: [The Third Era Of AI Software Development](../sources/the-third-era-of-ai-software-development.md)
+
 ## Paradigm Shifts
 
 ### Vibe Coding

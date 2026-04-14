@@ -27,11 +27,17 @@ Kairos maps Mortimer Adler's reading levels to AI-assisted interaction:
 
 See source: [A New Way To Read](../sources/a-new-way-to-read.md)
 
+## LLM Knowledge Bases
+
+[Andrej Karpathy](andrej-karpathy.md)'s system for personal knowledge bases: a `raw/` folder for ingestion, a `wiki/` folder compiled by AI, and Obsidian as the IDE. The LLM handles summarizing, cross-referencing, Q&A, linting, and synthetic data generation.
+
+See source: [LLM Knowledge Bases](../sources/llm-knowledge-bases.md)
+
 ## AI + Obsidian
 
 Integration of Claude with Obsidian for enhanced knowledge management — combining AI capabilities with networked note-taking.
 
-See source: [Claude Obsidian Got A Level Up](../sources/claude-obsidian-got-a-level-up.md)
+See sources: [Claude Obsidian Got A Level Up](../sources/claude-obsidian-got-a-level-up.md), [How To Build Your AI Second Brain Using Obsidian Claude Code](../sources/how-to-build-your-ai-second-brain-using-obsidian-claude-code.md), [How To Build Your Second Brain](../sources/how-to-build-your-second-brain.md), [Obsidian Claude Code 101](../sources/obsidian-claude-code-101.md)
 
 ## This Wiki
 
