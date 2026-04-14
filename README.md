@@ -2,6 +2,8 @@
 
 An LLM-maintained knowledge base for AI research, following the [LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f). Obsidian is the IDE; the LLM is the programmer; the wiki is the codebase.
 
+**[Browse the wiki](wiki/index.md)**
+
 ## Structure
 
 ```
@@ -39,7 +41,7 @@ sync-readwise.py   Script to pull AI-tagged content from Readwise Reader
 
 ## Using the Wiki
 
-Open this folder as an Obsidian vault. All pages use `[[wikilinks]]` for cross-references, including links from wiki pages to source documents. The graph view shows how everything connects.
+Open this folder as an Obsidian vault. All pages use standard markdown links for cross-references, which work on both GitHub and Obsidian. The graph view shows how everything connects.
 
 ### Operations
 
