@@ -1,0 +1,48 @@
+---
+tags: [people, anthropic, safety, futures]
+---
+
+# Dario Amodei
+
+CEO of [[anthropic]]. Former VP of Research at OpenAI. One of the most prominent voices on AI futures, safety, and governance.
+
+## Machines of Loving Grace
+
+A landmark ~10,000-word essay outlining a positive vision for powerful AI. Key arguments:
+
+- **Biology/Health** — AI could double human lifespan, eliminate most diseases
+- **Neuroscience/Mental health** — Transformative advances in understanding and treating mental illness
+- **Economic development** — Accelerating developing world economies
+- **Governance** — AI could improve institutions and decision-making
+- **Work and meaning** — Acknowledges displacement but sees new forms of purpose
+
+Central framework: "marginal returns to intelligence" — adding AI intelligence to a field yields diminishing returns as non-intelligence bottlenecks (physical constraints, adoption, regulation) dominate.
+
+AGI timeline: possible by 2026.
+
+See source: [[sources/dario-amodei-machines-of-loving-grace]]
+
+## On AI Consciousness
+
+Publicly stated Anthropic is no longer sure whether Claude is conscious, given 15-20% self-reported probability.
+
+See source: [[sources/anthropic-ceo-says-company-no-longer-sure-whether-claude-is-conscious]]
+
+## On Job Displacement
+
+Predicted 10-20% unemployment spike and 50% entry-level job losses within 1-5 years.
+
+See source: [[sources/behind-the-curtain-top-ai-ceo-foresees-white-collar-bloodbath]]
+
+## The Adolescence of Technology
+
+Framing of current AI as being in technology's "adolescence" — powerful but not yet mature.
+
+See source: [[sources/the-adolescence-of-technology]]
+
+## Related
+
+- [[anthropic]]
+- [[ai-safety]]
+- [[agi-timelines]]
+- [[ai-and-jobs]]
