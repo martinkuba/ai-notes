@@ -11,6 +11,8 @@ The impact of AI on employment, workforce composition, and the nature of work it
 - **[Dario Amodei](dario-amodei.md)**: 10-20% unemployment spike and 50% entry-level job losses within 1-5 years. See source: [Behind The Curtain Top AI Ceo Foresees White Collar Bloodbath](../sources/behind-the-curtain-top-ai-ceo-foresees-white-collar-bloodbath.md)
 - **AI-2027 scenario**: Projects massive job displacement as agents become capable of most knowledge work. See source: [AI 2027](../sources/ai-2027.md)
 - **Software engineering**: 55% decline in hiring post-"Claude Christmas" (late 2024). See source: [AI Writes The Code Now Whats Left For Software Engineers](../sources/ai-writes-the-code-now-whats-left-for-software-engineers.md)
+- **Stanford study**: RCT shows early-career workers in AI-exposed jobs declined 13% in employment. See source: [Canaries In The Coal Mine](../sources/canaries-in-the-coal-mine-six-facts-about-the-recent.md)
+- **2024 workforce trends**: Inclusivity, hiring equity, diversity in AI training, and upskilling. See source: [AI In 2024 Five Trends Workers Need To Know](../sources/ai-in-2024-five-trends-workers-need-to-know.md)
 
 ## The Productivity Paradox
 

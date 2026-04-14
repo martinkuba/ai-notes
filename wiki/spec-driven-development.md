@@ -25,13 +25,19 @@ Key elements identified across sources:
 - **Examples** — Concrete input/output pairs.
 - **Edge cases** — What happens at the boundaries?
 
-See sources: [How To Write A Good Spec For AI Agents](../sources/how-to-write-a-good-spec-for-ai-agents.md), [The Anatomy Of A Good Spec In The Age Of AI](../sources/the-anatomy-of-a-good-spec-in-the-age-of-ai.md)
+See sources: [How To Write A Good Spec For AI Agents](../sources/how-to-write-a-good-spec-for-ai-agents.md), [How To Write A Good Spec For AI Agents (Osmani)](../sources/how-to-write-a-good-spec-for-ai-agents-01kjng.md), [The Anatomy Of A Good Spec In The Age Of AI](../sources/the-anatomy-of-a-good-spec-in-the-age-of-ai.md)
 
 ## Spec-Only Libraries
 
 A radical extension: software libraries distributed as specs + tests with *no implementation code*. The consuming agent generates the implementation in whatever language is needed. Raises questions about when specifications become more valuable than code.
 
 See source: [A Software Library With No Code](../sources/a-software-library-with-no-code.md)
+
+## The PM Role Evolves
+
+The product manager role is transforming: specs become prototypes, and agents can implement directly from clear problem statements. The PM who writes a good spec effectively ships the feature.
+
+See source: [The Modern AI PM In The Age Of Agents](../sources/the-modern-ai-pm-in-the-age-of-agents.md)
 
 ## Related
 

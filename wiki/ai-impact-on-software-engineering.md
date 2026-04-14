@@ -30,7 +30,7 @@ The data is stark but mixed:
 - Small teams claim to **outship teams 10x their size** with AI leverage. See [How To Outship Teams 10x Your Size](../sources/how-to-outship-teams-10x-your-size.md)
 
 But the reality is more nuanced:
-- The METR study measuring actual productivity found **less dramatic gains** than hype suggests. See [Measuring The Impact Of Early 2025 AI On Experienced Open Source Developers](../sources/measuring-the-impact-of-early-2025-ai-on-experienced-open-source-developers.md)
+- The METR study found AI actually **slowed experienced developers by 19%**, despite developers expecting a 24% speedup — a striking gap between perception and reality. See [Measuring The Impact Of Early 2025 AI On Experienced Open Source Developers](../sources/measuring-the-impact-of-early-2025-ai-on-experienced-open-source-developers.md)
 - Thousands of CEOs admitted **no measurable productivity impact** yet. See [Thousands Of Ceos Just Admitted AI Had No Impact](../sources/thousands-of-ceos-just-admitted-ai-had-no-impact.md)
 - 95% of enterprise AI pilots fail, though shadow AI adoption thrives. See [Mit Report 95 Of Generative AI Pilots Are Failing](../sources/mit-report-95-of-generative-ai-pilots-are-failing.md), [Mit Report Misunderstood Shadow AI Economy](../sources/mit-report-misunderstood-shadow-ai-economy.md)
 
@@ -48,6 +48,12 @@ But the reality is more nuanced:
 - Trade-off judgment (performance vs maintainability, scope vs deadline)
 - Debugging novel or complex issues
 - Security review and threat modeling
+
+## Software as Industrial Production
+
+AI coding shifts software from craft to industrial production — cheaper, faster, less dependent on individual human expertise. Code becomes a disposable commodity rather than a carefully maintained artifact.
+
+See source: [The Rise Of Industrial Software](../sources/the-rise-of-industrial-software.md)
 
 ## Professional Identity Shift
 

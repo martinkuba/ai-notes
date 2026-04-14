@@ -25,6 +25,18 @@ Financial Times review of the "AI revolution's first year" finds modest real-wor
 
 See source: [The AI Revolutions First Year](../sources/the-ai-revolutions-first-year.md)
 
+## The Discourse Gap
+
+[Ethan Mollick](ethan-mollick.md) observes that much of the problem with AI discourse stems from the gap between experts and non-experts — being good at AI is a separate skill from domain expertise, creating persistent misunderstandings. [Andrej Karpathy](andrej-karpathy.md) notes a growing gap between casual users (free tier, old models) and power users (frontier agentic models) — they experience fundamentally different AI capabilities.
+
+See sources: [A Lot Of Problems With AI Discourse](../sources/a-lot-of-problems-with-ai-discourse-are-because-being.md), [Judging By My Tl There Is A Growing Gap](../sources/judging-by-my-tl-there-is-a-growing-gap-in.md)
+
+## Realistic Risk Scenarios
+
+AI risks are more likely to manifest as creeping societal deterioration than robot apocalypse: disinformation, labor market disruption, algorithmic bias amplification.
+
+See source: [Robot Takeover Not Quite](../sources/robot-takeover-not-quite-heres-what-ai-doomsday-would-look.md)
+
 ## Skeptical Voices
 
 - **Gary Marcus** — Consistent critic of scaling approaches; argues current methods won't generalize

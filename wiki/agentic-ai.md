@@ -21,6 +21,13 @@ See source: [AI Is About To Completely Change How You Use Computers](../sources/
 - **Google AI Co-Scientist** — Research-focused agent for scientific discovery. See source: [Google Unveils AI Co Scientist To Supercharge Research](../sources/google-unveils-ai-co-scientist-to-supercharge-research.md)
 - **Salesforce Agentforce** — Enterprise platform for building custom digital agents. See source: [Salesforce S New AI Platform](../sources/salesforce-s-new-ai-platform.md)
 - **Deep Research tools** — Agents that conduct multi-step research autonomously ([Deep Research](deep-research.md))
+- **OpenClaw** — An autonomous agent architecture running an entire company: Jarvis (router), Atlas (research), Scribe (copywriter), Trendy (trend scout) for ~$400/month. See source: [This Army Of Openclaw Agents Runs An Entire Company](../sources/this-army-of-openclaw-agents-runs-an-entire-company-for.md)
+
+## Human Cognitive Limits
+
+Managing multiple agents creates cognitive load — context and anxiety accumulate. Finding your personal ceiling for parallel agent sessions requires deliberate time-boxing and deep focus.
+
+See source: [Tip Figure Out Your Personal Ceiling For Running Multiple Agents](../sources/tip-figure-out-your-personal-ceiling-for-running-multiple-agents.md)
 
 ## Fully Automated Firms
 
