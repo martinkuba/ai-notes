@@ -344,6 +344,7 @@ def sync_document(doc, state):
     slug = resolve_slug(doc, state)
     md = document_to_markdown(doc)
 
+    SOURCES_DIR.mkdir(parents=True, exist_ok=True)
     filepath = SOURCES_DIR / f"{slug}.md"
     filepath.write_text(md)
 
