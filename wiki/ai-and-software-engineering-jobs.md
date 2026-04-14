@@ -4,13 +4,13 @@ tags: [jobs, coding, software-engineering, displacement]
 
 # AI and Software Engineering Jobs
 
-The specific impact of AI coding tools on the software engineering profession. A subset of the broader [[ai-and-jobs]] question, but with particularly direct and immediate effects.
+The specific impact of AI coding tools on the software engineering profession. A subset of the broader [AI And Jobs](ai-and-jobs.md) question, but with particularly direct and immediate effects.
 
 ## The Shift
 
-Software engineering is the profession most directly impacted by [[agentic-coding]]:
+Software engineering is the profession most directly impacted by [Agentic Coding](agentic-coding.md):
 
-- **55% hiring decline** following the "Claude Christmas" event (late 2024). See source: [[sources/ai-writes-the-code-now-whats-left-for-software-engineers]]
+- **55% hiring decline** following the "Claude Christmas" event (late 2024). See source: [AI Writes The Code Now Whats Left For Software Engineers](../sources/ai-writes-the-code-now-whats-left-for-software-engineers.md)
 - Concerns about a "permanent underclass" of developers unable to compete with AI-augmented peers
 - Entry-level positions hit hardest — routine coding tasks are the first to be automated
 
@@ -31,19 +31,19 @@ Software engineering is the profession most directly impacted by [[agentic-codin
 - Code review for correctness and security
 
 ### The New Skills
-- Writing effective specifications ([[spec-driven-development]])
+- Writing effective specifications ([Spec Driven Development](spec-driven-development.md))
 - Directing and reviewing AI agent output
-- [[prompt-engineering]] for code generation
+- [Prompt Engineering](prompt-engineering.md) for code generation
 - Understanding AI limitations and failure modes
 
 ## Demystification
 
 AI has "ruined the magic trick" of programming — the mystique of coding as an arcane skill is dissolving as AI makes it accessible. This shifts the profession's value proposition from "can write code" to "knows what to build and why."
 
-See source: [[sources/programmers-beware-chatgpt-has-ruined-your-magic-trick]]
+See source: [Programmers Beware Chatgpt Has Ruined Your Magic Trick](../sources/programmers-beware-chatgpt-has-ruined-your-magic-trick.md)
 
 ## Related
 
-- [[agentic-coding]]
-- [[ai-and-jobs]]
-- [[claude-code]]
+- [Agentic Coding](agentic-coding.md)
+- [AI And Jobs](ai-and-jobs.md)
+- [Claude Code](claude-code.md)

@@ -4,7 +4,7 @@ tags: [people, anthropic, safety, futures]
 
 # Dario Amodei
 
-CEO of [[anthropic]]. Former VP of Research at OpenAI. One of the most prominent voices on AI futures, safety, and governance.
+CEO of [Anthropic](anthropic.md). Former VP of Research at OpenAI. One of the most prominent voices on AI futures, safety, and governance.
 
 ## Machines of Loving Grace
 
@@ -20,29 +20,29 @@ Central framework: "marginal returns to intelligence" — adding AI intelligence
 
 AGI timeline: possible by 2026.
 
-See source: [[sources/dario-amodei-machines-of-loving-grace]]
+See source: [Dario Amodei Machines Of Loving Grace](../sources/dario-amodei-machines-of-loving-grace.md)
 
 ## On AI Consciousness
 
 Publicly stated Anthropic is no longer sure whether Claude is conscious, given 15-20% self-reported probability.
 
-See source: [[sources/anthropic-ceo-says-company-no-longer-sure-whether-claude-is-conscious]]
+See source: [Anthropic Ceo Says Company No Longer Sure Whether Claude Is Conscious](../sources/anthropic-ceo-says-company-no-longer-sure-whether-claude-is-conscious.md)
 
 ## On Job Displacement
 
 Predicted 10-20% unemployment spike and 50% entry-level job losses within 1-5 years.
 
-See source: [[sources/behind-the-curtain-top-ai-ceo-foresees-white-collar-bloodbath]]
+See source: [Behind The Curtain Top AI Ceo Foresees White Collar Bloodbath](../sources/behind-the-curtain-top-ai-ceo-foresees-white-collar-bloodbath.md)
 
 ## The Adolescence of Technology
 
 Framing of current AI as being in technology's "adolescence" — powerful but not yet mature.
 
-See source: [[sources/the-adolescence-of-technology]]
+See source: [The Adolescence Of Technology](../sources/the-adolescence-of-technology.md)
 
 ## Related
 
-- [[anthropic]]
-- [[ai-safety]]
-- [[agi-timelines]]
-- [[ai-and-jobs]]
+- [Anthropic](anthropic.md)
+- [AI Safety](ai-safety.md)
+- [AGI Timelines](agi-timelines.md)
+- [AI And Jobs](ai-and-jobs.md)

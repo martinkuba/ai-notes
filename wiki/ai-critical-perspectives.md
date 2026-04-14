@@ -10,29 +10,29 @@ Skeptical and critical views on AI hype, adoption claims, and economic impact. A
 
 Cory Doctorow argues the AI boom is a growth stock bubble: companies burning cash on speculative capability, creating "reverse centaurs" (humans reduced to AI supervisors) rather than genuine augmentation. Advocates for policy solutions including sectoral bargaining and copyright reform.
 
-See source: [[sources/ai-companies-will-fail-we-can-salvage-something-from-the-wreckage]]
+See source: [AI Companies Will Fail We Can Salvage Something From The Wreckage](../sources/ai-companies-will-fail-we-can-salvage-something-from-the-wreckage.md)
 
 ## The Productivity Gap
 
 Hard evidence that AI hype outpaces reality:
-- **Thousands of CEOs** admit no measurable productivity or employment impact. See source: [[sources/thousands-of-ceos-just-admitted-ai-had-no-impact]]
-- **95% of enterprise AI pilots fail** (MIT). See source: [[sources/mit-report-95-of-generative-ai-pilots-are-failing]]
-- **But**: The shadow AI economy tells a different story — employees adopt AI tools independently, outside official programs. See source: [[sources/mit-report-misunderstood-shadow-ai-economy]]
+- **Thousands of CEOs** admit no measurable productivity or employment impact. See source: [Thousands Of Ceos Just Admitted AI Had No Impact](../sources/thousands-of-ceos-just-admitted-ai-had-no-impact.md)
+- **95% of enterprise AI pilots fail** (MIT). See source: [Mit Report 95 Of Generative AI Pilots Are Failing](../sources/mit-report-95-of-generative-ai-pilots-are-failing.md)
+- **But**: The shadow AI economy tells a different story — employees adopt AI tools independently, outside official programs. See source: [Mit Report Misunderstood Shadow AI Economy](../sources/mit-report-misunderstood-shadow-ai-economy.md)
 
 ## The First Year Assessment
 
 Financial Times review of the "AI revolution's first year" finds modest real-world impact despite enormous investment and media attention.
 
-See source: [[sources/the-ai-revolutions-first-year]]
+See source: [The AI Revolutions First Year](../sources/the-ai-revolutions-first-year.md)
 
 ## Skeptical Voices
 
 - **Gary Marcus** — Consistent critic of scaling approaches; argues current methods won't generalize
 - **Linus Torvalds** — Skeptical of near-term AGI claims
-- **Geoffrey Hinton** — Left Google to warn about dangers (not a hype skeptic but a risk realist). See [[ai-safety]]
+- **Geoffrey Hinton** — Left Google to warn about dangers (not a hype skeptic but a risk realist). See [AI Safety](ai-safety.md)
 
 ## Related
 
-- [[ai-and-jobs]]
-- [[agi-timelines]]
-- [[ai-safety]]
+- [AI And Jobs](ai-and-jobs.md)
+- [AGI Timelines](agi-timelines.md)
+- [AI Safety](ai-safety.md)

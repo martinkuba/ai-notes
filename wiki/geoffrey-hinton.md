@@ -16,9 +16,9 @@ Key concerns:
 
 His departure from Google was significant as a signal that even AI pioneers have serious concerns about the technology they helped create.
 
-See source: [[sources/the-godfather-of-a-i-leaves-google-and-warns-of-danger-ahead]]
+See source: [The Godfather Of A I Leaves Google And Warns Of Danger Ahead](../sources/the-godfather-of-a-i-leaves-google-and-warns-of-danger-ahead.md)
 
 ## Related
 
-- [[ai-safety]]
-- [[agi-timelines]]
+- [AI Safety](ai-safety.md)
+- [AGI Timelines](agi-timelines.md)

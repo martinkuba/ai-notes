@@ -8,18 +8,18 @@ The impact of AI on employment, workforce composition, and the nature of work it
 
 ## Displacement Predictions
 
-- **[[dario-amodei]]**: 10-20% unemployment spike and 50% entry-level job losses within 1-5 years. See source: [[sources/behind-the-curtain-top-ai-ceo-foresees-white-collar-bloodbath]]
-- **AI-2027 scenario**: Projects massive job displacement as agents become capable of most knowledge work. See source: [[sources/ai-2027]]
-- **Software engineering**: 55% decline in hiring post-"Claude Christmas" (late 2024). See source: [[sources/ai-writes-the-code-now-whats-left-for-software-engineers]]
+- **[Dario Amodei](dario-amodei.md)**: 10-20% unemployment spike and 50% entry-level job losses within 1-5 years. See source: [Behind The Curtain Top AI Ceo Foresees White Collar Bloodbath](../sources/behind-the-curtain-top-ai-ceo-foresees-white-collar-bloodbath.md)
+- **AI-2027 scenario**: Projects massive job displacement as agents become capable of most knowledge work. See source: [AI 2027](../sources/ai-2027.md)
+- **Software engineering**: 55% decline in hiring post-"Claude Christmas" (late 2024). See source: [AI Writes The Code Now Whats Left For Software Engineers](../sources/ai-writes-the-code-now-whats-left-for-software-engineers.md)
 
 ## The Productivity Paradox
 
 Despite bold CEO claims, evidence of actual productivity gains is mixed:
 
-- **Thousands of CEOs** admitted AI had no measurable impact on employment or productivity. See source: [[sources/thousands-of-ceos-just-admitted-ai-had-no-impact]]
-- **95% of enterprise AI pilots fail** (MIT report). See source: [[sources/mit-report-95-of-generative-ai-pilots-are-failing]]
-- **But**: Shadow AI economy is thriving — employees using AI tools independently of official programs. See source: [[sources/mit-report-misunderstood-shadow-ai-economy]]
-- **Klarna** reversed course on aggressive AI replacement after quality issues. See source: [[sources/as-ceos-push-replacing-people-with-ai]]
+- **Thousands of CEOs** admitted AI had no measurable impact on employment or productivity. See source: [Thousands Of Ceos Just Admitted AI Had No Impact](../sources/thousands-of-ceos-just-admitted-ai-had-no-impact.md)
+- **95% of enterprise AI pilots fail** (MIT report). See source: [Mit Report 95 Of Generative AI Pilots Are Failing](../sources/mit-report-95-of-generative-ai-pilots-are-failing.md)
+- **But**: Shadow AI economy is thriving — employees using AI tools independently of official programs. See source: [Mit Report Misunderstood Shadow AI Economy](../sources/mit-report-misunderstood-shadow-ai-economy.md)
+- **Klarna** reversed course on aggressive AI replacement after quality issues. See source: [As Ceos Push Replacing People With AI](../sources/as-ceos-push-replacing-people-with-ai.md)
 
 ## Work Intensification
 
@@ -30,28 +30,28 @@ HBR research shows AI doesn't reduce work — it intensifies it. Effects include
 
 Recommended countermeasures: intentional pauses, sequencing tasks, maintaining "human grounding."
 
-See source: [[sources/ai-doesnt-reduce-workit-intensifies-it]]
+See source: [AI Doesnt Reduce Workit Intensifies It](../sources/ai-doesnt-reduce-workit-intensifies-it.md)
 
 ## The AI Fluency Divide
 
 A new class divide emerging between AI-fluent workers who leverage tools effectively and those who don't. This "AI fluency" gap may become the defining inequality of the era.
 
-See source: [[sources/behind-the-curtain-america-s-next-class-war-ai-fluency]]
+See source: [Behind The Curtain America S Next Class War AI Fluency](../sources/behind-the-curtain-america-s-next-class-war-ai-fluency.md)
 
 ## What Remains Human
 
 Categories of jobs most resistant to AI displacement: those requiring physical presence, deep human judgment, creative originality, and trust-based relationships.
 
-See source: [[sources/the-jobs-ai-won-t-take-yet]]
+See source: [The Jobs AI Won T Take Yet](../sources/the-jobs-ai-won-t-take-yet.md)
 
 ## Healthcare Example
 
 Healthcare AI, intended to save costs, turns out to require expensive human oversight — a cautionary tale about automation expectations vs. reality.
 
-See source: [[sources/health-care-ai-intended-to-save-money]]
+See source: [Health Care AI Intended To Save Money](../sources/health-care-ai-intended-to-save-money.md)
 
 ## Related
 
-- [[ai-and-software-engineering-jobs]]
-- [[agentic-ai]]
-- [[agi-timelines]]
+- [AI And Software Engineering Jobs](ai-and-software-engineering-jobs.md)
+- [Agentic AI](agentic-ai.md)
+- [AGI Timelines](agi-timelines.md)

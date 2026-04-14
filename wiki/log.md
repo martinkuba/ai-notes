@@ -4,7 +4,7 @@ Reverse-chronological record of all wiki activity. Newest entries first.
 
 ## [2026-04-14] query → synthesis | AI impact on software engineering
 
-Created [[ai-impact-on-software-engineering]] from a query about AI's effects on the profession. Synthesizes evidence across agentic coding, job market data, productivity research, and professional identity shifts. Includes open questions for future research.
+Created [AI Impact On Software Engineering](ai-impact-on-software-engineering.md) from a query about AI's effects on the profession. Synthesizes evidence across agentic coding, job market data, productivity research, and professional identity shifts. Includes open questions for future research.
 
 ## [2026-04-14] ingest | Bulk ingest of 96 Readwise sources into wiki
 

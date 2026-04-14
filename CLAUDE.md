@@ -17,10 +17,11 @@ CLAUDE.md     — This file. Schema and conventions. Co-evolved by human and LLM
 
 ## Conventions
 
-- **Links**: Use Obsidian-style `[[wikilinks]]` between wiki pages. Link liberally.
+- **Links**: Use standard markdown links for compatibility with both Obsidian and GitHub. Link liberally.
+  - Wiki-to-wiki: `[Page Title](page-name.md)`
+  - Wiki-to-source: `[Source Title](../sources/filename.md)`
 - **File names**: Lowercase, hyphen-separated (e.g., `transformer-architecture.md`).
 - **Headings**: Each wiki page starts with an H1 title matching its topic.
-- **Citations**: Reference source documents using wikilinks: `[[sources/filename]]` (without `.md`). This makes them clickable in Obsidian.
 - **Tags**: Use YAML frontmatter tags where helpful (e.g., `tags: [llm, architecture, attention]`).
 
 ## Sources Pipeline

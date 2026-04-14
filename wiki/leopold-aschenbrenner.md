@@ -4,7 +4,7 @@ tags: [people, agi, predictions, scaling]
 
 # Leopold Aschenbrenner
 
-Former OpenAI researcher. Author of [[situational-awareness]], a comprehensive analysis of AGI development trajectories that became one of the most influential AI forecasting documents.
+Former OpenAI researcher. Author of [Situational Awareness](situational-awareness.md), a comprehensive analysis of AGI development trajectories that became one of the most influential AI forecasting documents.
 
 ## Key Claims
 
@@ -14,10 +14,10 @@ Former OpenAI researcher. Author of [[situational-awareness]], a comprehensive a
 - AI lab security is dangerously inadequate against nation-state threats
 - The US-China AI competition is the defining geopolitical contest
 
-See sources: [[sources/situational-awareness-the-decade-ahead]], [[sources/i-from-gpt-4-to-agi-counting-the-ooms]]
+See sources: [Situational Awareness The Decade Ahead](../sources/situational-awareness-the-decade-ahead.md), [I From Gpt 4 To AGI Counting The Ooms](../sources/i-from-gpt-4-to-agi-counting-the-ooms.md)
 
 ## Related
 
-- [[situational-awareness]]
-- [[agi-timelines]]
-- [[scaling-and-compute]]
+- [Situational Awareness](situational-awareness.md)
+- [AGI Timelines](agi-timelines.md)
+- [Scaling And Compute](scaling-and-compute.md)

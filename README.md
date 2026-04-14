@@ -53,7 +53,8 @@ All operations are performed by asking the LLM (Claude) in conversation:
 
 - File names: lowercase, hyphen-separated (e.g., `transformer-architecture.md`)
 - Each page starts with an H1 title
-- Source references use wikilinks: `[[sources/filename]]`
-- Wiki-to-wiki links use wikilinks: `[[page-name]]`
+- Standard markdown links (work on both GitHub and Obsidian):
+  - Wiki-to-wiki: `[Page Title](page-name.md)`
+  - Wiki-to-source: `[Source Title](../sources/filename.md)`
 - YAML frontmatter tags where helpful (e.g., `tags: [llm, architecture]`)
 - Log entries are reverse-chronological (newest first)

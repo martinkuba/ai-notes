@@ -15,7 +15,7 @@ The core technical challenge: building the "brain" behind knowledge-augmented AI
 - **Vector databases** — Storing and searching embeddings efficiently
 - **Query-time retrieval** — Matching questions to relevant chunks
 
-See source: [[sources/indexing-in-rag-systems-building-the-brain]]
+See source: [Indexing In RAG Systems Building The Brain](../sources/indexing-in-rag-systems-building-the-brain.md)
 
 ## AI-Native Reading
 
@@ -25,13 +25,13 @@ Kairos maps Mortimer Adler's reading levels to AI-assisted interaction:
 - **Analytical** — AI enables deep questioning
 - **Syntopical** — AI connects themes across multiple texts
 
-See source: [[sources/a-new-way-to-read]]
+See source: [A New Way To Read](../sources/a-new-way-to-read.md)
 
 ## AI + Obsidian
 
 Integration of Claude with Obsidian for enhanced knowledge management — combining AI capabilities with networked note-taking.
 
-See source: [[sources/claude-obsidian-got-a-level-up]]
+See source: [Claude Obsidian Got A Level Up](../sources/claude-obsidian-got-a-level-up.md)
 
 ## This Wiki
 
@@ -39,6 +39,6 @@ This wiki itself follows the "LLM Wiki" pattern: a three-layer architecture (raw
 
 ## Related
 
-- [[deep-research]]
-- [[how-llms-work]]
-- [[prompt-engineering]]
+- [Deep Research](deep-research.md)
+- [How LLMS Work](how-llms-work.md)
+- [Prompt Engineering](prompt-engineering.md)
