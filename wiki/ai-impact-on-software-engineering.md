@@ -21,6 +21,9 @@ Code is cheap to generate, reshape, and throw away. The cost of *writing* drops 
 ### Quality Risks
 Karpathy warns of a coming "slopacolypse" — a flood of low-quality AI-generated code. AI makes conceptual errors, tends toward over-complexity, and produces code that is hard to verify. See [A Few Random Notes From Claude Coding Quite A Bit](../sources/a-few-random-notes-from-claude-coding-quite-a-bit.md)
 
+### Comprehension Debt
+AI generates code far faster than humans can evaluate it, creating a "comprehension debt" — the gap between code that exists and code that any human genuinely understands. An Anthropic RCT study found engineers using AI for code generation scored 17% lower on comprehension tests vs. controls. As one framing puts it: "AI didn't cause the problem; skipping the design thinking did." The measure-ability gap makes this especially insidious — velocity metrics look great while comprehension quietly erodes. See source: [Comprehension Debt The Hidden Cost Of AI Generated Code](../sources/comprehension-debt-the-hidden-cost-of-ai-generated-code.md)
+
 ## The Job Market Is Shifting
 
 The data is stark but mixed:

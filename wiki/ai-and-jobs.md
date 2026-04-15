@@ -64,6 +64,12 @@ Paul Krugman and Barry Ritholtz discuss AI's economic impact through the lens of
 
 See source: [Talking With Barry Ritholtz](../sources/talking-with-barry-ritholtz.md)
 
+## Survival Guide Framing
+
+The "AI will take your job in 18 months" framing has entered mainstream business media, with outlets like MarketWatch offering survival guides for workers at risk of AI displacement.
+
+See source: [AI Will Take Your Job In The Next 18 Months](../sources/untitled-01ke68th.md)
+
 ## Related
 
 - [AI And Software Engineering Jobs](ai-and-software-engineering-jobs.md)

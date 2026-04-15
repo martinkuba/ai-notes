@@ -14,7 +14,7 @@ The recommended workflow is **explore → plan → code → commit**:
 3. Execute the code changes
 4. Review and commit
 
-See source: [Claude Code Best Practices For Agentic Coding](../sources/claude-code-best-practices-for-agentic-coding.md)
+See sources: [Claude Code Best Practices For Agentic Coding](../sources/claude-code-best-practices-for-agentic-coding.md), [Best Practices For Claude Code](../sources/best-practices-for-claude-code.md)
 
 ## Customization
 

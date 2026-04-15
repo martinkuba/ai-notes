@@ -29,6 +29,16 @@ In the agentic era, code becomes malleable material — easily reshaped, regener
 ### Reading vs Writing
 A growing tension: AI makes writing code trivially easy but reading AI-generated code remains hard. Code review burden increases as the ratio of generated-to-handwritten code grows. See source: [It S Harder To Read Code Than To Write It](../sources/it-s-harder-to-read-code-than-to-write-it-especially-when.md)
 
+### Agentic Engineering
+Andrej Karpathy coined "vibe coding" for the reckless, unreviewed prototype style. For disciplined, agent-assisted development with human oversight, Karpathy proposed "agentic engineering" as the proper term. The distinction: vibe coding = YOLO; agentic engineering = AI does implementation, human owns architecture and correctness. Key practices: write a spec first, review every diff, test relentlessly, maintain a mental model of the codebase. Importantly, agentic engineering rewards senior engineers more than juniors — deep fundamentals become *more* valuable, not less.
+
+See source: [Agentic Engineering](../sources/agentic-engineering.md)
+
+### Comprehension Debt
+The growing gap between how much code exists in a system and how much any human genuinely understands. Unlike technical debt, comprehension debt breeds false confidence — the codebase looks clean, tests are green, but the reckoning arrives quietly. AI generates code far faster than humans can evaluate it, breaking the traditional review feedback loop. An Anthropic study found engineers who used AI for code generation scored 17% lower on comprehension tests vs. controls. Tests help but can't substitute for understanding.
+
+See source: [Comprehension Debt The Hidden Cost Of AI Generated Code](../sources/comprehension-debt-the-hidden-cost-of-ai-generated-code.md)
+
 ## Productivity Evidence
 
 - [Andrej Karpathy](andrej-karpathy.md): Reports 10x productivity gains but warns of "slopacolypse" — a flood of low-quality AI-generated code. See source: [A Few Random Notes From Claude Coding Quite A Bit](../sources/a-few-random-notes-from-claude-coding-quite-a-bit.md)
@@ -44,6 +54,23 @@ Key patterns emerging across tools:
 4. **Human review** — Treat AI output as draft code requiring careful review
 
 See sources: [Claude Code Best Practices For Agentic Coding](../sources/claude-code-best-practices-for-agentic-coding.md), [Best Practices For Coding With Agents](../sources/best-practices-for-coding-with-agents.md)
+
+## Orchestrating Multiple Agents
+
+As tooling matures, the highest-leverage developers operate as **async-first managers** running fleets of parallel agents. Key insight: the bottleneck is no longer "can the agent write code?" — it's "can I manage multiple agents effectively?" This requires the same skills as tech lead or engineering manager: clear task scoping, delegation, verification loops, and async check-ins.
+
+### Management Skills That Transfer
+- **Clear task scoping** — Write a brief with outcome, context, constraints, non-goals, and acceptance criteria before prompting
+- **Delegation** — Fully delegate mechanical tasks; stay in loop for architecture and product judgment; never delegate "should we build this?"
+- **Verification loops** — Require agents to run tests and report results; use two-agent "writer + reviewer" patterns
+- **Async check-ins** — Define structured status formats; set check-in cadences to prevent drift
+
+See source: [Your AI Coding Agents Need A Manager](../sources/your-ai-coding-agents-need-a-manager.md)
+
+### Cognitive Limits of Parallel Agents
+Running multiple agents doesn't scale linearly for humans. Each parallel thread adds: context-switching costs (recovery time is the expensive part), continuous judgment calls that can't be batched, and "ambient anxiety tax" — background vigilance about threads you haven't checked. The cognitive ceiling shifts with thread complexity and session length. Practical ceiling for most developers: 3-4 well-scoped threads. The fix is usually tighter task scoping per thread, not fewer agents.
+
+See sources: [Your Parallel Agent Limit](../sources/your-parallel-agent-limit.md), [Your AI Coding Agents Need A Manager](../sources/your-ai-coding-agents-need-a-manager.md)
 
 ## Related
 
