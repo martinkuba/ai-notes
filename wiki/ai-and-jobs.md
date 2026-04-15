@@ -8,20 +8,20 @@ The impact of AI on employment, workforce composition, and the nature of work it
 
 ## Displacement Predictions
 
-- **[Dario Amodei](dario-amodei.md)**: 10-20% unemployment spike and 50% entry-level job losses within 1-5 years. See source: [Behind The Curtain Top AI Ceo Foresees White Collar Bloodbath](../sources/behind-the-curtain-top-ai-ceo-foresees-white-collar.md)
-- **AI-2027 scenario**: Projects massive job displacement as agents become capable of most knowledge work. See source: [AI 2027](../sources/ai-2027.md)
-- **Software engineering**: 55% decline in hiring post-"Claude Christmas" (late 2024). See source: [AI Writes The Code Now Whats Left For Software Engineers](../sources/ai-writes-the-code-now-whats-left-for-software-engineers.md)
-- **Stanford study**: RCT shows early-career workers in AI-exposed jobs declined 13% in employment. See source: [Canaries In The Coal Mine](../sources/canaries-in-the-coal-mine-six-facts-about-the-recent.md)
-- **2024 workforce trends**: Inclusivity, hiring equity, diversity in AI training, and upskilling. See source: [AI In 2024 Five Trends Workers Need To Know](../sources/ai-in-2024-five-trends-workers-need-to-know.md)
+- **[Dario Amodei](dario-amodei.md)**: 10-20% unemployment spike and 50% entry-level job losses within 1-5 years. See source: [Behind The Curtain Top AI Ceo Foresees White Collar Bloodbath](../summaries/behind-the-curtain-top-ai-ceo-foresees-white-collar.md)
+- **AI-2027 scenario**: Projects massive job displacement as agents become capable of most knowledge work. See source: [AI 2027](../summaries/ai-2027.md)
+- **Software engineering**: 55% decline in hiring post-"Claude Christmas" (late 2024). See source: [AI Writes The Code Now Whats Left For Software Engineers](../summaries/ai-writes-the-code-now-whats-left-for-software-engineers.md)
+- **Stanford study**: RCT shows early-career workers in AI-exposed jobs declined 13% in employment. See source: [Canaries In The Coal Mine](../summaries/canaries-in-the-coal-mine-six-facts-about-the-recent.md)
+- **2024 workforce trends**: Inclusivity, hiring equity, diversity in AI training, and upskilling. See source: [AI In 2024 Five Trends Workers Need To Know](../summaries/ai-in-2024-five-trends-workers-need-to-know.md)
 
 ## The Productivity Paradox
 
 Despite bold CEO claims, evidence of actual productivity gains is mixed:
 
-- **Thousands of CEOs** admitted AI had no measurable impact on employment or productivity. See source: [Thousands Of Ceos Just Admitted AI Had No Impact](../sources/thousands-of-ceos-just-admitted-ai-had-no-impact-on.md)
-- **95% of enterprise AI pilots fail** (MIT report). See source: [Mit Report 95 Of Generative AI Pilots Are Failing](../sources/mit-report-95-of-generative-ai-pilots-at-companies-are.md)
-- **But**: Shadow AI economy is thriving — employees using AI tools independently of official programs. See source: [Mit Report Misunderstood Shadow AI Economy](../sources/mit-report-misunderstood-shadow-ai-economy-booms-while.md)
-- **Klarna** reversed course on aggressive AI replacement after quality issues. See source: [As Ceos Push Replacing People With AI](../sources/as-ceos-push-replacing-people-with-ai-ai-isn-t-quite-ready.md)
+- **Thousands of CEOs** admitted AI had no measurable impact on employment or productivity. See source: [Thousands Of Ceos Just Admitted AI Had No Impact](../summaries/thousands-of-ceos-just-admitted-ai-had-no-impact-on.md)
+- **95% of enterprise AI pilots fail** (MIT report). See source: [Mit Report 95 Of Generative AI Pilots Are Failing](../summaries/mit-report-95-of-generative-ai-pilots-at-companies-are.md)
+- **But**: Shadow AI economy is thriving — employees using AI tools independently of official programs. See source: [Mit Report Misunderstood Shadow AI Economy](../summaries/mit-report-misunderstood-shadow-ai-economy-booms-while.md)
+- **Klarna** reversed course on aggressive AI replacement after quality issues. See source: [As Ceos Push Replacing People With AI](../summaries/as-ceos-push-replacing-people-with-ai-ai-isn-t-quite-ready.md)
 
 ## Work Intensification
 
@@ -32,37 +32,37 @@ HBR research shows AI doesn't reduce work — it intensifies it. Effects include
 
 Recommended countermeasures: intentional pauses, sequencing tasks, maintaining "human grounding."
 
-See source: [AI Doesnt Reduce Workit Intensifies It](../sources/ai-doesnt-reduce-workit-intensifies-it.md)
+See source: [AI Doesnt Reduce Workit Intensifies It](../summaries/ai-doesnt-reduce-workit-intensifies-it.md)
 
 ## The AI Fluency Divide
 
 A new class divide emerging between AI-fluent workers who leverage tools effectively and those who don't. This "AI fluency" gap may become the defining inequality of the era.
 
-See source: [Behind The Curtain America S Next Class War AI Fluency](../sources/behind-the-curtain-america-s-next-class-war-ai-fluency.md)
+See source: [Behind The Curtain America S Next Class War AI Fluency](../summaries/behind-the-curtain-america-s-next-class-war-ai-fluency.md)
 
 ## What Remains Human
 
 Categories of jobs most resistant to AI displacement: those requiring physical presence, deep human judgment, creative originality, and trust-based relationships.
 
-See source: [The Jobs AI Won T Take Yet](../sources/the-jobs-ai-won-t-take-yet.md)
+See source: [The Jobs AI Won T Take Yet](../summaries/the-jobs-ai-won-t-take-yet.md)
 
 ## Healthcare Example
 
 Healthcare AI, intended to save costs, turns out to require expensive human oversight — a cautionary tale about automation expectations vs. reality.
 
-See source: [Health Care AI Intended To Save Money](../sources/health-care-ai-intended-to-save-money-turns-out-to-require.md)
+See source: [Health Care AI Intended To Save Money](../summaries/health-care-ai-intended-to-save-money-turns-out-to-require.md)
 
 ## Economic Speed of Disruption
 
 Ezra Klein and Jack Clark (Anthropic) discuss how AI agents are ripping through the economy. S&P 500 Software Industry index down 20%. The shift from AI "talkers" (2023-24) to "doers" (2026-27) is creating a new stage where swarms of agents can do useful work autonomously.
 
-See source: [How Fast Will A.I. Agents Rip Through The Economy](../sources/how-fast-will-a-i-agents-rip-through-the-economy-the-ezra.md)
+See source: [How Fast Will A.I. Agents Rip Through The Economy](../summaries/how-fast-will-a-i-agents-rip-through-the-economy-the-ezra.md)
 
 ## Historical Perspective
 
 Paul Krugman and Barry Ritholtz discuss AI's economic impact through the lens of past technological revolutions. Key insight: every major technology (steam, steel, transistor) caused wrenching labor changes, but the economy adjusted and higher-value jobs replaced lower-value ones. The two dominant AI narratives — "it's a bubble that will crash" vs "it will replace all white-collar workers" — are both likely wrong. Historical precedent suggests something wholly unexpected instead. The "Mag 493" (non-Mag-7 S&P companies) may be the real AI beneficiaries as they adopt the technology to become more productive.
 
-See source: [Talking With Barry Ritholtz](../sources/talking-with-barry-ritholtz.md)
+See source: [Talking With Barry Ritholtz](../summaries/talking-with-barry-ritholtz.md)
 
 ## Related
 

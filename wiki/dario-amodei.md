@@ -20,25 +20,25 @@ Central framework: "marginal returns to intelligence" — adding AI intelligence
 
 AGI timeline: possible by 2026.
 
-See source: [Dario Amodei Machines Of Loving Grace](../sources/dario-amodei-machines-of-loving-grace.md)
+See source: [Dario Amodei Machines Of Loving Grace](../summaries/dario-amodei-machines-of-loving-grace.md)
 
 ## On AI Consciousness
 
 Publicly stated Anthropic is no longer sure whether Claude is conscious, given 15-20% self-reported probability.
 
-See source: [Anthropic Ceo Says Company No Longer Sure Whether Claude Is Conscious](../sources/anthropic-ceo-says-company-no-longer-sure-whether-claude-is.md)
+See source: [Anthropic Ceo Says Company No Longer Sure Whether Claude Is Conscious](../summaries/anthropic-ceo-says-company-no-longer-sure-whether-claude-is.md)
 
 ## On Job Displacement
 
 Predicted 10-20% unemployment spike and 50% entry-level job losses within 1-5 years.
 
-See source: [Behind The Curtain Top AI Ceo Foresees White Collar Bloodbath](../sources/behind-the-curtain-top-ai-ceo-foresees-white-collar.md)
+See source: [Behind The Curtain Top AI Ceo Foresees White Collar Bloodbath](../summaries/behind-the-curtain-top-ai-ceo-foresees-white-collar.md)
 
 ## The Adolescence of Technology
 
 Framing of current AI as being in technology's "adolescence" — powerful but not yet mature.
 
-See source: [The Adolescence Of Technology](../sources/the-adolescence-of-technology.md)
+See source: [The Adolescence Of Technology](../summaries/the-adolescence-of-technology.md)
 
 ## Related
 

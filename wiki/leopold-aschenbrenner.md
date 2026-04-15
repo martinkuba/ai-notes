@@ -14,7 +14,7 @@ Former OpenAI researcher. Author of [Situational Awareness](situational-awarenes
 - AI lab security is dangerously inadequate against nation-state threats
 - The US-China AI competition is the defining geopolitical contest
 
-See sources: [Situational Awareness The Decade Ahead](../sources/situational-awareness-the-decade-ahead.md), [I From Gpt 4 To AGI Counting The Ooms](../sources/i-from-gpt-4-to-agi-counting-the-ooms.md)
+See sources: [Situational Awareness The Decade Ahead](../summaries/situational-awareness-the-decade-ahead.md), [I From Gpt 4 To AGI Counting The Ooms](../summaries/i-from-gpt-4-to-agi-counting-the-ooms.md)
 
 ## Related
 

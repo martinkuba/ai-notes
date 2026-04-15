@@ -14,13 +14,13 @@ Reports spending ~80% of coding time in agent-driven mode. Key observations:
 - Despite risks, productivity gains are real (estimates ~10x for certain tasks)
 - The transition requires vigilance in code review
 
-See source: [A Few Random Notes From Claude Coding Quite A Bit](../sources/a-few-random-notes-from-claude-coding-quite-a-bit.md)
+See source: [A Few Random Notes From Claude Coding Quite A Bit](../summaries/a-few-random-notes-from-claude-coding-quite-a-bit.md)
 
 ## Skills Profile
 
 A curated list of Karpathy's technical skills and knowledge areas — useful as a reference for AI research competencies.
 
-See source: [Github Forrestchang Andrej Karpathy Skills](../sources/github-forrestchang-andrej-karpathy-skills.md)
+See source: [Github Forrestchang Andrej Karpathy Skills](../summaries/github-forrestchang-andrej-karpathy-skills.md)
 
 ## How I Use LLMs
 
@@ -31,7 +31,7 @@ Comprehensive tutorial on practical LLM use. Key explanations:
 - Knowledge cutoff as a fundamental limitation of the pre-training paradigm
 - Tool use as the escape hatch for accessing current information
 
-See source: [How I Use LLMs](../sources/how-i-use-llms.md)
+See source: [How I Use LLMs](../summaries/how-i-use-llms.md)
 
 ## Related
 

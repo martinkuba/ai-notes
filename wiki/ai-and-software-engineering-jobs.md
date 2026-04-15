@@ -10,7 +10,7 @@ The specific impact of AI coding tools on the software engineering profession. A
 
 Software engineering is the profession most directly impacted by [Agentic Coding](agentic-coding.md):
 
-- **55% hiring decline** following the "Claude Christmas" event (late 2024). See source: [AI Writes The Code Now Whats Left For Software Engineers](../sources/ai-writes-the-code-now-whats-left-for-software-engineers.md)
+- **55% hiring decline** following the "Claude Christmas" event (late 2024). See source: [AI Writes The Code Now Whats Left For Software Engineers](../summaries/ai-writes-the-code-now-whats-left-for-software-engineers.md)
 - Concerns about a "permanent underclass" of developers unable to compete with AI-augmented peers
 - Entry-level positions hit hardest — routine coding tasks are the first to be automated
 
@@ -40,19 +40,19 @@ Software engineering is the profession most directly impacted by [Agentic Coding
 
 AI has "ruined the magic trick" of programming — the mystique of coding as an arcane skill is dissolving as AI makes it accessible. This shifts the profession's value proposition from "can write code" to "knows what to build and why."
 
-See source: [Programmers Beware Chatgpt Has Ruined Your Magic Trick](../sources/programmers-beware-chatgpt-has-ruined-your-magic-trick-john.md)
+See source: [Programmers Beware Chatgpt Has Ruined Your Magic Trick](../summaries/programmers-beware-chatgpt-has-ruined-your-magic-trick-john.md)
 
 ## Early Predictions
 
 As early as 2023, industry observers asked whether AI would replace developers. Historical precedent (Deep Blue, AlphaGo, Watson) showed AI excelling at narrow tasks. The consensus then: AI would augment rather than replace — handling boilerplate while developers focus on architecture and judgment. This prediction has proven partially right (augmentation is real) and partially wrong (the pace of agent capability exceeded expectations).
 
-See source: [Will Artificial Intelligence Replace Software Developers](../sources/will-artificial-intelligence-replace-software-developers.md)
+See source: [Will Artificial Intelligence Replace Software Developers](../summaries/will-artificial-intelligence-replace-software-developers.md)
 
 ## "Coding Is Largely Solved"
 
 Boris Cherny (head of [Claude Code](claude-code.md)) claims 100% AI-authored code since November, 200% productivity gains at Anthropic, and predicts the title "software engineer" will be replaced by "builder." Semi Analysis reports 4% of all GitHub commits are by Claude Code, projected to reach 20% by year-end.
 
-See source: [Head Of Claude Code What Happens After Coding Is Solved](../sources/head-of-claude-code-what-happens-after-coding-is-solved.md)
+See source: [Head Of Claude Code What Happens After Coding Is Solved](../summaries/head-of-claude-code-what-happens-after-coding-is-solved.md)
 
 ## Related
 
