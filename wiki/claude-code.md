@@ -16,6 +16,12 @@ The recommended workflow is **explore → plan → code → commit**:
 
 See source: [Claude Code Best Practices For Agentic Coding](../summaries/claude-code-best-practices-for-agentic-coding.md)
 
+## Official Best Practices
+
+The central constraint is **context window management** — performance degrades as context fills, making this the most important resource to manage. The highest-leverage practice is providing **self-verification criteria** (tests, screenshots, expected outputs) so Claude can check its own work. Other key practices: use Plan Mode to separate exploration from execution, write precise prompts referencing specific files and patterns, and keep CLAUDE.md files concise. For scaling, use non-interactive mode (`claude -p`) for CI, parallel sessions via the desktop app, the writer/reviewer pattern across separate sessions, and fan-out for batch operations. Common anti-patterns: "kitchen sink" sessions mixing unrelated tasks, bloated CLAUDE.md, skipping verification, and unbounded exploration.
+
+See source: [Best Practices For Claude Code](../summaries/best-practices-for-claude-code.md)
+
 ## Customization
 
 - **CLAUDE.md** — Project-level instructions that shape agent behavior. Functions like a persistent system prompt scoped to the repo.

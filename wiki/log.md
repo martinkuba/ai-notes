@@ -2,6 +2,17 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-04-15] ingest | Integrate 5 new sources across 3 wiki pages
+
+**New sources integrated (5):** Addy Osmani's agentic engineering trilogy (agentic engineering terminology, multi-agent management, parallel agent cognitive limits), Anthropic's official Claude Code best practices guide, and Osmani's comprehension debt concept.
+
+Pages updated:
+- **agentic-coding** — Expanded "Vibe Coding" section into "Vibe Coding vs Agentic Engineering" with Osmani's terminology argument; added new "Multi-Agent Management" section covering agent fleet orchestration and "The Parallel Agent Ceiling" subsection on cognitive costs of parallelism
+- **claude-code** — Added "Official Best Practices" section covering context window management, self-verification, Plan Mode, and scaling patterns
+- **ai-impact-on-software-engineering** — Added "Comprehension Debt" subsection under Quality Risks covering the gap between code volume and human understanding, speed asymmetry, and metric blindness
+
+1 source skipped (untitled-01ke68th.md — empty/no content).
+
 ## [2026-04-14] ingest + fix | Integrate 15 new sources, fix 29 broken links
 
 **Link fixes:** Fixed 29 broken source links across all wiki pages caused by filename truncation mismatch (Readwise sync generates longer filenames than the wiki was referencing).
