@@ -2,6 +2,13 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-04-19] ingest | Integrate 1 new source into ai-critical-perspectives
+
+**New sources integrated (1):** Victor Tangermann's report on the growing AI backlash movement.
+
+Pages updated:
+- **ai-critical-perspectives** — Added new "Public Backlash" section covering escalation from online criticism to direct action (arson, gunfire), rural organizing against data centers, political victories against city councils approving data center deals, and the AI industry's narrative credibility problem (OpenAI's utopian messaging vs. Anthropic's existential risk warnings).
+
 ## [2026-04-15] ingest | Integrate 5 new sources across 3 wiki pages
 
 **New sources integrated (5):** Addy Osmani's agentic engineering trilogy (agentic engineering terminology, multi-agent management, parallel agent cognitive limits), Anthropic's official Claude Code best practices guide, and Osmani's comprehension debt concept.
