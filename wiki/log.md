@@ -2,6 +2,17 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-04-19] ingest | Integrate 2 new sources into existing wiki pages
+
+**New sources integrated (2):**
+
+- **Aaron Levie tweet on the agent deployer role** — New organizational role emerging in enterprises as AI agents proliferate: a technical-business hybrid who identifies high-leverage workflows, designs agent context, and manages ongoing operations.
+- **MarketWatch survival guide framing** — Popular media framing AI job displacement as imminent (18 months), offering practical worker preparation advice.
+
+Pages updated:
+- **agentic-ai** — Added new "Enterprise Roles: The Agent Deployer" section covering the emerging agent deployer/manager role: responsibilities, required skills (MCP, APIs, workflow design), and organizational placement
+- **ai-and-jobs** — Added new "Survival Guides for Workers" section covering mainstream media framing of AI job displacement timelines
+
 ## [2026-04-19] ingest | Integrate 1 new source into ai-critical-perspectives
 
 **New sources integrated (1):** Victor Tangermann's report on the growing AI backlash movement.

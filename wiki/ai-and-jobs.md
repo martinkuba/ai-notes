@@ -40,6 +40,12 @@ A new class divide emerging between AI-fluent workers who leverage tools effecti
 
 See source: [Behind The Curtain America S Next Class War AI Fluency](../summaries/behind-the-curtain-america-s-next-class-war-ai-fluency.md)
 
+## Survival Guides for Workers
+
+Popular media has begun framing AI job displacement as imminent and offering practical preparation advice. MarketWatch frames the timeline as 18 months.
+
+See source: [AI Will Take Your Job In The Next 18 Months — Here's Your Survival Guide](../summaries/untitled-01ke68th.md)
+
 ## What Remains Human
 
 Categories of jobs most resistant to AI displacement: those requiring physical presence, deep human judgment, creative originality, and trust-based relationships.
