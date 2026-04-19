@@ -2,3 +2,4 @@
 .obsidian/
 sources/
 summaries/.summary-state.json
+venv/
