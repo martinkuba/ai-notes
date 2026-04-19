@@ -7,42 +7,51 @@ An LLM-maintained knowledge base for AI research, following the [LLM Wiki patter
 ## Structure
 
 ```
-sources/              Raw source documents synced from Readwise Reader (gitignored)
-summaries/            LLM-generated summaries of each source (committed)
-                      Contains original URL, summary, and main ideas
-wiki/                 LLM-generated knowledge pages (summaries, entities, concepts,
-                      comparisons, syntheses). LLM owns this entirely.
-  index.md            Content catalog of every page, grouped by category
-  log.md              Reverse-chronological activity log
-CLAUDE.md             Schema defining structure, conventions, and workflows
-sync-readwise.py      Script to pull AI-tagged content from Readwise Reader
-generate-summaries.sh Script to generate summary docs from raw sources
-ingest.sh             Full pipeline: sync → summarize → ingest → PR
-.env                  Readwise API token (not committed)
+sources/          Raw source documents synced from Readwise Reader (gitignored)
+summaries/        LLM-generated summaries of each source (committed)
+                  Contains original URL, summary, and main ideas
+wiki/             LLM-generated knowledge pages (summaries, entities, concepts,
+                  comparisons, syntheses). LLM owns this entirely.
+  index.md        Content catalog of every page, grouped by category
+  log.md          Reverse-chronological activity log
+CLAUDE.md         Schema defining structure, conventions, and workflows
+sync-readwise.py  Pulls AI-tagged content from Readwise Reader into sources/
+ingest.py         Full pipeline: sync → summarize → ingest → PR
+requirements.txt  Python dependencies (anthropic)
+.env              API tokens (not committed)
 ```
 
 ## Setup
 
-1. Get a Readwise API token at https://readwise.io/access_token
-2. Add it to `.env`:
+1. Create and activate a virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+   ```
+2. Add API tokens to `.env`:
    ```
    READWISE_TOKEN=rw_xxxxxxxxxxxxx
+   ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxx
    ```
-3. Sync sources:
-   ```bash
-   python3 sync-readwise.py
-   ```
+   - Readwise token: https://readwise.io/access_token
+   - Anthropic API key: https://console.anthropic.com/
 
-## Syncing Sources
+## Running the Pipeline
 
-`sync-readwise.py` pulls documents tagged "AI" from Readwise Reader into `sources/` as markdown files with YAML frontmatter.
+```bash
+python3 ingest.py              # sync + summarize + ingest + open PR
+python3 ingest.py --skip-sync  # skip Readwise sync (sources already up to date)
+```
 
-- Uses only Python 3 stdlib (no dependencies)
-- Incremental sync — only fetches new/updated items since last run
-- Tracks state in `sources/.sync-state.json`
-- Each document gets a slugified filename (e.g., `attention-is-all-you-need.md`)
+`ingest.py` runs the full pipeline:
 
-After syncing, run `generate-summaries.sh` to create committed summary documents in `summaries/`. Each summary contains the original URL, a concise summary, and main ideas. Wiki pages link to these summaries.
+1. **Sync** — pulls AI-tagged documents from Readwise Reader into `sources/` (incremental, stdlib only, tracks state in `sources/.sync-state.json`)
+2. **Summarize** — generates summary docs in `summaries/` via the Claude API (`claude-haiku-4-5`), parallelized up to 5 concurrent requests; skips sources whose content hasn't changed
+3. **Ingest** — runs Claude Code to read summaries and create/update wiki pages, cross-references, index, and log
+4. **PR** — commits changes and opens a pull request
+
+Early exit (no branch created) if nothing is new after sync.
 
 ## Using the Wiki
 
@@ -52,7 +61,7 @@ Open this folder as an Obsidian vault. All pages use standard markdown links for
 
 All operations are performed by asking the LLM (Claude) in conversation:
 
-- **Ingest** — After syncing and summarizing sources, ask Claude to ingest them. It will read the summaries, create/update wiki pages, and maintain cross-references, the index, and the log. Or run `./ingest.sh` for the full automated pipeline.
+- **Ingest** — Run `python3 ingest.py` for the full automated pipeline, or ask Claude directly to ingest summaries. Claude reads the summaries, creates/updates wiki pages, and maintains cross-references, the index, and the log.
 - **Query** — Ask questions about the content. Claude synthesizes answers from wiki pages with citations. Good answers can be filed as new wiki pages.
 - **Lint** — Ask Claude to audit the wiki for contradictions, stale claims, orphaned pages, or gaps.
 
