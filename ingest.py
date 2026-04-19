@@ -206,10 +206,23 @@ def main() -> None:
         print("==> No summaries generated. Exiting.", file=sys.stderr)
         sys.exit(1)
 
-    # 4. Create git branch
-    branch = f"ingest/{datetime.now().strftime('%Y-%m-%d-%H%M%S')}"
-    print(f"==> Creating branch: {branch}")
-    run(["git", "checkout", "-b", branch])
+    # 4. Create git branch (or reuse existing open ingest PR's branch)
+    existing_pr_result = subprocess.run(
+        ["gh", "pr", "list", "--search", "Wiki ingest", "--json", "number,headRefName,url", "--limit", "1"],
+        capture_output=True, text=True,
+    )
+    open_prs = json.loads(existing_pr_result.stdout) if existing_pr_result.returncode == 0 else []
+
+    if open_prs:
+        pr = open_prs[0]
+        branch = pr["headRefName"]
+        print(f"==> Found existing ingest PR #{pr['number']}. Checking out branch: {branch}")
+        run(["git", "fetch", "origin", branch])
+        run(["git", "checkout", branch])
+    else:
+        branch = f"ingest/{datetime.now().strftime('%Y-%m-%d-%H%M%S')}"
+        print(f"==> Creating branch: {branch}")
+        run(["git", "checkout", "-b", branch])
 
     # 5. Wiki ingest via claude CLI (agentic — needs tool use across wiki pages)
     print("==> Running Claude to ingest summaries into wiki...")
@@ -226,9 +239,10 @@ def main() -> None:
         and subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode == 0
     )
     if no_changes:
-        print("==> No wiki changes. Cleaning up branch.")
+        print("==> No wiki changes. Cleaning up.")
         run(["git", "checkout", "main"])
-        run(["git", "branch", "-d", branch])
+        if not open_prs:
+            run(["git", "branch", "-d", branch])
         sys.exit(0)
 
     # 7. Commit, push, open PR
@@ -240,21 +254,25 @@ def main() -> None:
     print("==> Pushing branch...")
     run(["git", "push", "-u", "origin", branch])
 
-    print("==> Creating pull request...")
-    pr_body = (
-        "## Summary\n\n"
-        "Automated ingest of new/unreferenced source documents into the wiki.\n\n"
-        "Review the diff to see exactly what changed in each wiki page.\n\n"
-        "See `wiki/log.md` for a summary of what was ingested.\n"
-    )
-    result = subprocess.run(
-        ["gh", "pr", "create",
-         "--title", f"Wiki ingest {datetime.now().strftime('%Y-%m-%d')}",
-         "--body", pr_body],
-        capture_output=True, text=True, check=True,
-    )
-    print("==> Done! PR created:")
-    print(result.stdout.strip())
+    if open_prs:
+        pr = open_prs[0]
+        print(f"==> Done! Changes pushed to existing PR: {pr['url']}")
+    else:
+        print("==> Creating pull request...")
+        pr_body = (
+            "## Summary\n\n"
+            "Automated ingest of new/unreferenced source documents into the wiki.\n\n"
+            "Review the diff to see exactly what changed in each wiki page.\n\n"
+            "See `wiki/log.md` for a summary of what was ingested.\n"
+        )
+        result = subprocess.run(
+            ["gh", "pr", "create",
+             "--title", f"Wiki ingest {datetime.now().strftime('%Y-%m-%d')}",
+             "--body", pr_body],
+            capture_output=True, text=True, check=True,
+        )
+        print("==> Done! PR created:")
+        print(result.stdout.strip())
 
 
 if __name__ == "__main__":
