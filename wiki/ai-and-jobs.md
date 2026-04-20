@@ -40,6 +40,12 @@ A new class divide emerging between AI-fluent workers who leverage tools effecti
 
 See source: [Behind The Curtain America S Next Class War AI Fluency](../summaries/behind-the-curtain-america-s-next-class-war-ai-fluency.md)
 
+## Survival Guides for Workers
+
+Popular media has begun framing AI job displacement as imminent and offering practical preparation advice. MarketWatch frames the timeline as 18 months.
+
+See source: [AI Will Take Your Job In The Next 18 Months — Here's Your Survival Guide](../summaries/untitled-01ke68th.md)
+
 ## What Remains Human
 
 Categories of jobs most resistant to AI displacement: those requiring physical presence, deep human judgment, creative originality, and trust-based relationships.
@@ -63,6 +69,12 @@ See source: [How Fast Will A.I. Agents Rip Through The Economy](../summaries/how
 Paul Krugman and Barry Ritholtz discuss AI's economic impact through the lens of past technological revolutions. Key insight: every major technology (steam, steel, transistor) caused wrenching labor changes, but the economy adjusted and higher-value jobs replaced lower-value ones. The two dominant AI narratives — "it's a bubble that will crash" vs "it will replace all white-collar workers" — are both likely wrong. Historical precedent suggests something wholly unexpected instead. The "Mag 493" (non-Mag-7 S&P companies) may be the real AI beneficiaries as they adopt the technology to become more productive.
 
 See source: [Talking With Barry Ritholtz](../summaries/talking-with-barry-ritholtz.md)
+
+## Job Creation Through Cascading Bottlenecks
+
+Aaron Levie argues AI creates jobs by accelerating one step until a new downstream bottleneck emerges that still requires humans. AI legal agents handling more inquiries → more demand for human lawyers on complex cases. AI automating patient referrals → bottleneck shifts to doctor availability. AI customer outreach → more sales conversations requiring humans. AI security automation → demand for security researchers. The pattern repeats across sectors, and competitive pressure forces companies to invest in complementary human capabilities to match AI-enhanced rivals.
+
+See source: [Why Will AI Create More Jobs In Plenty Of Industries](../summaries/why-will-ai-create-more-jobs-in-plenty-of-industries.md)
 
 ## Related
 

@@ -43,6 +43,14 @@ Paul Krugman and Barry Ritholtz argue that the dominant AI narratives — bubble
 
 See source: [Talking With Barry Ritholtz](../summaries/talking-with-barry-ritholtz.md)
 
+## Public Backlash
+
+Public opposition to AI has escalated from online criticism to direct action. Incidents include a Molotov cocktail allegedly thrown at OpenAI CEO Sam Altman's house and gunshots fired at a councilman's home with a "No Data Centers" note. Rural communities across the US are organizing against AI data centers, which strain local water supplies and power grids. Political victories have followed: voters in a Missouri town removed half their city council over a $6 billion data center deal.
+
+The AI industry's narrative also faces an internal credibility problem: OpenAI promotes utopian economic benefits while Anthropic's leadership warns of existential risks — conflicting messages that undermine public trust. AI companies have responded with reputation management, including media acquisitions timed to counter unflattering coverage.
+
+See source: [There Are Signs of a Massive AI Backlash](../summaries/there-are-signs-of-a-massive-ai-backlash.md)
+
 ## Skeptical Voices
 
 - **Gary Marcus** — Consistent critic of scaling approaches; argues current methods won't generalize
