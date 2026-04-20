@@ -55,6 +55,20 @@ Four management skills transfer directly: clear task scoping with briefs, delega
 
 Running parallel agents imposes hidden cognitive costs: context switching between threads, continuous judgment calls that can't be batched, and trust calibration overhead for each agent. Osmani identifies an "ambient anxiety tax" — background vigilance about what unmonitored threads might be getting wrong. Agent parallelism doesn't scale linearly for humans: supervision scales but understanding doesn't, and the gap is where [comprehension debt](ai-impact-on-software-engineering.md) compounds. The practical ceiling is 3-4 well-reviewed threads; three focused threads produce more mergeable output than six half-supervised ones. See source: [Your Parallel Agent Limit](../summaries/your-parallel-agent-limit.md)
 
+## The IDE Is Being De-Centered
+
+The traditional IDE is not disappearing but losing its role as the primary workspace. Addy Osmani argues the center of developer work is shifting from line-by-line editing toward supervising autonomous agents that plan, rewrite files, run tests, and propose diffs for review. The "unit of work" becomes the agent rather than the file; the development loop shifts from "open files → edit → build → debug" to "specify intent → delegate → observe → review diffs → merge."
+
+Convergent patterns across tools (Cursor Glass, Claude Code Web, GitHub Copilot Agents): git worktrees for isolation, task-based UI replacing file tabs, async background agents, and CI/CD integration. New challenges include review fatigue, expanded security surfaces, and governance overhead. The IDE becomes a subordinate instrument for targeted inspection and final edits; orchestration migrates to dashboards and cloud control planes.
+
+See source: [Is The IDE Dead](../summaries/is-the-ide-dead.md)
+
+## Resources
+
+A curated collection of high-signal conference talks on AI-assisted coding (agents, context management, prompt engineering, spec-driven development, measuring ROI) — chosen over viral social media content for depth. Covers "12-Factor Agents," context platform engineering, anthropomorphization risks, and tool-specific guidance for Claude, Copilot, and Amp Code.
+
+See source: [The Best AI Coding Content Isn't On Your Feed](../summaries/the-best-ai-coding-content-isn-t-on-your-feed.md)
+
 ## Related
 
 - [Spec Driven Development](spec-driven-development.md)

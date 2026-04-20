@@ -2,6 +2,22 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-04-19] ingest | Integrate 5 new sources across 4 wiki pages
+
+**New sources integrated (5):**
+
+- **Changes in Claude system prompt between Opus 4.6 and 4.7** (Simon Willison) — Analysis of behavioral refinements: more concise, less pushy, better tool search, stronger child safety guardrails, screenshot attack safeguards.
+- **Is the IDE dead?** (Addy Osmani) — The IDE is being de-centered as agent orchestration replaces line-by-line editing; new convergent UI patterns emerging.
+- **The best AI coding content isn't on your feed** (John Crickett) — Curated conference talks on agents, context management, prompt engineering, and spec-driven development.
+- **When people think software engineers, they tend to think jobs** (Aaron Levie) — AI agents will spread engineering demand to every sector (biopharma, finance, manufacturing), shifting work toward automation and process redesign.
+- **Why will AI create more jobs in plenty of industries?** (Aaron Levie) — AI creates downstream bottlenecks that require human labor; competitive pressure sustains demand across value chains.
+
+Pages updated:
+- **anthropic** — Added "Model Evolution" section on system prompt changes between Opus 4.6 and 4.7
+- **agentic-coding** — Added "The IDE Is Being De-Centered" section and "Resources" section with curated conference talks
+- **ai-and-jobs** — Added "Job Creation Through Cascading Bottlenecks" section on Aaron Levie's downstream bottleneck thesis
+- **ai-and-software-engineering-jobs** — Added "Industry-Wide Expansion" section on engineering demand spreading beyond tech
+
 ## [2026-04-19] ingest | Integrate 2 new sources into existing wiki pages
 
 **New sources integrated (2):**

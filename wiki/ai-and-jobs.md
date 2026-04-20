@@ -70,6 +70,12 @@ Paul Krugman and Barry Ritholtz discuss AI's economic impact through the lens of
 
 See source: [Talking With Barry Ritholtz](../summaries/talking-with-barry-ritholtz.md)
 
+## Job Creation Through Cascading Bottlenecks
+
+Aaron Levie argues AI creates jobs by accelerating one step until a new downstream bottleneck emerges that still requires humans. AI legal agents handling more inquiries → more demand for human lawyers on complex cases. AI automating patient referrals → bottleneck shifts to doctor availability. AI customer outreach → more sales conversations requiring humans. AI security automation → demand for security researchers. The pattern repeats across sectors, and competitive pressure forces companies to invest in complementary human capabilities to match AI-enhanced rivals.
+
+See source: [Why Will AI Create More Jobs In Plenty Of Industries](../summaries/why-will-ai-create-more-jobs-in-plenty-of-industries.md)
+
 ## Related
 
 - [AI And Software Engineering Jobs](ai-and-software-engineering-jobs.md)
