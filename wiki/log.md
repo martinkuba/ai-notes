@@ -13,6 +13,40 @@ Pages updated:
 
 0 new pages created — all sources fit existing categories.
 
+## [2026-04-19] ingest | Integrate 5 new sources across 4 wiki pages
+
+**New sources integrated (5):**
+
+- **Changes in Claude system prompt between Opus 4.6 and 4.7** (Simon Willison) — Analysis of behavioral refinements: more concise, less pushy, better tool search, stronger child safety guardrails, screenshot attack safeguards.
+- **Is the IDE dead?** (Addy Osmani) — The IDE is being de-centered as agent orchestration replaces line-by-line editing; new convergent UI patterns emerging.
+- **The best AI coding content isn't on your feed** (John Crickett) — Curated conference talks on agents, context management, prompt engineering, and spec-driven development.
+- **When people think software engineers, they tend to think jobs** (Aaron Levie) — AI agents will spread engineering demand to every sector (biopharma, finance, manufacturing), shifting work toward automation and process redesign.
+- **Why will AI create more jobs in plenty of industries?** (Aaron Levie) — AI creates downstream bottlenecks that require human labor; competitive pressure sustains demand across value chains.
+
+Pages updated:
+- **anthropic** — Added "Model Evolution" section on system prompt changes between Opus 4.6 and 4.7
+- **agentic-coding** — Added "The IDE Is Being De-Centered" section and "Resources" section with curated conference talks
+- **ai-and-jobs** — Added "Job Creation Through Cascading Bottlenecks" section on Aaron Levie's downstream bottleneck thesis
+- **ai-and-software-engineering-jobs** — Added "Industry-Wide Expansion" section on engineering demand spreading beyond tech
+
+## [2026-04-19] ingest | Integrate 2 new sources into existing wiki pages
+
+**New sources integrated (2):**
+
+- **Aaron Levie tweet on the agent deployer role** — New organizational role emerging in enterprises as AI agents proliferate: a technical-business hybrid who identifies high-leverage workflows, designs agent context, and manages ongoing operations.
+- **MarketWatch survival guide framing** — Popular media framing AI job displacement as imminent (18 months), offering practical worker preparation advice.
+
+Pages updated:
+- **agentic-ai** — Added new "Enterprise Roles: The Agent Deployer" section covering the emerging agent deployer/manager role: responsibilities, required skills (MCP, APIs, workflow design), and organizational placement
+- **ai-and-jobs** — Added new "Survival Guides for Workers" section covering mainstream media framing of AI job displacement timelines
+
+## [2026-04-19] ingest | Integrate 1 new source into ai-critical-perspectives
+
+**New sources integrated (1):** Victor Tangermann's report on the growing AI backlash movement.
+
+Pages updated:
+- **ai-critical-perspectives** — Added new "Public Backlash" section covering escalation from online criticism to direct action (arson, gunfire), rural organizing against data centers, political victories against city councils approving data center deals, and the AI industry's narrative credibility problem (OpenAI's utopian messaging vs. Anthropic's existential risk warnings).
+
 ## [2026-04-15] ingest | Integrate 5 new sources across 3 wiki pages
 
 **New sources integrated (5):** Addy Osmani's agentic engineering trilogy (agentic engineering terminology, multi-agent management, parallel agent cognitive limits), Anthropic's official Claude Code best practices guide, and Osmani's comprehension debt concept.

@@ -54,6 +54,12 @@ Boris Cherny (head of [Claude Code](claude-code.md)) claims 100% AI-authored cod
 
 See source: [Head Of Claude Code What Happens After Coding Is Solved](../summaries/head-of-claude-code-what-happens-after-coding-is-solved.md)
 
+## Industry-Wide Expansion
+
+Aaron Levie argues AI won't eliminate software engineering demand — it will spread it across every sector. Non-tech companies (biopharma, finance, retail, manufacturing) will massively expand internal engineering to build backend systems, automate workflows, and create digital experiences previously unaffordable. The nature of the work shifts: less consumer app development, more system design, agent orchestration, business process redesign, and output validation. Early evidence: Eli Lilly's "Lab Automation Software Engineer" role exemplifies domain-specific engineering positions that will proliferate widely.
+
+See source: [When People Think Software Engineers They Tend To Think Jobs](../summaries/when-people-think-software-engineers-they-tend-to-think-jobs.md)
+
 ## Related
 
 - [Agentic Coding](agentic-coding.md)
