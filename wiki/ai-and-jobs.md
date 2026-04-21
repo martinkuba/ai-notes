@@ -13,6 +13,7 @@ The impact of AI on employment, workforce composition, and the nature of work it
 - **Software engineering**: 55% decline in hiring post-"Claude Christmas" (late 2024). See source: [AI Writes The Code Now Whats Left For Software Engineers](../summaries/ai-writes-the-code-now-whats-left-for-software-engineers.md)
 - **Stanford study**: RCT shows early-career workers in AI-exposed jobs declined 13% in employment. See source: [Canaries In The Coal Mine](../summaries/canaries-in-the-coal-mine-six-facts-about-the-recent.md)
 - **2024 workforce trends**: Inclusivity, hiring equity, diversity in AI training, and upskilling. See source: [AI In 2024 Five Trends Workers Need To Know](../summaries/ai-in-2024-five-trends-workers-need-to-know.md)
+- **18-month displacement horizon** (MarketWatch, 2025): Framed AI job displacement as imminent with practical "survival guide" for workers. See source: [AI Will Take Your Job In The Next 18 Months](../summaries/untitled-01ke68th.md)
 
 ## The Productivity Paradox
 
@@ -57,6 +58,17 @@ See source: [Health Care AI Intended To Save Money](../summaries/health-care-ai-
 Ezra Klein and Jack Clark (Anthropic) discuss how AI agents are ripping through the economy. S&P 500 Software Industry index down 20%. The shift from AI "talkers" (2023-24) to "doers" (2026-27) is creating a new stage where swarms of agents can do useful work autonomously.
 
 See source: [How Fast Will A.I. Agents Rip Through The Economy](../summaries/how-fast-will-a-i-agents-rip-through-the-economy-the-ezra.md)
+
+## Structural Reallocation: The Relational Sector
+
+Economist Alex Imas argues against mass unemployment, drawing on structural change theory: when technology commoditizes one sector, labor reallocates to new high-value sectors rather than disappearing (just as agriculture went from 40% to under 2% of US employment). His framework:
+
+- **The relational sector absorbs labor**: Jobs where human presence is intrinsic to the value proposition — nurses, teachers, therapists, hospitality workers — have high income elasticity and grow as commodity goods become cheap and abundant.
+- **Mimetic desire undermines AI commodities**: People value goods partly because others want them and cannot have them. Willingness to pay roughly doubles with exclusivity; human-made goods command 44% premiums over AI alternatives vs. 21% for AI-made goods.
+- **Transition speed is the critical variable**: If automation outpaces retraining and institutional adaptation, demand collapse remains possible. Imas remains concerned about those underestimating frontier AI.
+- **What remains scarce after automation determines everything**: "Almost any question about the impact of advanced AI on the economy needs to start at the same place: what is still scarce?"
+
+See sources: [The Economist Who Was Terrified Of AI Just Found A Rare Reason For Hope](../summaries/the-economist-who-was-terrified-of-ai-just-found-a-rare.md), [New Essay On The Economics Of Structural Change And The Post-Commodity Future Of Work](../summaries/new-essay-on-the-economics-of-structural-change-and-the.md)
 
 ## Historical Perspective
 
