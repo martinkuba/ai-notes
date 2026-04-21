@@ -196,17 +196,7 @@ def main() -> None:
         sys.exit(0)
     print(f"==> Found {len(new_files)} new/updated source(s) to summarize.")
 
-    # 3. Summarize via Claude API (parallel)
-    SUMMARIES_DIR.mkdir(exist_ok=True)
-    print("==> Generating summaries via Claude API...")
-    summarized = asyncio.run(summarize_all(new_files))
-    update_summary_state(summarized)
-
-    if not summarized:
-        print("==> No summaries generated. Exiting.", file=sys.stderr)
-        sys.exit(1)
-
-    # 4. Create git branch (or reuse existing open ingest PR's branch)
+    # 3. Create git branch (or reuse existing open ingest PR's branch)
     existing_pr_result = subprocess.run(
         ["gh", "pr", "list", "--search", "Wiki ingest", "--json", "number,headRefName,url", "--limit", "1"],
         capture_output=True, text=True,
@@ -223,6 +213,16 @@ def main() -> None:
         branch = f"ingest/{datetime.now().strftime('%Y-%m-%d-%H%M%S')}"
         print(f"==> Creating branch: {branch}")
         run(["git", "checkout", "-b", branch])
+
+    # 4. Summarize via Claude API (parallel)
+    SUMMARIES_DIR.mkdir(exist_ok=True)
+    print("==> Generating summaries via Claude API...")
+    summarized = asyncio.run(summarize_all(new_files))
+    update_summary_state(summarized)
+
+    if not summarized:
+        print("==> No summaries generated. Exiting.", file=sys.stderr)
+        sys.exit(1)
 
     # 5. Wiki ingest via claude CLI (agentic — needs tool use across wiki pages)
     print("==> Running Claude to ingest summaries into wiki...")

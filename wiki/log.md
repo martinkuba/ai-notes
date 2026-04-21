@@ -2,6 +2,17 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-04-20] ingest | Integrate 5 new sources across 3 wiki pages
+
+**New sources integrated (5):** Alex Imas's structural reallocation theory (tweet + Fortune article), the "harness is everything" agent design analysis, NotebookLM vs Gemini Notebooks workflow guide, and a MarketWatch AI job displacement article.
+
+Pages updated:
+- **ai-and-jobs** — Added new "Structural Reallocation: The Relational Sector" section covering economist Alex Imas's framework: labor migrates to high-income-elasticity "relational sector" jobs (nursing, teaching, therapy) as AI commoditizes routine work; mimetic desire and exclusivity premiums explain human provenance value; transition speed determines whether reallocation or demand collapse occurs. Also added MarketWatch 18-month displacement article to Displacement Predictions.
+- **agentic-ai** — Added new "Environment and Harness Design" section: the harness (interface design, context management, feedback loops, multi-session scaffolding) determines agent performance more than model capability; SWE-agent showed 64% gains from interface changes alone.
+- **rag-and-knowledge-systems** — Added new "Research vs. Creation Workflows" section: Google NotebookLM (grounded research, source citations) vs. Gemini Notebooks (creation, live web access) as complementary sequential tools.
+
+0 new pages created — all sources fit existing categories.
+
 ## [2026-04-19] ingest | Integrate 5 new sources across 4 wiki pages
 
 **New sources integrated (5):**

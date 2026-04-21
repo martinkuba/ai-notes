@@ -53,6 +53,18 @@ Jack Clark (Anthropic co-founder) and Ezra Klein discuss the transition from AI 
 
 See source: [How Fast Will A.I. Agents Rip Through The Economy](../summaries/how-fast-will-a-i-agents-rip-through-the-economy-the-ezra.md)
 
+## Environment and Harness Design
+
+The limiting factor in agent performance is not model capability but the "harness" — the complete designed environment in which the model operates. The SWE-agent research demonstrated 64% performance improvements through interface design alone, with identical underlying models. Key principles:
+
+- **The interface is cognitive architecture**: Everything in the context window determines what the model can reason about. Format is not decoration.
+- **Context window management**: Functions as working memory, not storage. Unbounded search results, stale state, and irrelevant data degrade reasoning.
+- **Multi-session architecture**: Long-running projects need explicit scaffolding — persistent state files, progress logs, two-agent patterns (initializer + coder).
+- **Feedback loops drive quality**: Immediate syntax checking, integrated linters, browser automation for end-to-end testing all improve output over delayed external feedback.
+- **The execution layer is a commodity**: Foundation models generate functional code reliably. The real moat is orchestration, state management, and constraint enforcement.
+
+See source: [The Harness Is Everything: What Cursor, Claude Code, and Perplexity Actually Built](../summaries/the-harness-is-everything-what-cursor-claude-code-and.md)
+
 ## Related
 
 - [Agentic Coding](agentic-coding.md)

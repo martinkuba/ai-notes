@@ -39,6 +39,14 @@ Integration of Claude with Obsidian for enhanced knowledge management — combin
 
 See sources: [Claude Obsidian Got A Level Up](../summaries/claude-obsidian-got-a-level-up.md), [How To Build Your AI Second Brain Using Obsidian Claude Code](../summaries/how-to-build-your-ai-second-brain-using-obsidian-claude-code.md), [How To Build Your Second Brain](../summaries/how-to-build-your-second-brain.md), [Obsidian Claude Code 101](../summaries/obsidian-claude-code-101.md), [How I Use Obsidian + Claude Code To Run My Life](../summaries/how-i-use-obsidian-claude-code-to-run-my-life.md)
 
+## Research vs. Creation Workflows
+
+Google's two notebook-style AI tools demonstrate a useful general principle: separate the research phase from the creation phase. **NotebookLM** excels at grounded research — upload multiple sources, ask questions with citation-backed answers, generate Audio Overviews and study guides. **Gemini Notebooks** is optimized for creation — transforming research into polished outputs like blog posts, presentations, and marketing materials, with access to live web information.
+
+The key insight: using both sequentially (NotebookLM for understanding → Gemini Notebooks for creation) is more effective than forcing one tool to handle both stages. NotebookLM's source grounding prevents AI drift; Gemini Notebooks' broader tooling enables polished output.
+
+See source: [I Finally Figured Out When To Use Gemini Notebooks vs NotebookLM](../summaries/i-finally-figured-out-when-to-use-gemini-notebooks-vs.md)
+
 ## This Wiki
 
 This wiki itself follows the "LLM Wiki" pattern: a three-layer architecture (raw sources → LLM-maintained wiki → schema) that uses AI to maintain cross-references and build knowledge over time. The LLM handles the bookkeeping humans find tedious.
