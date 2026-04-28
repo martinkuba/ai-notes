@@ -2,6 +2,21 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-04-28] ingest | Integrate 3 new sources across 3 wiki pages
+
+**New sources integrated (3):**
+
+- **5 Agent Design Patterns For Long-Running AI Agents** (Google Cloud Tech) — Checkpoint-resume, delegated approval, memory-layered context, ambient processing, and fleet orchestration for production agents that run for days.
+- **Every Day 100+ People Ask Me How Can I Learn AI Evals** (Paul Iusztin) — Curated resources on AI evaluation: LLM-as-a-judge, evaluation-driven development, RAG-specific evals, error analysis, and binary vs. Likert scale tradeoffs.
+- **Fraud And The False Optimism Of AI For Science** (Jessica Hullman) — Critical examination of AI in scientific research: misattribution of AI-generated ideas as human contributions, the fraud spectrum, and why much pro-AI optimism is actually technological determinism.
+
+Pages updated:
+- **agentic-ai** — Added "Production Design Patterns" section covering Google's five composable patterns for stateful long-running agents (checkpoint-resume, human-in-loop, memory layers, ambient processing, fleet orchestration).
+- **rag-and-knowledge-systems** — Added "Evaluating AI Systems" section on eval methodologies: LLM-as-judge, evaluation-driven development, RAG eval types, error analysis, and measurement tradeoffs.
+- **ai-critical-perspectives** — Added "AI in Scientific Research" section on fraud spectrum, misattribution risks, and the argument that pro-AI science narratives mask pessimism about human agency.
+
+0 new pages created — all sources fit existing categories.
+
 ## [2026-04-20] ingest | Integrate 5 new sources across 3 wiki pages
 
 **New sources integrated (5):** Alex Imas's structural reallocation theory (tweet + Fortune article), the "harness is everything" agent design analysis, NotebookLM vs Gemini Notebooks workflow guide, and a MarketWatch AI job displacement article.
