@@ -34,6 +34,7 @@ See source: [Sam Altman Says Openai Shares Anthropic S Red Lines](../summaries/s
 
 - **Geoffrey Hinton** ("Godfather of AI") left Google to speak freely about AI dangers: misinformation, job displacement, autonomous weapons. See source: [The Godfather Of A I Leaves Google And Warns Of Danger Ahead](../summaries/the-godfather-of-a-i-leaves-google-and-warns-of-danger-ahead.md)
 - Anthropic researchers question whether they fully understand what they've built. See source: [Do The People Building The AI Chatbot Claude Understand](../summaries/do-the-people-building-the-ai-chatbot-claude-understand.md)
+- MIT professor Max Tegmark's *Life 3.0* maps twelve possible AI futures — from extinction to post-scarcity utopia. Mainstream AI researchers estimate 1-in-6 odds of AI-caused extinction; Hinton and [Dario Amodei](dario-amodei.md) cite estimates as high as 25%. See source: [MIT Explains the 12 Possible Endings for AI](../summaries/mit-explains-the-12-possible-endings-for-ai.md) and [AI Futures](ai-futures.md)
 
 ## Lab Security
 

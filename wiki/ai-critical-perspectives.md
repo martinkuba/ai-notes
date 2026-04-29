@@ -51,11 +51,27 @@ The AI industry's narrative also faces an internal credibility problem: OpenAI p
 
 See source: [There Are Signs of a Massive AI Backlash](../summaries/there-are-signs-of-a-massive-ai-backlash.md)
 
+## AI in Scientific Research
+
+Jessica Hullman challenges the optimistic framing around AI-assisted science. Using AI to generate hypotheses, methodological choices, or framing — and presenting these as one's own novel contributions — is a form of misattribution. The line between legitimate tool use and fraud depends on whether the researcher maintains detailed knowledge of and control over all significant decisions the AI makes.
+
+Hullman argues that much pro-AI discourse reflects technological determinism and pessimism about human agency, not genuine optimism. Science has intrinsic human dimensions beyond producing results: developing understanding in researchers, shaping field direction through taste, and training students. Widespread careless AI use threatens to crowd out careful research and discourage intrinsically motivated scientists.
+
+> "Increasingly, a lot of the most enthusiastic pro-AI discourse (including for science) strikes me as nihilism masquerading as optimism."
+
+See source: [Fraud And The False Optimism Of AI For Science](../summaries/fraud-and-the-false-optimism-of-ai-for-science.md)
+
 ## Skeptical Voices
 
 - **Gary Marcus** — Consistent critic of scaling approaches; argues current methods won't generalize
 - **Linus Torvalds** — Skeptical of near-term AGI claims
 - **Geoffrey Hinton** — Left Google to warn about dangers (not a hype skeptic but a risk realist). See [AI Safety](ai-safety.md)
+
+## AI Pricing: Enshittification Begins
+
+AI companies are starting to show the classic VC-funded "enshittification" pattern: low prices to build dependency, then drastic price increases once users are locked in. GitHub Copilot and Anthropic both recently suspended new signups, tightened usage limits, and shifted power users to per-token pricing. The concern is acute because enterprises that depend on AI for core functions (code generation, document analysis) may have no viable exit. Enterprise customers transitioning from per-seat to per-token billing face dramatically higher costs for heavy usage — with no functional alternative if AI has become load-bearing infrastructure.
+
+See source: [It Is Finally Happening](../summaries/it-is-finally-happening.md)
 
 ## Related
 

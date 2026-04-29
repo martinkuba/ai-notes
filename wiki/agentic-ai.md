@@ -22,6 +22,19 @@ See source: [AI Is About To Completely Change How You Use Computers](../summarie
 - **Salesforce Agentforce** — Enterprise platform for building custom digital agents. See source: [Salesforce S New AI Platform](../summaries/salesforce-s-new-ai-platform-lets-companies-build-their-own.md)
 - **Deep Research tools** — Agents that conduct multi-step research autonomously ([Deep Research](deep-research.md))
 - **OpenClaw** — An autonomous agent architecture running an entire company: Jarvis (router), Atlas (research), Scribe (copywriter), Trendy (trend scout) for ~$400/month. See source: [This Army Of Openclaw Agents Runs An Entire Company](../summaries/this-army-of-openclaw-agents-runs-an-entire-company-for.md)
+- **AI SRE** — A specialized Site Reliability Engineer agent built in 60 minutes using Claude and Grafana's gcx CLI. Narrow scope (one service domain) + skill-based architecture (alert playbooks, runbooks, past incidents) proved highly effective; false positive rate dropped below 10% after 4-5 investigations. Persistent, file-based knowledge bases that grow with each incident and integrate into PR workflows. Broad implication: this basic AI SRE capability will become a standard platform feature for every observability vendor. See source: [I Built An AI SRE In 60mins, You Should Too](../summaries/i-built-an-ai-sre-in-60mins-you-should-too.md)
+
+## Production Design Patterns
+
+Most agent architectures fail in production because they're stateless and optimized for single-turn interactions. Real-world workflows — insurance claims, week-long sales sequences, financial reconciliation — require agents that maintain state and reasoning continuity over days. Google's Gemini Enterprise Agent Platform identifies five composable patterns for long-running agents:
+
+- **Checkpoint-and-Resume** — Persist execution state to disk after logical work batches; treat agents like server processes, not request handlers
+- **Delegated Approval (Human-in-the-Loop)** — Agents pause at approval gates with full context intact; zero compute consumed during pauses with sub-second cold starts
+- **Memory-Layered Context** — Working memory (Memory Profiles) for low-latency access + long-term memory (Memory Bank) for cross-session knowledge; governed by Agent Identity, Registry, and Gateway
+- **Ambient Processing** — Event-driven agents connected to data streams; policies externalized through Agent Gateway so updates propagate to entire fleets instantly
+- **Fleet Orchestration** — Coordinator agent manages specialist agents, each with independent identity and versioning; enables updates without cascading failures
+
+See source: [5 Agent Design Patterns For Long-Running AI Agents](../summaries/5-agent-design-patterns-for-long-running-ai-agents.md)
 
 ## Human Cognitive Limits
 

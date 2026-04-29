@@ -51,6 +51,18 @@ See source: [I Finally Figured Out When To Use Gemini Notebooks vs NotebookLM](.
 
 This wiki itself follows the "LLM Wiki" pattern: a three-layer architecture (raw sources → LLM-maintained wiki → schema) that uses AI to maintain cross-references and build knowledge over time. The LLM handles the bookkeeping humans find tedious.
 
+## Evaluating AI Systems
+
+A critical but often overlooked discipline. Key techniques and dimensions:
+
+- **LLM-as-a-judge** — Use a language model to evaluate outputs; requires careful implementation and awareness of its limitations (self-preference, sycophancy)
+- **Evaluation-driven development** — Design and evaluation criteria are specified before implementation, analogous to TDD
+- **Six core eval types for RAG systems** — Evaluation needs can be systematized around retrieval quality, generation quality, groundedness, etc.
+- **Binary vs. Likert scale** — Different methodological choices with distinct tradeoffs for consistency vs. nuance
+- **Error analysis** — Fundamental to iterating and improving AI systems; generic metrics are often misleading
+
+See source: [Every Day 100+ People Ask Me How Can I Learn AI Evals](../summaries/every-day-100-people-ask-me-how-can-i-learn.md)
+
 ## Related
 
 - [Deep Research](deep-research.md)

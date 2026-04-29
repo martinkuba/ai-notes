@@ -2,6 +2,39 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-04-28] ingest | Integrate 4 new sources across 4 wiki pages
+
+**New sources integrated (4):**
+
+- **GitHub COO: Why Now Is the BEST Time to Be a Developer** (Kyle Daigle / Sajjaad Khader) — GitHub COO argues agentic AI mirrors historical tech shifts that created more developers, not fewer; human judgment on *what* to build remains irreplaceable; hiring now prioritizes problem-solving mindset over syntax knowledge.
+- **I Built an AI SRE in 60mins, You Should Too** (Goutham City) — Narrow-scope AI SRE using Claude + Grafana gcx: skill-based architecture with curated runbooks and incident write-ups, false positive rate under 10% after 4-5 investigations, persistent file-based knowledge base that improves with each incident.
+- **It Is Finally Happening** (Kyle Cook / Web Dev Simplified) — AI companies beginning "enshittification": VC subsidies ending, GitHub Copilot and Anthropic implementing drastic plan changes (suspended signups, per-token billing), enterprises that depend on AI for core functions may have no viable exit.
+- **MIT Explains the 12 Possible Endings for AI** (Species / Documenting AGI) — Tegmark's *Life 3.0* framework: 12 scenarios from extinction to post-scarcity utopia; mainstream researchers estimate 1-in-6 odds of AI-caused extinction; Zoo scenario (humans as captive subjects) identified as potentially worse than extinction.
+
+Pages updated:
+- **ai-and-software-engineering-jobs** — Added "GitHub COO's Optimistic View" section: historical analogy to prior language abstraction shifts, interns doing months of work in weeks, hiring shifting to why/how reasoning over syntax.
+- **agentic-ai** — Added AI SRE to "Current Implementations": narrow domain + curated knowledge base + iterative learning = highly effective operational agent.
+- **ai-critical-perspectives** — Added "AI Pricing: Enshittification Begins" section: lock-in dynamics, per-token billing transition, enterprise exposure.
+- **ai-futures** — Added "Tegmark's 12 Endings" subsection under Scenario Planning: Conqueror, Benevolent Dictator, Zoo, Gatekeeper, post-scarcity utopias, technological regression.
+- **ai-safety** — Added Tegmark/MIT reference under "Expert Warnings" with extinction probability estimates from Hinton and Amodei.
+
+0 new pages created — all sources fit existing categories.
+
+## [2026-04-28] ingest | Integrate 3 new sources across 3 wiki pages
+
+**New sources integrated (3):**
+
+- **5 Agent Design Patterns For Long-Running AI Agents** (Google Cloud Tech) — Checkpoint-resume, delegated approval, memory-layered context, ambient processing, and fleet orchestration for production agents that run for days.
+- **Every Day 100+ People Ask Me How Can I Learn AI Evals** (Paul Iusztin) — Curated resources on AI evaluation: LLM-as-a-judge, evaluation-driven development, RAG-specific evals, error analysis, and binary vs. Likert scale tradeoffs.
+- **Fraud And The False Optimism Of AI For Science** (Jessica Hullman) — Critical examination of AI in scientific research: misattribution of AI-generated ideas as human contributions, the fraud spectrum, and why much pro-AI optimism is actually technological determinism.
+
+Pages updated:
+- **agentic-ai** — Added "Production Design Patterns" section covering Google's five composable patterns for stateful long-running agents (checkpoint-resume, human-in-loop, memory layers, ambient processing, fleet orchestration).
+- **rag-and-knowledge-systems** — Added "Evaluating AI Systems" section on eval methodologies: LLM-as-judge, evaluation-driven development, RAG eval types, error analysis, and measurement tradeoffs.
+- **ai-critical-perspectives** — Added "AI in Scientific Research" section on fraud spectrum, misattribution risks, and the argument that pro-AI science narratives mask pessimism about human agency.
+
+0 new pages created — all sources fit existing categories.
+
 ## [2026-04-20] ingest | Integrate 5 new sources across 3 wiki pages
 
 **New sources integrated (5):** Alex Imas's structural reallocation theory (tweet + Fortune article), the "harness is everything" agent design analysis, NotebookLM vs Gemini Notebooks workflow guide, and a MarketWatch AI job displacement article.

@@ -32,6 +32,19 @@ Detailed narrative scenario: "Agent-1" and "Agent-2" models, China's AI race res
 
 See source: [AI 2027](../summaries/ai-2027.md)
 
+### Tegmark's 12 Endings (MIT)
+Drawing from Max Tegmark's *Life 3.0*, this framework maps twelve possible AI futures spanning a spectrum from extinction to utopia. Key scenarios:
+- **Conqueror** — Superintelligent AI dominates humanity (comparable to historical conquistadors); mainstream AI researchers estimate 1-in-6 odds of AI-caused extinction
+- **Benevolent Dictator** — AI provides universal comfort through total surveillance, eliminating freedom while maximizing happiness
+- **Zoo** — Humans preserved as captive subjects for superintelligent study — possibly worse than extinction as it removes all agency
+- **Gatekeeper** — AI prevents rival superintelligences while allowing human autonomy
+- **Post-Scarcity Utopias** (Egalitarian and Libertarian) — both face instability since vastly superior intelligences have no reason to respect human property rights
+- **Technological Regression** — game theory makes unilateral disarmament impossible
+
+Geoffrey Hinton and Dario Amodei have publicly acknowledged significant extinction risks, with some estimates as high as 25%.
+
+See source: [MIT Explains the 12 Possible Endings for AI](../summaries/mit-explains-the-12-possible-endings-for-ai.md)
+
 ### Personal Preparation
 Nate Silver's framework for how individuals should prepare for an AI-transformed world.
 
