@@ -6,6 +6,7 @@ ingest into wiki, and open a PR.
 Usage:
     python3 ingest.py              # sync + summarize + ingest + PR
     python3 ingest.py --skip-sync  # skip Readwise sync
+    python3 ingest.py --resume     # skip sync+summarize; just ingest+commit+PR (recovery)
 """
 
 import argparse
@@ -13,6 +14,7 @@ import asyncio
 import hashlib
 import json
 import os
+import shutil
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -176,12 +178,84 @@ def run(cmd: list[str], **kwargs) -> subprocess.CompletedProcess:
     return subprocess.run(cmd, check=True, **kwargs)
 
 
+def resume() -> None:
+    """Recovery mode: re-run the wiki ingest step and open/update the PR.
+
+    Use this when a previous ingest run completed sync and summarize but failed
+    before the wiki ingest, commit, or PR steps. Summaries must already exist in
+    ``summaries/`` and the working branch must already be checked out.
+
+    Steps:
+    1. Look up any open "Wiki ingest" PR so we can report its URL instead of
+       creating a duplicate.
+    2. Run Claude against ``WIKI_INGEST_PROMPT`` to update wiki pages from the
+       existing summaries.
+    3. Stage ``wiki/`` and ``summaries/``, commit, and push the current branch.
+    4. If an open PR exists, report its URL (the push updates it automatically).
+       Otherwise create a new PR.
+    """
+    existing_pr_result = subprocess.run(
+        ["gh", "pr", "list", "--search", "Wiki ingest", "--json", "number,headRefName,url", "--limit", "1"],
+        capture_output=True, text=True,
+    )
+    open_prs = json.loads(existing_pr_result.stdout) if existing_pr_result.returncode == 0 else []
+    branch = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"],
+                            capture_output=True, text=True).stdout.strip()
+    print(f"==> Resuming ingest on branch: {branch}")
+    print("==> Running Claude to ingest summaries into wiki...")
+    claude_bin = shutil.which("claude") or "/home/mk/.local/bin/claude"
+    run(
+        [claude_bin, "-p", "--permission-mode", "auto",
+         "--allowedTools", "Read Edit Write Glob Grep Bash"],
+        input=WIKI_INGEST_PROMPT,
+        text=True,
+    )
+    no_changes = (
+        subprocess.run(["git", "diff", "--quiet"]).returncode == 0
+        and subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode == 0
+    )
+    if no_changes:
+        print("==> No wiki changes after resume.")
+        sys.exit(0)
+    print("==> Committing changes...")
+    run(["git", "add", "wiki/", "summaries/"])
+    run(["git", "commit", "-m",
+         f"Ingest new sources into wiki ({datetime.now().strftime('%Y-%m-%d')})"])
+    print("==> Pushing branch...")
+    run(["git", "push", "-u", "origin", branch])
+    if open_prs:
+        pr = open_prs[0]
+        print(f"==> Done! Changes pushed to existing PR: {pr['url']}")
+    else:
+        print("==> Creating pull request...")
+        pr_body = (
+            "## Summary\n\n"
+            "Automated ingest of new/unreferenced source documents into the wiki.\n\n"
+            "Review the diff to see exactly what changed in each wiki page.\n\n"
+            "See `wiki/log.md` for a summary of what was ingested.\n"
+        )
+        result = subprocess.run(
+            ["gh", "pr", "create",
+             "--title", f"Wiki ingest {datetime.now().strftime('%Y-%m-%d')}",
+             "--body", pr_body],
+            capture_output=True, text=True, check=True,
+        )
+        print("==> Done! PR created:")
+        print(result.stdout.strip())
+    sys.exit(0)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--skip-sync", action="store_true", help="Skip Readwise sync")
+    parser.add_argument("--resume", action="store_true",
+                        help="Skip sync+summarize; resume from wiki ingest (recovery mode)")
     args = parser.parse_args()
 
     os.chdir(BASE_DIR)
+
+    if args.resume:
+        resume()
 
     # 1. Sync from Readwise
     if not args.skip_sync:
@@ -226,8 +300,9 @@ def main() -> None:
 
     # 5. Wiki ingest via claude CLI (agentic — needs tool use across wiki pages)
     print("==> Running Claude to ingest summaries into wiki...")
+    claude_bin = shutil.which("claude") or "/home/mk/.local/bin/claude"
     run(
-        ["claude", "-p", "--permission-mode", "auto",
+        [claude_bin, "-p", "--permission-mode", "auto",
          "--allowedTools", "Read Edit Write Glob Grep Bash"],
         input=WIKI_INGEST_PROMPT,
         text=True,

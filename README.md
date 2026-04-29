@@ -53,6 +53,17 @@ python3 ingest.py --skip-sync  # skip Readwise sync (sources already up to date)
 
 Early exit (no branch created) if nothing is new after sync.
 
+### Recovery
+
+If a run fails partway through — after summarize but before ingest or PR — you can resume from the ingest step without re-syncing or re-summarizing:
+
+```bash
+git checkout <the ingest branch>   # branch created during the failed run
+python3 ingest.py --resume
+```
+
+`--resume` skips steps 1–2, runs the wiki ingest against the existing summaries, then commits, pushes, and creates or updates the PR. Use it when you see summaries in `summaries/` but no (or an incomplete) PR.
+
 ## Using the Wiki
 
 Open this folder as an Obsidian vault. All pages use standard markdown links for cross-references, which work on both GitHub and Obsidian. The graph view shows how everything connects.
