@@ -60,6 +60,12 @@ Aaron Levie argues AI won't eliminate software engineering demand — it will sp
 
 See source: [When People Think Software Engineers They Tend To Think Jobs](../summaries/when-people-think-software-engineers-they-tend-to-think-jobs.md)
 
+## GitHub COO's Optimistic View
+
+Kyle Daigle (GitHub COO) argues this is the best time ever to be a developer. The transition from code completion to agentic AI mirrors historical technology shifts (punch cards → assembly → high-level languages) that created more developers rather than fewer. The key insight: someone must still define what to build and understand user needs — AI cannot replicate that creative judgment. Interns using AI are accomplishing months of work in weeks, demonstrating that developers fluent in AI amplification gain immediate competitive advantages. The hiring focus is shifting from syntax knowledge to demonstrating *why* particular tools and approaches were chosen.
+
+See source: [GitHub COO: Why Now Is the BEST Time to Be a Developer](../summaries/github-coo-why-now-is-the-best-time-to-be-a-developer-kyle.md)
+
 ## Related
 
 - [Agentic Coding](agentic-coding.md)

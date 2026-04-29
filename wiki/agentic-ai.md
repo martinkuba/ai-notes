@@ -22,6 +22,7 @@ See source: [AI Is About To Completely Change How You Use Computers](../summarie
 - **Salesforce Agentforce** — Enterprise platform for building custom digital agents. See source: [Salesforce S New AI Platform](../summaries/salesforce-s-new-ai-platform-lets-companies-build-their-own.md)
 - **Deep Research tools** — Agents that conduct multi-step research autonomously ([Deep Research](deep-research.md))
 - **OpenClaw** — An autonomous agent architecture running an entire company: Jarvis (router), Atlas (research), Scribe (copywriter), Trendy (trend scout) for ~$400/month. See source: [This Army Of Openclaw Agents Runs An Entire Company](../summaries/this-army-of-openclaw-agents-runs-an-entire-company-for.md)
+- **AI SRE** — A specialized Site Reliability Engineer agent built in 60 minutes using Claude and Grafana's gcx CLI. Narrow scope (one service domain) + skill-based architecture (alert playbooks, runbooks, past incidents) proved highly effective; false positive rate dropped below 10% after 4-5 investigations. Persistent, file-based knowledge bases that grow with each incident and integrate into PR workflows. Broad implication: this basic AI SRE capability will become a standard platform feature for every observability vendor. See source: [I Built An AI SRE In 60mins, You Should Too](../summaries/i-built-an-ai-sre-in-60mins-you-should-too.md)
 
 ## Production Design Patterns
 

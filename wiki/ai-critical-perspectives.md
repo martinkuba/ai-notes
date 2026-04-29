@@ -67,6 +67,12 @@ See source: [Fraud And The False Optimism Of AI For Science](../summaries/fraud-
 - **Linus Torvalds** — Skeptical of near-term AGI claims
 - **Geoffrey Hinton** — Left Google to warn about dangers (not a hype skeptic but a risk realist). See [AI Safety](ai-safety.md)
 
+## AI Pricing: Enshittification Begins
+
+AI companies are starting to show the classic VC-funded "enshittification" pattern: low prices to build dependency, then drastic price increases once users are locked in. GitHub Copilot and Anthropic both recently suspended new signups, tightened usage limits, and shifted power users to per-token pricing. The concern is acute because enterprises that depend on AI for core functions (code generation, document analysis) may have no viable exit. Enterprise customers transitioning from per-seat to per-token billing face dramatically higher costs for heavy usage — with no functional alternative if AI has become load-bearing infrastructure.
+
+See source: [It Is Finally Happening](../summaries/it-is-finally-happening.md)
+
 ## Related
 
 - [AI And Jobs](ai-and-jobs.md)
