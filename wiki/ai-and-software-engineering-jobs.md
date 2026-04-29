@@ -50,7 +50,7 @@ See source: [Will Artificial Intelligence Replace Software Developers](../summar
 
 ## "Coding Is Largely Solved"
 
-Boris Cherny (head of [Claude Code](claude-code.md)) claims 100% AI-authored code since November, 200% productivity gains at Anthropic, and predicts the title "software engineer" will be replaced by "builder." Semi Analysis reports 4% of all GitHub commits are by Claude Code, projected to reach 20% by year-end.
+[Boris Cherny](boris-cherny.md) (head of [Claude Code](claude-code.md)) claims 100% AI-authored code since November, 200% productivity gains at Anthropic, and predicts the title "software engineer" will be replaced by "builder." Semi Analysis reports 4% of all GitHub commits are by Claude Code, projected to reach 20% by year-end.
 
 See source: [Head Of Claude Code What Happens After Coding Is Solved](../summaries/head-of-claude-code-what-happens-after-coding-is-solved.md)
 

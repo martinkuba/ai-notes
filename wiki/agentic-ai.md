@@ -50,7 +50,7 @@ See source: [What Fully Automated Firms Will Look Like](../summaries/what-fully-
 
 ## Enterprise Roles: The Agent Deployer
 
-As enterprises adopt AI agents, a new critical role is emerging: the **agent deployer and manager**. This person is a technical-business hybrid who identifies high-leverage workflows where agents can deliver 100x improvements in speed or scale (e.g., lead qualification, contract review, knowledge base creation). Key responsibilities include workflow design, data mapping, system integration (using MCP, APIs, CLIs), human-in-the-loop interface design, and ongoing performance monitoring. The role will likely be distributed across teams rather than centralized, and represents a strong career opportunity for technically-minded engineers repositioning for the AI era.
+As enterprises adopt AI agents, a new critical role is emerging: the **agent deployer and manager**. This person is a technical-business hybrid who identifies high-leverage workflows where agents can deliver 100x improvements in speed or scale (e.g., lead qualification, contract review, knowledge base creation). Key responsibilities include workflow design, data mapping, system integration (using [MCP](mcp.md), APIs, CLIs), human-in-the-loop interface design, and ongoing performance monitoring. The role will likely be distributed across teams rather than centralized, and represents a strong career opportunity for technically-minded engineers repositioning for the AI era.
 
 See source: [The More Enterprises I Talk To About AI Agent Transformation](../summaries/the-more-enterprises-i-talk-to-about-ai-agent-transformation.md)
 

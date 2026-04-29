@@ -4,7 +4,7 @@ tags: [companies, anthropic, claude, safety]
 
 # Anthropic
 
-AI safety company. Creator of Claude. Founded by [Dario Amodei](dario-amodei.md) and Daniela Amodei (former OpenAI researchers). Positions itself as safety-focused but navigates tensions between commercial pressure and safety commitments.
+AI safety company. Creator of Claude. Founded by [Dario Amodei](dario-amodei.md) and Daniela Amodei (former [OpenAI](openai.md) researchers). Positions itself as safety-focused but navigates tensions between commercial pressure and safety commitments.
 
 ## Products
 

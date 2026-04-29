@@ -22,7 +22,7 @@ Code is cheap to generate, reshape, and throw away. The cost of *writing* drops 
 Karpathy warns of a coming "slopacolypse" — a flood of low-quality AI-generated code. AI makes conceptual errors, tends toward over-complexity, and produces code that is hard to verify. See [A Few Random Notes From Claude Coding Quite A Bit](../summaries/a-few-random-notes-from-claude-coding-quite-a-bit.md)
 
 ### Comprehension Debt
-Addy Osmani introduces "comprehension debt" — the growing gap between how much code exists in a system and how much any human genuinely understands. Unlike technical debt, it breeds false confidence: the codebase looks clean and tests pass, but no one can explain the design decisions. An Anthropic study found AI-assisted developers scored 17% lower on comprehension tests, with the largest declines in debugging ability. The core problem is a speed asymmetry: AI generates code faster than humans can evaluate it. Traditional code review served as both quality gate and knowledge distribution; AI-generated volume breaks that loop. Critically, current metrics (velocity, DORA, coverage) cannot capture comprehension deficits, making this more insidious than technical debt. See [Comprehension Debt - The Hidden Cost Of AI Generated Code](../summaries/comprehension-debt-the-hidden-cost-of-ai-generated-code.md)
+[Addy Osmani](addy-osmani.md) introduces "comprehension debt" — the growing gap between how much code exists in a system and how much any human genuinely understands. Unlike technical debt, it breeds false confidence: the codebase looks clean and tests pass, but no one can explain the design decisions. An Anthropic study found AI-assisted developers scored 17% lower on comprehension tests, with the largest declines in debugging ability. The core problem is a speed asymmetry: AI generates code faster than humans can evaluate it. Traditional code review served as both quality gate and knowledge distribution; AI-generated volume breaks that loop. Critically, current metrics (velocity, DORA, coverage) cannot capture comprehension deficits, making this more insidious than technical debt. See [Comprehension Debt - The Hidden Cost Of AI Generated Code](../summaries/comprehension-debt-the-hidden-cost-of-ai-generated-code.md)
 
 ## The Job Market Is Shifting
 
@@ -76,7 +76,7 @@ A new inequality: engineers who learn to leverage AI tools effectively pull far 
 
 ## "Coding Is Largely Solved"
 
-Boris Cherny (head of [Claude Code](claude-code.md)) claims 100% AI-authored code since November, 200% productivity gains at Anthropic. Semi Analysis found 4% of all GitHub commits authored by Claude Code (likely higher for private repos), projecting 20% by year-end. Boris predicts the title "software engineer" will disappear, replaced by "builder."
+[Boris Cherny](boris-cherny.md) (head of [Claude Code](claude-code.md)) claims 100% AI-authored code since November, 200% productivity gains at Anthropic. Semi Analysis found 4% of all GitHub commits authored by Claude Code (likely higher for private repos), projecting 20% by year-end. Boris predicts the title "software engineer" will disappear, replaced by "builder."
 
 See source: [Head Of Claude Code What Happens After Coding Is Solved](../summaries/head-of-claude-code-what-happens-after-coding-is-solved.md)
 

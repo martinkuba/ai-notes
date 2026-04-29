@@ -10,6 +10,7 @@ AI researcher. Former Director of AI at Tesla, former OpenAI researcher. Influen
 
 Reports spending ~80% of coding time in agent-driven mode. Key observations:
 - AI makes conceptual errors and tends toward over-complexity
+- Coined "[vibe coding](vibe-coding.md)" for prompt-and-accept AI programming
 - The "slopacolypse" — expects a flood of low-quality AI-generated code in 2026
 - Despite risks, productivity gains are real (estimates ~10x for certain tasks)
 - The transition requires vigilance in code review

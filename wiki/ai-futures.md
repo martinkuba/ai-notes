@@ -41,7 +41,7 @@ Drawing from Max Tegmark's *Life 3.0*, this framework maps twelve possible AI fu
 - **Post-Scarcity Utopias** (Egalitarian and Libertarian) — both face instability since vastly superior intelligences have no reason to respect human property rights
 - **Technological Regression** — game theory makes unilateral disarmament impossible
 
-Geoffrey Hinton and Dario Amodei have publicly acknowledged significant extinction risks, with some estimates as high as 25%.
+[Geoffrey Hinton](geoffrey-hinton.md) and [Dario Amodei](dario-amodei.md) have publicly acknowledged significant extinction risks, with some estimates as high as 25%.
 
 See source: [MIT Explains the 12 Possible Endings for AI](../summaries/mit-explains-the-12-possible-endings-for-ai.md)
 

@@ -14,7 +14,7 @@ Predictions for when artificial general intelligence will arrive, and what happe
 | Sam Altman | Superintelligence by ~2034 | [AGI Is Coming Faster Than We Think](../summaries/agi-is-coming-faster-than-we-think-we-must-get-ready-now.md) |
 | Ray Kurzweil | Singularity by 2029 | [Humanity May Reach Singularity Within Just 7 Years](../summaries/humanity-may-reach-singularity-within-just-7-years-trend.md) |
 | [Leopold Aschenbrenner](leopold-aschenbrenner.md) | AGI by 2027 | [Situational Awareness](situational-awareness.md) |
-| OpenAI employee | "We have already achieved AGI" (with o1) | [We Have Already Achieved AGI](../summaries/we-have-already-achieved-agi-its-even-more-clear-with-o1.md) |
+| [OpenAI](openai.md) employee | "We have already achieved AGI" (with [o1](reasoning-models.md)) | [We Have Already Achieved AGI](../summaries/we-have-already-achieved-agi-its-even-more-clear-with-o1.md) |
 | ai-2027.com | Detailed 2027 scenario with Agent-1/Agent-2 | [AI 2027](../summaries/ai-2027.md) |
 
 ## Skeptics

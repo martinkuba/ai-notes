@@ -4,7 +4,7 @@ tags: [tools, coding, anthropic, agents]
 
 # Claude Code
 
-Anthropic's terminal-based [Agentic Coding](agentic-coding.md) tool. Created by Boris Cherny. Operates in a terminal rather than an IDE, following a deliberate design philosophy around directness and composability.
+Anthropic's terminal-based [Agentic Coding](agentic-coding.md) tool. Created by [Boris Cherny](boris-cherny.md). Operates in a terminal rather than an IDE, following a deliberate design philosophy around directness and composability.
 
 ## Workflow
 
@@ -25,7 +25,7 @@ See source: [Best Practices For Claude Code](../summaries/best-practices-for-cla
 ## Customization
 
 - **CLAUDE.md** — Project-level instructions that shape agent behavior. Functions like a persistent system prompt scoped to the repo.
-- **MCP servers** — Extend Claude Code with external tool access (databases, APIs, etc.)
+- **[MCP](mcp.md) servers** — Extend Claude Code with external tool access (databases, APIs, etc.)
 - **Custom slash commands** — User-defined workflows invoked via `/command`
 - **Tool allowlists** — Control which bash commands the agent can run without confirmation
 - **Claude Skills** — Reusable, scoped instruction sets (SKILL.md files) that Claude loads on demand via progressive disclosure. Unlike Projects (persistent context), Skills are executable workflows with clear inputs/outputs. Use cases include brand guidelines, lead scoring, report generation, and decision frameworks.
@@ -58,7 +58,7 @@ See sources: [How To Build Your AI Second Brain Using Obsidian Claude Code](../s
 
 Described as a turning point in how software is built. Ethan Mollick frames it as evidence that AI is moving from "tool" to "colleague" in software engineering. The "Claude Christmas" event (late 2024) marked a step change in coding agent capability.
 
-Boris Cherny (head of Claude Code) reports 100% AI-authored code since November, shipping 10-30 PRs daily with 5 parallel agents. Semi Analysis found 4% of all GitHub commits authored by Claude Code (likely higher in private repos), projecting 20% by year-end. Boris predicts "coding is largely solved" and the title "software engineer" will be replaced by "builder." Productivity per engineer up 200% at Anthropic.
+[Boris Cherny](boris-cherny.md) (head of Claude Code) reports 100% AI-authored code since November, shipping 10-30 PRs daily with 5 parallel agents. Semi Analysis found 4% of all GitHub commits authored by Claude Code (likely higher in private repos), projecting 20% by year-end. Boris predicts "coding is largely solved" and the title "software engineer" will be replaced by "builder." Productivity per engineer up 200% at Anthropic.
 
 See sources: [Claude Code And What Comes Next](../summaries/claude-code-and-what-comes-next.md), [AI Writes The Code Now Whats Left For Software Engineers](../summaries/ai-writes-the-code-now-whats-left-for-software-engineers.md), [A Very Special Guest On This Episode Of The Lightcone](../summaries/a-very-special-guest-on-this-episode-of-the-lightcone.md), [Head Of Claude Code What Happens After Coding Is Solved](../summaries/head-of-claude-code-what-happens-after-coding-is-solved.md)
 

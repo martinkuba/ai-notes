@@ -5,7 +5,9 @@ Content catalog of all wiki pages, organized by category. Updated on each ingest
 ## Entities
 
 ### People
+- [Addy Osmani](addy-osmani.md) — Engineer/writer, coined "comprehension debt" and "agentic engineering"
 - [Andrej Karpathy](andrej-karpathy.md) — AI researcher, observations on agentic coding and productivity
+- [Boris Cherny](boris-cherny.md) — Creator of Claude Code; "coding is largely solved"
 - [Dario Amodei](dario-amodei.md) — Anthropic CEO, author of "Machines of Loving Grace", AGI predictions
 - [Ethan Mollick](ethan-mollick.md) — Wharton professor, practical AI adoption and frameworks
 - [Geoffrey Hinton](geoffrey-hinton.md) — "Godfather of AI", left Google to warn about AI risks
@@ -13,19 +15,23 @@ Content catalog of all wiki pages, organized by category. Updated on each ingest
 
 ### Organizations
 - [Anthropic](anthropic.md) — AI safety company, creator of Claude and Claude Code
+- [OpenAI](openai.md) — Frontier AI lab; creator of GPT, o-series reasoning models, Deep Research
 
 ## Concepts
 
 ### Technical
 - [How LLMS Work](how-llms-work.md) — Token prediction, neural networks, model architectures
+- [Reasoning Models](reasoning-models.md) — Structured-reasoning LLMs (o1, Extended Thinking)
 - [Scaling And Compute](scaling-and-compute.md) — Scaling laws, trillion-dollar clusters, chip supply chains
 - [RAG And Knowledge Systems](rag-and-knowledge-systems.md) — Retrieval-augmented generation, vector databases, knowledge management
 - [Prompt Engineering](prompt-engineering.md) — Crafting effective inputs for AI systems
+- [MCP](mcp.md) — Model Context Protocol; standard for connecting agents to tools
 
 ### Coding
 - [Agentic Coding](agentic-coding.md) — The shift to AI agent-driven software development
 - [Claude Code](claude-code.md) — Anthropic's terminal-based agentic coding tool
 - [Spec Driven Development](spec-driven-development.md) — Writing specs before engaging coding agents
+- [Vibe Coding](vibe-coding.md) — Karpathy's term for prompt-and-accept AI programming
 
 ### Applications
 - [Agentic AI](agentic-ai.md) — Autonomous multi-step AI systems (the "third wave")

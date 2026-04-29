@@ -2,6 +2,26 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-04-29] lint | Close gap and orphan findings from audit
+
+Acted on the highest-leverage findings from the wiki lint audit.
+
+**6 new pages created** to close gap candidates flagged in the audit:
+- **openai.md** — Organization page for OpenAI; collects products (GPT, o-series, Deep Research, Swarm), AGI claims, Pentagon red lines, copyright lawsuits, and the Anthropic-vs-OpenAI messaging tension.
+- **addy-osmani.md** — Person page for Osmani; consolidates "comprehension debt," "ambient anxiety tax," "agentic engineering," parallel agent ceiling, and the IDE de-centering thesis.
+- **boris-cherny.md** — Person page for the Claude Code creator; centralizes the "coding is largely solved" claims (100%/200%/4%/20%) and explicitly notes the tension with METR/CEO survey evidence.
+- **vibe-coding.md** — Concept page for Karpathy's term; contrasts vibe coding vs. agentic engineering and links to the vibe specs corrective.
+- **mcp.md** — Concept page for Model Context Protocol; positions MCP as the protocol layer of the agent harness.
+- **reasoning-models.md** — Concept page for o1/Extended Thinking/GPT-5.2 Thinking; previously a broken link in `how-llms-work.md`.
+
+**Orphan fix**: Converted three plain-text "Geoffrey Hinton" mentions into wiki links in `ai-safety.md`, `ai-critical-perspectives.md`, and `ai-futures.md`. The page now has inbound links.
+
+**Inline cross-references added** so the new pages aren't themselves orphans: `agentic-coding.md` now links to `vibe-coding.md`, `addy-osmani.md`, and `mcp.md`; `claude-code.md` now links to `boris-cherny.md` and `mcp.md`; `ai-impact-on-software-engineering.md` and `ai-and-software-engineering-jobs.md` link to `boris-cherny.md` and `addy-osmani.md`; `agi-timelines.md` and `deep-research.md` link to `openai.md`; `anthropic.md`, `agentic-ai.md`, `prompt-engineering.md`, `andrej-karpathy.md`, and `spec-driven-development.md` updated with the relevant new-page links.
+
+**Index updated**: Added Osmani and Cherny under People, OpenAI under Organizations, Reasoning Models and MCP under Technical, and Vibe Coding under Coding.
+
+Remaining audit findings not addressed in this pass: contradictions (Karpathy 80/20 dating, Aschenbrenner timeline phrasing), stale-claim date anchoring (Amodei AGI by 2026, "year-end" ambiguity, METR "early 2025"), and several smaller gaps (Aaron Levie, DeepSeek cross-link, Apple/Obsidian duplication, Gary Marcus, MIT/CEO stat duplication, Tegmark cross-link).
+
 ## [2026-04-28] ingest | Integrate 4 new sources across 4 wiki pages
 
 **New sources integrated (4):**

@@ -9,7 +9,7 @@ AI tools that autonomously conduct multi-step research — browsing the web, rea
 ## Tools
 
 ### OpenAI Deep Research
-Stunned professionals with its ability to produce research reports rivaling junior analysts. Multi-step: plans a research approach, executes searches, reads sources, synthesizes.
+[OpenAI](openai.md)'s deep research agent. Stunned professionals with its ability to produce research reports rivaling junior analysts. Multi-step: plans a research approach, executes searches, reads sources, synthesizes.
 
 See source: [These Pros Were Stunned By Openai Deep Research](../summaries/these-pros-were-stunned-by-openai-deep-research.md)
 

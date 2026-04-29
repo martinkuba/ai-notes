@@ -8,7 +8,7 @@ An emerging methodology where detailed specifications are written *before* engag
 
 ## Why Specs Matter for Agents
 
-AI agents need clear, unambiguous instructions to produce good output. Without specs, [Agentic Coding](agentic-coding.md) degrades into "vibe coding" chaos — superficially working code that accumulates hidden defects. The spec bridges human intent and agent execution.
+AI agents need clear, unambiguous instructions to produce good output. Without specs, [Agentic Coding](agentic-coding.md) degrades into [vibe coding](vibe-coding.md) chaos — superficially working code that accumulates hidden defects. The spec bridges human intent and agent execution.
 
 ## Vibe Specs
 

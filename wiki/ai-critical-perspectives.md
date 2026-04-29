@@ -65,7 +65,7 @@ See source: [Fraud And The False Optimism Of AI For Science](../summaries/fraud-
 
 - **Gary Marcus** — Consistent critic of scaling approaches; argues current methods won't generalize
 - **Linus Torvalds** — Skeptical of near-term AGI claims
-- **Geoffrey Hinton** — Left Google to warn about dangers (not a hype skeptic but a risk realist). See [AI Safety](ai-safety.md)
+- **[Geoffrey Hinton](geoffrey-hinton.md)** — Left Google to warn about dangers (not a hype skeptic but a risk realist). See [AI Safety](ai-safety.md)
 
 ## AI Pricing: Enshittification Begins
 

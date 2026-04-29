@@ -50,7 +50,7 @@ Prompting is just one of four levers for escaping the "averaged out" default AI 
 1. **Memory** — Persistent facts across conversations (platform-specific: ChatGPT conversation history, Claude project-scoped memory, Gemini Google app integration)
 2. **Instructions** — Persistent behavioral guidance (custom instructions, project instructions, CLAUDE.md files, style profiles)
 3. **Style controls** — Uploading writing samples for tone matching (Claude's style feature is particularly underused)
-4. **Apps and tools** — MCP connectors, web search, code execution, file access
+4. **Apps and tools** — [MCP](mcp.md) connectors, web search, code execution, file access
 
 See source: [90% Of AI Users Are Getting Mediocre Output](../summaries/90-of-ai-users-are-getting-mediocre-output-don-t-be-one-of.md)
 
