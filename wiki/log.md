@@ -2,6 +2,16 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-04-29] ingest | Integrate 1 new source across 2 wiki pages
+
+**New source integrated (1):**
+
+- **Skill Issue: Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI** (No Priors podcast, Apr 2026) — Karpathy describes the step-change beginning Dec 2024: delegating 80-90% of coding to agents, "manifesting will" through natural language. Introduces **AutoResearch** — autonomous agent loops discovering hyperparameter improvements humans missed in decades of manual tuning. Discusses "Program MDs" (research orgs described as markdown, optimizable by AI), the jagged intelligence landscape (superhuman on verifiable tasks, novice on subjective), and untrusted distributed worker pools for research.
+
+**Pages updated (2):**
+- **andrej-karpathy.md** — New section "The Loopy Era: AutoResearch and 80–90% Delegation" covering AutoResearch, Program MDs, jagged intelligence, and agent-as-content-router for education.
+- **agentic-ai.md** — Added AutoResearch to Current Implementations with link back to the Karpathy page.
+
 ## [2026-04-29] lint | Close gap and orphan findings from audit
 
 Acted on the highest-leverage findings from the wiki lint audit.
