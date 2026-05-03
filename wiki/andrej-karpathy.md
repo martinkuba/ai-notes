@@ -17,6 +17,21 @@ Reports spending ~80% of coding time in agent-driven mode. Key observations:
 
 See source: [A Few Random Notes From Claude Coding Quite A Bit](../summaries/a-few-random-notes-from-claude-coding-quite-a-bit.md)
 
+## The Loopy Era: AutoResearch and 80–90% Delegation
+
+In a 2026 interview, Karpathy describes a step-change beginning December 2024 — delegating 80-90% of coding to agents and entering what he calls "AI psychosis": perpetual exploration of what's newly possible. The work mode shifts from writing code to "manifesting will" through natural language across multiple coordinated agents.
+
+**AutoResearch** is Karpathy's term for fully autonomous agent-driven research loops: agents optimize model hyperparameters and experimental setups without human intervention, discovering improvements he hadn't found in two decades of manual tuning. The implication is that humans are bottlenecks to scaling intelligence. He envisions extending this to entire research organizations described as markdown documents ("Program MDs") that can themselves be optimized by models — meta-level automation of institutional workflows.
+
+**The jagged intelligence landscape**: current AI systems are superhuman on verifiable, reward-optimized tasks (code generation, hyperparameter search) but novice-level on subjective, context-dependent tasks (humor, nuance, clarification). This jaggedness reflects reinforcement-learning optimization paths rather than generalized intelligence gains.
+
+Additional ideas:
+- Agents should be the target audience for technical documentation, acting as content routers that then explain things to humans in customized ways
+- AutoResearch could use distributed, untrusted worker pools (à la SETI@home) where result verification is cheap but generation is expensive
+- Open-source models are 6-8 months behind frontier and converging, creating a healthy Linux-like ecosystem
+
+See source: [Skill Issue: Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI](../summaries/skill-issue-andrej-karpathy-on-code-agents-autoresearch-and.md)
+
 ## Skills Profile
 
 A curated list of Karpathy's technical skills and knowledge areas — useful as a reference for AI research competencies.
