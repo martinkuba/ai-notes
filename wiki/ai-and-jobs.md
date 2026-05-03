@@ -37,9 +37,9 @@ See source: [AI Doesnt Reduce Workit Intensifies It](../summaries/ai-doesnt-redu
 
 ## The AI Fluency Divide
 
-A new class divide emerging between AI-fluent workers who leverage tools effectively and those who don't. This "AI fluency" gap may become the defining inequality of the era.
+A new class divide emerging between AI-fluent workers who leverage tools effectively and those who don't. This "AI fluency" gap may become the defining inequality of the era. The pressure is acutely felt by Gen Z, who face a contradictory mandate: warned that AI will eliminate entry-level jobs while simultaneously told they must adopt AI to remain employable. Only 18% of Gen Z express hopefulness about AI — yet 74% use chatbots monthly, often under social and institutional pressure.
 
-See source: [Behind The Curtain America S Next Class War AI Fluency](../summaries/behind-the-curtain-america-s-next-class-war-ai-fluency.md)
+See sources: [Behind The Curtain America S Next Class War AI Fluency](../summaries/behind-the-curtain-america-s-next-class-war-ai-fluency.md), [The More Young People Use AI, The More They Hate It](../summaries/the-more-young-people-use-ai-the-more-they-hate-it.md)
 
 ## Survival Guides for Workers
 

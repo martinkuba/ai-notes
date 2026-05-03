@@ -51,6 +51,16 @@ The AI industry's narrative also faces an internal credibility problem: OpenAI p
 
 See source: [There Are Signs of a Massive AI Backlash](../summaries/there-are-signs-of-a-massive-ai-backlash.md)
 
+## Gen Z Backlash
+
+Despite being early adopters, Gen Z's optimism about AI has collapsed: only 18% express hopefulness (down from 27%), and nearly 50% believe risks outweigh benefits. Young people face a contradictory pressure — told AI will eliminate jobs while simultaneously mandated to use it to remain competitive. Universities are integrating AI into curricula without clear pedagogical justification, often through direct OpenAI partnerships.
+
+Gen Z's skepticism is grounded: 74% use chatbots monthly, yet 65% believe the tools prevent critical engagement with ideas. Neuroscience research shows cognitive offloading through AI use reduces brain activity and critical thinking ability. AI use has also become culturally stigmatized among young people, creating shame around adoption. Their concerns extend to systemic harms: environmental damage, misinformation, and degraded human communication skills.
+
+> "AI cannot coexist with education — it can only degrade it. As technology advances and workers are replaced by machines, schools are some of the only places we have left to explore and wrestle with human thought."
+
+See source: [The More Young People Use AI, The More They Hate It](../summaries/the-more-young-people-use-ai-the-more-they-hate-it.md)
+
 ## AI in Scientific Research
 
 Jessica Hullman challenges the optimistic framing around AI-assisted science. Using AI to generate hypotheses, methodological choices, or framing — and presenting these as one's own novel contributions — is a form of misattribution. The line between legitimate tool use and fraud depends on whether the researcher maintains detailed knowledge of and control over all significant decisions the AI makes.

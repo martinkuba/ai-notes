@@ -2,6 +2,18 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-05-02] ingest | Integrate 1 new source across 2 wiki pages
+
+**New source integrated (1):**
+
+- **The More Young People Use AI, The More They Hate It** (The Verge, Janus Rose, Apr 2026) — Gen Z's AI optimism has collapsed: only 18% express hopefulness (down from 27%), nearly 50% believe risks outweigh benefits. Young people face a contradictory mandate — warned AI will eliminate jobs while told they must adopt it to remain competitive. Universities are integrating AI without clear pedagogical justification. Neuroscience research shows cognitive offloading reduces brain activity and critical thinking. AI use has become culturally stigmatized among Gen Z despite 74% monthly usage.
+
+**Pages updated (2):**
+- **ai-critical-perspectives.md** — New "Gen Z Backlash" section covering declining optimism statistics, contradictory job-market pressures, cognitive offloading concerns, cultural stigma, and systemic harms.
+- **ai-and-jobs.md** — Extended "The AI Fluency Divide" section with Gen Z context: the contradictory mandate and the gap between mandated use and genuine buy-in.
+
+---
+
 ## [2026-04-29] ingest | Integrate 1 new source across 2 wiki pages
 
 **New source integrated (1):**
