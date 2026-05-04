@@ -62,6 +62,18 @@ Analysis of AI business model viability rates four key factors: time freedom, re
 
 See source: [This Unique AI Business Model Will Make Millionaires In 2026](../summaries/this-unique-ai-business-model-will-make-millionaires-in-2026.md)
 
+## AI Industry Economics
+
+The current AI economy is under structural strain: the pricing models that attracted users are increasingly at odds with underlying infrastructure costs.
+
+- **Cash burn**: OpenAI's $120B investment funds only 18–24 months of operations at $5–7B/month burn. Anthropic faces similar pressure.
+- **Pricing tests**: Anthropic ran a "painted door" test — removing Claude Code from the $20 plan to gauge willingness to pay, finding customers would accept $100/month. Microsoft shifted GitHub Copilot from action-based to token-based pricing as different models cost up to 20x more to run.
+- **Google's structural advantage**: Google can invest $100B+/year in AI while remaining profitable, removing the urgent monetization pressure its competitors face.
+- **Token contraction ahead**: Companies burning through unlimited-usage tiers (one enterprise inadvertently ran a year-long overrun) will force token allocation caps. "Things just can't be as free as they once were."
+- **Genuine utility survives**: Despite the hype correction, AI offers real productivity value in specific applications — the reckoning is about sustainable pricing, not capability.
+
+See source: [The AI Economy Is About To Change](../summaries/the-ai-economy-is-about-to-change.md)
+
 ## Related
 
 - [AGI Timelines](agi-timelines.md)

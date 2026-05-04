@@ -25,6 +25,12 @@ A complex and evolving picture:
 - Extended thinking for complex reasoning. See source: [Claude S Extended Thinking](../summaries/claude-s-extended-thinking.md)
 - Long context window prompting. See source: [Prompt Engineering For Claude S Long Context Window](../summaries/prompt-engineering-for-claude-s-long-context-window.md)
 
+## Pricing and Economics
+
+Anthropic ran a "painted door" test — temporarily removing Claude Code from its $20/month plan to measure price sensitivity — finding customers would pay $100/month for the feature. This is part of a broader AI industry reckoning where frontier lab burn rates ($5–7B/month at competitors) force aggressive monetization. See the [AI Futures](ai-futures.md) page for the industry-wide economics picture.
+
+See source: [The AI Economy Is About To Change](../summaries/the-ai-economy-is-about-to-change.md)
+
 ## Model Evolution
 
 Simon Willison's analysis of system prompt changes between Claude Opus 4.6 (Feb 2026) and 4.7 (Apr 2026) reveals how model behavior evolves: Claude 4.7 is less pushy, more concise, better at autonomous tool use. Notable changes include strengthened child safety guardrails, a new `tool_search` mechanism to reduce false negatives about capabilities, new safeguards against "screenshot attacks" forcing yes/no answers, and guidance against excessive disclaimers. Behavioral directives that were removed indicate the newer model no longer exhibits those specific problems. The platform was also rebranded from "developer platform" to "Claude Platform" with new integrations (PowerPoint, Chrome, Excel).
