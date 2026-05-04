@@ -2,6 +2,18 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-05-03] ingest | Integrate 1 new source across 2 wiki pages
+
+**New source integrated (1):**
+
+- **The AI Economy Is About to Change** (The PrimeTime, YouTube, May 2026) — Covers the structural economic strain on AI companies: Anthropic's "painted door" pricing test ($20→$100/mo for Claude Code), Microsoft's GitHub Copilot shift from action-based to token-based pricing, OpenAI's $5–7B/month burn rate, and Google's structural advantage as a profitable AI investor. Argues that while free-tier contraction is inevitable, AI's genuine utility in specific applications survives the hype correction.
+
+**Pages updated (2):**
+- **ai-futures.md** — New "AI Industry Economics" section covering burn rates, pricing tests, Google's competitive advantage, and the token contraction ahead.
+- **anthropic.md** — New "Pricing and Economics" section noting Anthropic's painted-door test and linking to the broader industry economics picture.
+
+---
+
 ## [2026-05-02] ingest | Integrate 1 new source across 2 wiki pages
 
 **New source integrated (1):**
