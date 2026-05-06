@@ -2,6 +2,23 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-05-05] ingest | Integrate 3 new sources across 3 wiki pages (2 new)
+
+**New sources integrated (3):**
+
+- **How To Build A Team Of AI Agents That Replace Your First 3 Hires** (Khairallah AL-Awady, Twitter/X, May 2026) — Framework for solo founders building three specialized Claude agents (research, content, operations) connected via MCP servers to business tools. Shared knowledge base + quality gates turn independent tools into a coordinated team. Handles 70–80% of what three FTEs would do for subscription cost vs. $180K+/year.
+- **AI And The Quantity And Quality Of Creative Products: Have LLMs Boosted Creation Of Valuable Books?** (Reimers & Waldfogel, NBER working paper, 2025) — Rigorous empirical study of AI's effect on book publishing 2022–2025. Supply tripled; average quality fell (AI books get 61% fewer ratings); but consumer surplus rose 7.23% by 2025. Author selection (low-quality authors adopting AI) explains ~65% of quality gap. No displacement of incumbent authors.
+- **The Effects Of GenAI On Learning Performance: A Meta-Analysis Study** (Gökçül & Erdoğan, 2025) — 31 studies, 2,646 participants. Medium positive effect on learning (g=.689). K-12 benefits most; flipped classrooms and 1–3 month interventions are optimal; AI-integrated systems far outperform chatbots alone.
+
+**Pages updated (1):**
+- **agentic-ai.md** — Added Three-Agent Team for Solo Founders to Current Implementations.
+
+**New pages created (2):**
+- **ai-and-creative-work.md** — AI's effect on creative industries using books as the first large-scale empirical case; long tail expands, quality frontier unchanged; author selection dominates the quality gap.
+- **ai-and-education.md** — GenAI's effect on learning performance; meta-analysis evidence, contrasting cognitive cost literature, and design principles for effective AI-augmented learning.
+
+---
+
 ## [2026-05-03] ingest | Integrate 1 new source across 2 wiki pages
 
 **New source integrated (1):**
