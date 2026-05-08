@@ -24,6 +24,8 @@ Karpathy warns of a coming "slopacolypse" — a flood of low-quality AI-generate
 ### Comprehension Debt
 [Addy Osmani](addy-osmani.md) introduces "comprehension debt" — the growing gap between how much code exists in a system and how much any human genuinely understands. Unlike technical debt, it breeds false confidence: the codebase looks clean and tests pass, but no one can explain the design decisions. An Anthropic study found AI-assisted developers scored 17% lower on comprehension tests, with the largest declines in debugging ability. The core problem is a speed asymmetry: AI generates code faster than humans can evaluate it. Traditional code review served as both quality gate and knowledge distribution; AI-generated volume breaks that loop. Critically, current metrics (velocity, DORA, coverage) cannot capture comprehension deficits, making this more insidious than technical debt. See [Comprehension Debt - The Hidden Cost Of AI Generated Code](../summaries/comprehension-debt-the-hidden-cost-of-ai-generated-code.md)
 
+The mechanism that drives comprehension debt is **cognitive surrender**: accepting AI output without forming independent views, creating a loan of understanding that compounds each time the codebase is changed but not understood. Osmani distinguishes this from *cognitive offloading* (valid — retaining judgment while delegating execution) and identifies structural countermeasures: verification exit criteria, anti-rationalization tables, smaller PRs, and forming expectations *before* reviewing diffs. See source: [Cognitive Surrender](../summaries/cognitive-surrender.md)
+
 ## The Job Market Is Shifting
 
 The data is stark but mixed:

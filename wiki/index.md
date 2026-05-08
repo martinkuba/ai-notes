@@ -40,6 +40,8 @@ Content catalog of all wiki pages, organized by category. Updated on each ingest
 ### Society
 - [AI And Jobs](ai-and-jobs.md) — Employment impact, productivity paradox, work intensification
 - [AI And Software Engineering Jobs](ai-and-software-engineering-jobs.md) — Specific impact on the software engineering profession
+- [AI And Creative Work](ai-and-creative-work.md) — AI's effect on creative industries; books tripled but average quality fell; long tail expands, not the frontier
+- [AI And Education](ai-and-education.md) — Meta-analysis shows medium positive learning effect (g=.689); flipped classrooms and 1–3 month interventions work best
 - [AI Safety](ai-safety.md) — Alignment, consciousness, corporate responsibility, lab security
 - [AI Governance](ai-governance.md) — Policy, regulation, military AI, data privacy
 - [AI Geopolitics](ai-geopolitics.md) — US-China competition, semiconductor chokepoints
