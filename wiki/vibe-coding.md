@@ -37,6 +37,7 @@ A practical fix that keeps the speed but adds discipline: have the AI write the 
 
 - **Slopacolypse** — Karpathy's term for the coming flood of low-quality AI-generated code that vibe coding produces at scale. See [Andrej Karpathy](andrej-karpathy.md), [AI Impact On Software Engineering](ai-impact-on-software-engineering.md).
 - **Comprehension debt** — Code generated faster than humans can evaluate it; the codebase looks clean but no one understands the design decisions. See [Addy Osmani](addy-osmani.md).
+- **Cognitive surrender** — The psychological mechanism behind prompt-and-accept: the engineer's judgment is replaced by the AI's output without the engineer noticing. Surface signals (green tests, clean diffs) generate borrowed confidence. Each unexamined merge is a small cognitive debt payment. See [Addy Osmani](addy-osmani.md), source: [Cognitive Surrender](../summaries/cognitive-surrender.md).
 - **Skill atrophy** — Junior engineers who only vibe-code never develop the review and judgment skills that distinguish seniors.
 
 ## Related

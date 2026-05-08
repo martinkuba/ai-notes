@@ -2,6 +2,19 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-05-07] ingest | Integrate 1 new source across 3 wiki pages
+
+**New source integrated (1):**
+
+- **Cognitive Surrender** (Addy Osmani, Twitter/X, May 2026) — Distinguishes cognitive offloading (valid: delegate execution, retain judgment) from cognitive surrender (invalid: accept AI output wholesale without forming independent views). Research: 73% of participants accepted incorrect AI answers with confidence paradoxically increasing despite deliberate errors. Software engineers are uniquely vulnerable due to surface correctness signals. Antidotes span personal (form expectations before reviewing, devil's advocate prompts) and structural (verification exit criteria, anti-rationalization tables, smaller PRs).
+
+**Pages updated (3):**
+- **addy-osmani.md** — Added "cognitive surrender" to Coined Concepts alongside comprehension debt and ambient anxiety tax.
+- **vibe-coding.md** — Added cognitive surrender to Risks as the psychological mechanism behind prompt-and-accept.
+- **ai-impact-on-software-engineering.md** — Extended Comprehension Debt section to explain cognitive surrender as the mechanism that drives it.
+
+---
+
 ## [2026-05-05] ingest | Integrate 3 new sources across 3 wiki pages (2 new)
 
 **New sources integrated (3):**
