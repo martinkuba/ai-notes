@@ -70,15 +70,24 @@ See source: [How Fast Will A.I. Agents Rip Through The Economy](../summaries/how
 
 ## Environment and Harness Design
 
-The limiting factor in agent performance is not model capability but the "harness" — the complete designed environment in which the model operates. The SWE-agent research demonstrated 64% performance improvements through interface design alone, with identical underlying models. Key principles:
+The limiting factor in agent performance is not model capability but the "harness" — the complete designed environment in which the model operates. An agent equals a model plus a harness: everything beyond the model itself (prompts, tools, context policies, hooks, sandboxes, memory files). A decent model with an excellent harness consistently outperforms a great model with poor scaffolding.
+
+The SWE-agent research demonstrated 64% performance improvements through interface design alone, with identical underlying models. Key principles:
 
 - **The interface is cognitive architecture**: Everything in the context window determines what the model can reason about. Format is not decoration.
 - **Context window management**: Functions as working memory, not storage. Unbounded search results, stale state, and irrelevant data degrade reasoning.
+- **The Ratchet Principle**: Treat each agent failure as a permanent signal that generates lasting harness improvements — so the same mistake never recurs. See [Agent Harness](agent-harness.md).
 - **Multi-session architecture**: Long-running projects need explicit scaffolding — persistent state files, progress logs, two-agent patterns (initializer + coder).
 - **Feedback loops drive quality**: Immediate syntax checking, integrated linters, browser automation for end-to-end testing all improve output over delayed external feedback.
 - **The execution layer is a commodity**: Foundation models generate functional code reliably. The real moat is orchestration, state management, and constraint enforcement.
 
-See source: [The Harness Is Everything: What Cursor, Claude Code, and Perplexity Actually Built](../summaries/the-harness-is-everything-what-cursor-claude-code-and.md)
+See sources: [The Harness Is Everything: What Cursor, Claude Code, and Perplexity Actually Built](../summaries/the-harness-is-everything-what-cursor-claude-code-and.md), [Agent Harness Engineering](../summaries/agent-harness-engineering.md), [Deriving Agent Harnesses from First Principles](../summaries/deriving-agent-harnesses-from-first-principles.md)
+
+## Human-AI Competitive Advantage
+
+[Ethan Mollick](ethan-mollick.md) argues that when organizations use identical underlying models, the model cannot be a source of competitive differentiation. The durable moat is the *process architecture* — the reimagined workflow that integrates human judgment at high-variance decision points. Agentic workflows should deliberately preserve meaningful decisions for humans: not oversight theater, but genuine choices that produce variance in outcomes.
+
+See source: [A Critical Question in Agent Design](../summaries/a-critical-question-in-agent-design-is-how-do-we.md)
 
 ## Related
 

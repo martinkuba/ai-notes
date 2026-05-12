@@ -34,8 +34,17 @@ Analyzes the diverging strategies of AI companies through four lenses: AI models
 
 See source: [What Apple's AI Tells Us: Experimental Models](../summaries/what-apple-s-ai-tells-us-experimental-models4.md)
 
+### Competitive Advantage in the Agentic Era
+
+When multiple companies run on the same underlying models, the model itself becomes a commodity — not a source of differentiation. A Claude-run company has no inherent advantage over another Claude-run company. Sustainable competitive moats come from reimagining *how work is structured*, not from automating entire workflows. The durable moat is the process architecture that integrates human and AI capabilities in complementary ways.
+
+A corollary for agent design: workflows should deliberately preserve meaningful decision points for humans — not as oversight theater, but because human decisions that produce variance in outcomes are what differentiate organizations. "How do we build agentic workflows so humans are given significant, interesting, or variance-producing decisions as they come up in the work?"
+
+See source: [A Critical Question in Agent Design](../summaries/a-critical-question-in-agent-design-is-how-do-we.md)
+
 ## Related
 
 - [Prompt Engineering](prompt-engineering.md)
 - [Agentic Coding](agentic-coding.md)
+- [Agentic AI](agentic-ai.md)
 - [AI And Jobs](ai-and-jobs.md)

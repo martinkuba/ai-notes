@@ -29,6 +29,17 @@ Ben Thompson argues for ending China chip bans, doubling down on equipment restr
 
 See source: [AI Promise And Chip Precariousness](../summaries/ai-promise-and-chip-precariousness.md)
 
+## The End of the Scaling Era
+
+Ilya Sutskever (OpenAI co-founder) identifies three eras of AI progress:
+1. **2012–2020**: Research-driven discovery — novel approaches, experimental exploration
+2. **2020–2025**: Scaling execution — the pre-training recipe (compute + data + architecture) was discovered to yield predictable improvements, making scaling a low-risk investment
+3. **Post-2025**: Return to research — data scarcity and diminishing returns force new paradigms
+
+Pre-training data is finite and will run out; merely scaling existing approaches 100x is unlikely to produce transformative breakthroughs. The next era requires new research directions — potentially including reinforcement learning — but now with unprecedented computational budgets. This matches the DeepSeek observation below: algorithmic efficiency may matter as much as raw compute, and the field needs new techniques, not just more scale.
+
+See source: [The Era of Easy AI Progress Is Ending — Ilya Sutskever](../summaries/the-era-of-easy-ai-progress-is-ending-ilya-sutskever.md)
+
 ## DeepSeek Challenge
 
 DeepSeek demonstrated competitive AI performance with significantly less compute, challenging the "just scale up" narrative. Suggests algorithmic efficiency may matter as much as raw compute.

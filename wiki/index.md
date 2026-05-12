@@ -35,6 +35,7 @@ Content catalog of all wiki pages, organized by category. Updated on each ingest
 
 ### Applications
 - [Agentic AI](agentic-ai.md) — Autonomous multi-step AI systems (the "third wave")
+- [Agent Harness](agent-harness.md) — Scaffolding around models: tools, context policies, hooks, sandboxes, memory
 - [Deep Research](deep-research.md) — AI tools for autonomous multi-step research
 
 ### Society

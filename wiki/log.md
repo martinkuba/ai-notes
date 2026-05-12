@@ -2,6 +2,31 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-05-11] ingest | Integrate 6 new sources across 8 pages (1 new)
+
+**New sources integrated (6):**
+
+- **Agent Harness Engineering** (Addy Osmani, Twitter/X, May 2026) — Frames harness design as the emerging competitive discipline. Agent = Model + Harness. The Ratchet Principle: treat each failure as a permanent signal generating lasting harness improvements. A decent harness beats a great model.
+- **Deriving Agent Harnesses from First Principles** (Viv, Twitter/X, May 2026) — Works backward from desired agent behaviors to derive core harness primitives: filesystem (durable state), bash (general-purpose tool), sandboxes (safe execution), context management, long-horizon composition. Model and harness co-evolve.
+- **A Critical Question in Agent Design** (Ethan Mollick, Twitter/X, May 2026) — Argues agentic workflows should preserve meaningful human decision points. When all companies use the same models, the model is a commodity; the durable moat is process architecture that integrates human judgment at high-variance moments.
+- **The Era of Easy AI Progress Is Ending — Ilya Sutskever** (Dwarkesh Patel, YouTube, May 2026) — Three-era framework: research discovery (2012–2020), scaling execution (2020–2025), return to research (post-2025). Pre-training data is finite; 100x scaling won't transform capability; new training paradigms needed.
+- **Karpathy's 4 CLAUDE.md Rules Cut Claude Mistakes From 41% to 11%** (Mnimiy, Twitter/X, May 2026) — Karpathy's 4 foundational rules extended with 8 more targeting multi-step agent failures (token budgets, checkpointing, visible failures, test intent). CLAUDE.md over 200 lines causes sharp compliance drops.
+- **Using Claude Code: The Unreasonable Effectiveness of HTML** (Thariq, Twitter/X, May 2026) — HTML outperforms Markdown for AI-generated documents: higher information density, better readability at scale, easy sharing, interactive feedback loops. Key psychological benefit: keeps users in the loop with Claude's decisions.
+
+**New pages created (1):**
+- **agent-harness.md** — Comprehensive synthesis of harness engineering: components (filesystem, bash, sandboxes, memory, context management, hooks), the Ratchet Principle, behavior-driven design, and co-evolution with model training.
+
+**Pages updated (7):**
+- **addy-osmani.md** — Added Agent Harness Engineering section with Ratchet Principle and harness components.
+- **ethan-mollick.md** — Added Competitive Advantage in the Agentic Era section on model commoditization and process architecture as moat.
+- **agentic-ai.md** — Expanded Environment and Harness Design section with new sources and Ratchet Principle; added Human-AI Competitive Advantage section.
+- **scaling-and-compute.md** — Added The End of the Scaling Era section with Sutskever's three-era framework.
+- **claude-code.md** — Added CLAUDE.md Rules Engineering section (12-rule framework) and Output Format: HTML over Markdown section.
+- **andrej-karpathy.md** — Added CLAUDE.md Rules section linking to the 4-rule origin story.
+- **index.md** — Added agent-harness.md to Applications.
+
+---
+
 ## [2026-05-07] ingest | Integrate 1 new source across 3 wiki pages
 
 **New source integrated (1):**
