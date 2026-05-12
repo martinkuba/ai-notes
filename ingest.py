@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Sync sources from Readwise, generate summaries via Claude API,
+Sync sources from Readwise, generate summaries via Claude CLI,
 ingest into wiki, and open a PR.
 
 Usage:
@@ -20,15 +20,12 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import anthropic
-
 BASE_DIR = Path(__file__).parent
 SOURCES_DIR = BASE_DIR / "sources"
 SUMMARIES_DIR = BASE_DIR / "summaries"
 SUMMARY_STATE_PATH = SUMMARIES_DIR / ".summary-state.json"
-ENV_PATH = BASE_DIR / ".env"
 
-SUMMARIZE_MODEL = "claude-haiku-4-5"
+SUMMARIZE_MODEL = "claude-haiku-4-5-20251001"
 MAX_CONCURRENT = 5
 
 # Static system prompt — kept stable so it caches across all files in the batch.
@@ -96,22 +93,6 @@ Follow the conventions in CLAUDE.md. Do not modify summary files.
 """
 
 
-def get_anthropic_key() -> str:
-    key = os.environ.get("ANTHROPIC_API_KEY")
-    if key:
-        return key.strip()
-    if ENV_PATH.exists():
-        for line in ENV_PATH.read_text().splitlines():
-            line = line.strip()
-            if line.startswith("#") or "=" not in line:
-                continue
-            k, _, v = line.partition("=")
-            if k.strip() == "ANTHROPIC_API_KEY":
-                return v.strip().strip("'\"")
-    print("Error: ANTHROPIC_API_KEY not found. Set it as env var or in .env", file=sys.stderr)
-    sys.exit(1)
-
-
 def find_new_sources() -> list[str]:
     """Return filenames in sources/ whose content hash is new or changed."""
     state = json.loads(SUMMARY_STATE_PATH.read_text()) if SUMMARY_STATE_PATH.exists() else {}
@@ -133,30 +114,30 @@ def update_summary_state(filenames: list[str]) -> None:
 
 
 async def summarize_file(
-    client: anthropic.AsyncAnthropic,
     filename: str,
     semaphore: asyncio.Semaphore,
+    claude_bin: str,
 ) -> bool:
     src_path = SOURCES_DIR / filename
     dst_path = SUMMARIES_DIR / filename
 
     content = src_path.read_text()
     summarized_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    user_content = f"summarized_at: {summarized_at}\n\n{content}"
+    prompt = f"{SYSTEM_PROMPT}\n\nsummarized_at: {summarized_at}\n\n{content}"
 
     async with semaphore:
         try:
-            response = await client.messages.create(
-                model=SUMMARIZE_MODEL,
-                max_tokens=2048,
-                system=[{
-                    "type": "text",
-                    "text": SYSTEM_PROMPT,
-                    "cache_control": {"type": "ephemeral"},
-                }],
-                messages=[{"role": "user", "content": user_content}],
+            proc = await asyncio.create_subprocess_exec(
+                claude_bin, "-p", "--model", SUMMARIZE_MODEL,
+                stdin=asyncio.subprocess.PIPE,
+                stdout=asyncio.subprocess.PIPE,
+                stderr=asyncio.subprocess.PIPE,
             )
-            dst_path.write_text(response.content[0].text)
+            stdout, stderr = await proc.communicate(input=prompt.encode())
+            if proc.returncode != 0:
+                print(f"  Error summarizing {filename}: {stderr.decode()}", file=sys.stderr)
+                return False
+            dst_path.write_text(stdout.decode())
             print(f"  Summarized: {filename}")
             return True
         except Exception as e:
@@ -164,12 +145,10 @@ async def summarize_file(
             return False
 
 
-async def summarize_all(filenames: list[str]) -> list[str]:
+async def summarize_all(filenames: list[str], claude_bin: str) -> list[str]:
     """Summarize files in parallel. Returns list of successfully summarized filenames."""
-    api_key = get_anthropic_key()
-    client = anthropic.AsyncAnthropic(api_key=api_key)
     semaphore = asyncio.Semaphore(MAX_CONCURRENT)
-    tasks = [summarize_file(client, f, semaphore) for f in filenames]
+    tasks = [summarize_file(f, semaphore, claude_bin) for f in filenames]
     results = await asyncio.gather(*tasks)
     return [f for f, ok in zip(filenames, results) if ok]
 
@@ -202,8 +181,11 @@ def resume() -> None:
     branch = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"],
                             capture_output=True, text=True).stdout.strip()
     print(f"==> Resuming ingest on branch: {branch}")
+    claude_bin = shutil.which("claude")
+    if not claude_bin:
+        print("Error: claude not found on PATH", file=sys.stderr)
+        sys.exit(1)
     print("==> Running Claude to ingest summaries into wiki...")
-    claude_bin = shutil.which("claude") or "/home/mk/.local/bin/claude"
     run(
         [claude_bin, "-p", "--permission-mode", "auto",
          "--allowedTools", "Read Edit Write Glob Grep Bash"],
@@ -288,10 +270,15 @@ def main() -> None:
         print(f"==> Creating branch: {branch}")
         run(["git", "checkout", "-b", branch])
 
-    # 4. Summarize via Claude API (parallel)
+    claude_bin = shutil.which("claude")
+    if not claude_bin:
+        print("Error: claude not found on PATH", file=sys.stderr)
+        sys.exit(1)
+
+    # 4. Summarize via Claude CLI (parallel)
     SUMMARIES_DIR.mkdir(exist_ok=True)
-    print("==> Generating summaries via Claude API...")
-    summarized = asyncio.run(summarize_all(new_files))
+    print("==> Generating summaries via Claude CLI...")
+    summarized = asyncio.run(summarize_all(new_files, claude_bin))
     update_summary_state(summarized)
 
     if not summarized:
@@ -300,7 +287,6 @@ def main() -> None:
 
     # 5. Wiki ingest via claude CLI (agentic — needs tool use across wiki pages)
     print("==> Running Claude to ingest summaries into wiki...")
-    claude_bin = shutil.which("claude") or "/home/mk/.local/bin/claude"
     run(
         [claude_bin, "-p", "--permission-mode", "auto",
          "--allowedTools", "Read Edit Write Glob Grep Bash"],

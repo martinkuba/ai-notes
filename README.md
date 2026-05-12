@@ -17,25 +17,17 @@ wiki/             LLM-generated knowledge pages (summaries, entities, concepts,
 CLAUDE.md         Schema defining structure, conventions, and workflows
 sync-readwise.py  Pulls AI-tagged content from Readwise Reader into sources/
 ingest.py         Full pipeline: sync → summarize → ingest → PR
-requirements.txt  Python dependencies (anthropic)
 .env              API tokens (not committed)
 ```
 
 ## Setup
 
-1. Create and activate a virtual environment:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   pip install -r requirements.txt
-   ```
-2. Add API tokens to `.env`:
+1. Add your Readwise token to `.env`:
    ```
    READWISE_TOKEN=rw_xxxxxxxxxxxxx
-   ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxx
    ```
    - Readwise token: https://readwise.io/access_token
-   - Anthropic API key: https://console.anthropic.com/
+2. Ensure `claude` (Claude Code CLI) is on your PATH — summarization and wiki ingest both run through it. A Claude Code subscription is required.
 
 ## Running the Pipeline
 
@@ -47,7 +39,7 @@ python3 ingest.py --skip-sync  # skip Readwise sync (sources already up to date)
 `ingest.py` runs the full pipeline:
 
 1. **Sync** — pulls AI-tagged documents from Readwise Reader into `sources/` (incremental, stdlib only, tracks state in `sources/.sync-state.json`)
-2. **Summarize** — generates summary docs in `summaries/` via the Claude API (`claude-haiku-4-5`), parallelized up to 5 concurrent requests; skips sources whose content hasn't changed
+2. **Summarize** — generates summary docs in `summaries/` via the Claude CLI (`claude-haiku-4-5-20251001`), parallelized up to 5 concurrent requests; skips sources whose content hasn't changed
 3. **Ingest** — runs Claude Code to read summaries and create/update wiki pages, cross-references, index, and log
 4. **PR** — commits changes and opens a pull request
 
