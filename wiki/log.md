@@ -2,6 +2,25 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-05-14] ingest | Integrate 6 new sources across 4 pages (0 new)
+
+**New sources integrated (6):**
+
+- **How to Master Context Engineering** (Khairallah AL-Awady, Twitter/X, May 2026) — Argues context engineering (the information environment) beats prompt engineering (the wording). Three-layer context model: immediate/session/persistent. Four foundational context files; dynamic loading; memory systems from Markdown to RAG.
+- **20 Claude Prompts That Turn a $20 Subscription Into a Personal Assistant** (Anatoli Kopadze, Twitter/X, May 2026) — Prompt architecture patterns: role framing, structured output templates, multi-source synthesis, explicit constraints. Most users tap ~10% of Claude's capability.
+- **A Good AGENTS.md Is a Model Upgrade** (Slava Zhenylenko / AugmentCode, May 2026) — Empirical study: good AGENTS.md = Haiku-to-Opus quality jump; bad AGENTS.md degrades below no docs. Progressive disclosure (100–150 lines), procedural workflows, decision tables, and pairing prohibitions with alternatives all reliably improve agent output. Overexploration trap is the main failure mode.
+- **There Will Be No AI Jobpocalypse** (Andrew Ng, Twitter/X, May 2026) — Multiple incentive structures (labs, pricing, corporate PR) sustain the jobpocalypse narrative despite weak evidence. Healthy hiring and unemployment contradict it. Ng predicts an "AI jobapalooza."
+- **AI Is Killing the Career Ladder** (EO / Bharat Chandar, YouTube, May 2026) — Stanford research: 16% slower employment growth for early-career workers in AI-exposed roles; experienced workers unaffected. Career lattice model: AI lowers cost of learning adjacent skills, enabling profession switching.
+- **If Anyone Builds It, Everyone Thrives** (Séb Krier, Twitter/X, May 2026) — Introduces "Positive Alignment" research: beyond harm avoidance to actively enabling human flourishing. Key challenge: avoiding technocratic paternalism while supporting human agency.
+
+**Pages updated (4):**
+- **prompt-engineering.md** — Added Context Engineering section (three-layer model, infrastructure-beats-syntax thesis) and Role-Based Prompt Templates section (structured role framing, synthesis patterns).
+- **agent-harness.md** — Expanded Knowledge section with AGENTS.md Design: progressive disclosure, decision tables, overexploration trap, discovery statistics.
+- **ai-and-jobs.md** — Added The Jobpocalypse Narrative and Its Incentives section (Andrew Ng) and Early-Career Impact and the Career Lattice section (Bharat Chandar / Stanford).
+- **ai-safety.md** — Added Positive Alignment section (beyond harm avoidance to human flourishing).
+
+---
+
 ## [2026-05-11] ingest | Integrate 6 new sources across 8 pages (1 new)
 
 **New sources integrated (6):**

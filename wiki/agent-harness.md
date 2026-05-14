@@ -40,6 +40,23 @@ The harness provides all of these.
 ### Knowledge
 **Memory files** (CLAUDE.md, AGENTS.md) — inject persistent knowledge into the context window. Durable lessons from past failures become encoded constraints. See [Claude Code](claude-code.md) for CLAUDE.md conventions.
 
+#### AGENTS.md Design
+
+AugmentCode's empirical study (AuggieBench) found that well-designed `AGENTS.md` files can deliver quality improvements equivalent to upgrading from Haiku to Opus, while poorly-designed ones actively degrade output below having no documentation at all. The same file can simultaneously improve one task type by 25% while degrading another by 30% — documentation effectiveness is task-dependent.
+
+Patterns that reliably improve performance:
+- **Progressive disclosure** — 100–150 line main files with focused reference documents on-demand; avoid comprehensive architecture overviews
+- **Procedural workflows** — numbered multi-step workflows reduced missing components from 40% to 10%, increased correctness +25%
+- **Decision tables** — choice matrices for resolving common ambiguities (e.g., React Query vs Zustand) improved convention adherence +25%
+- **Real code examples** from the actual codebase, not generic patterns
+- **Pair prohibitions with alternatives** — "don't do X; do Y instead" outperforms warning-only lists
+
+Critical finding: `AGENTS.md` is the only documentation location with reliable discovery (100% of cases). Nested READMEs reach ~40%; orphan docs in `_docs/` folders under 10%. If it needs to be seen, it lives in `AGENTS.md` or is directly referenced from there.
+
+The **overexploration trap**: comprehensive architecture documentation pulls agents into reading dozens of unnecessary files, wasting context and degrading output. Fix the surrounding documentation environment, not just the entry point.
+
+See source: [A Good AGENTS.md Is a Model Upgrade. A Bad One Is Worse Than No Docs at All.](../summaries/a-good-agents-md-is-a-model-upgrade-a-bad-one-is-worse-than.md)
+
 ### Context Management
 Context rot is the gradual degradation of model reasoning as the context window fills with irrelevant, stale, or redundant content. Harnesses fight this through:
 - **Compaction** — summarizing earlier context
