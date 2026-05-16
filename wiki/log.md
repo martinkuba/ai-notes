@@ -2,6 +2,50 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-05-14] ingest | Integrate 6 new sources across 4 pages (0 new)
+
+**New sources integrated (6):**
+
+- **How to Master Context Engineering** (Khairallah AL-Awady, Twitter/X, May 2026) — Argues context engineering (the information environment) beats prompt engineering (the wording). Three-layer context model: immediate/session/persistent. Four foundational context files; dynamic loading; memory systems from Markdown to RAG.
+- **20 Claude Prompts That Turn a $20 Subscription Into a Personal Assistant** (Anatoli Kopadze, Twitter/X, May 2026) — Prompt architecture patterns: role framing, structured output templates, multi-source synthesis, explicit constraints. Most users tap ~10% of Claude's capability.
+- **A Good AGENTS.md Is a Model Upgrade** (Slava Zhenylenko / AugmentCode, May 2026) — Empirical study: good AGENTS.md = Haiku-to-Opus quality jump; bad AGENTS.md degrades below no docs. Progressive disclosure (100–150 lines), procedural workflows, decision tables, and pairing prohibitions with alternatives all reliably improve agent output. Overexploration trap is the main failure mode.
+- **There Will Be No AI Jobpocalypse** (Andrew Ng, Twitter/X, May 2026) — Multiple incentive structures (labs, pricing, corporate PR) sustain the jobpocalypse narrative despite weak evidence. Healthy hiring and unemployment contradict it. Ng predicts an "AI jobapalooza."
+- **AI Is Killing the Career Ladder** (EO / Bharat Chandar, YouTube, May 2026) — Stanford research: 16% slower employment growth for early-career workers in AI-exposed roles; experienced workers unaffected. Career lattice model: AI lowers cost of learning adjacent skills, enabling profession switching.
+- **If Anyone Builds It, Everyone Thrives** (Séb Krier, Twitter/X, May 2026) — Introduces "Positive Alignment" research: beyond harm avoidance to actively enabling human flourishing. Key challenge: avoiding technocratic paternalism while supporting human agency.
+
+**Pages updated (4):**
+- **prompt-engineering.md** — Added Context Engineering section (three-layer model, infrastructure-beats-syntax thesis) and Role-Based Prompt Templates section (structured role framing, synthesis patterns).
+- **agent-harness.md** — Expanded Knowledge section with AGENTS.md Design: progressive disclosure, decision tables, overexploration trap, discovery statistics.
+- **ai-and-jobs.md** — Added The Jobpocalypse Narrative and Its Incentives section (Andrew Ng) and Early-Career Impact and the Career Lattice section (Bharat Chandar / Stanford).
+- **ai-safety.md** — Added Positive Alignment section (beyond harm avoidance to human flourishing).
+
+---
+
+## [2026-05-11] ingest | Integrate 6 new sources across 8 pages (1 new)
+
+**New sources integrated (6):**
+
+- **Agent Harness Engineering** (Addy Osmani, Twitter/X, May 2026) — Frames harness design as the emerging competitive discipline. Agent = Model + Harness. The Ratchet Principle: treat each failure as a permanent signal generating lasting harness improvements. A decent harness beats a great model.
+- **Deriving Agent Harnesses from First Principles** (Viv, Twitter/X, May 2026) — Works backward from desired agent behaviors to derive core harness primitives: filesystem (durable state), bash (general-purpose tool), sandboxes (safe execution), context management, long-horizon composition. Model and harness co-evolve.
+- **A Critical Question in Agent Design** (Ethan Mollick, Twitter/X, May 2026) — Argues agentic workflows should preserve meaningful human decision points. When all companies use the same models, the model is a commodity; the durable moat is process architecture that integrates human judgment at high-variance moments.
+- **The Era of Easy AI Progress Is Ending — Ilya Sutskever** (Dwarkesh Patel, YouTube, May 2026) — Three-era framework: research discovery (2012–2020), scaling execution (2020–2025), return to research (post-2025). Pre-training data is finite; 100x scaling won't transform capability; new training paradigms needed.
+- **Karpathy's 4 CLAUDE.md Rules Cut Claude Mistakes From 41% to 11%** (Mnimiy, Twitter/X, May 2026) — Karpathy's 4 foundational rules extended with 8 more targeting multi-step agent failures (token budgets, checkpointing, visible failures, test intent). CLAUDE.md over 200 lines causes sharp compliance drops.
+- **Using Claude Code: The Unreasonable Effectiveness of HTML** (Thariq, Twitter/X, May 2026) — HTML outperforms Markdown for AI-generated documents: higher information density, better readability at scale, easy sharing, interactive feedback loops. Key psychological benefit: keeps users in the loop with Claude's decisions.
+
+**New pages created (1):**
+- **agent-harness.md** — Comprehensive synthesis of harness engineering: components (filesystem, bash, sandboxes, memory, context management, hooks), the Ratchet Principle, behavior-driven design, and co-evolution with model training.
+
+**Pages updated (7):**
+- **addy-osmani.md** — Added Agent Harness Engineering section with Ratchet Principle and harness components.
+- **ethan-mollick.md** — Added Competitive Advantage in the Agentic Era section on model commoditization and process architecture as moat.
+- **agentic-ai.md** — Expanded Environment and Harness Design section with new sources and Ratchet Principle; added Human-AI Competitive Advantage section.
+- **scaling-and-compute.md** — Added The End of the Scaling Era section with Sutskever's three-era framework.
+- **claude-code.md** — Added CLAUDE.md Rules Engineering section (12-rule framework) and Output Format: HTML over Markdown section.
+- **andrej-karpathy.md** — Added CLAUDE.md Rules section linking to the 4-rule origin story.
+- **index.md** — Added agent-harness.md to Applications.
+
+---
+
 ## [2026-05-07] ingest | Integrate 1 new source across 3 wiki pages
 
 **New source integrated (1):**

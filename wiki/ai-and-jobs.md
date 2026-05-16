@@ -15,6 +15,28 @@ The impact of AI on employment, workforce composition, and the nature of work it
 - **2024 workforce trends**: Inclusivity, hiring equity, diversity in AI training, and upskilling. See source: [AI In 2024 Five Trends Workers Need To Know](../summaries/ai-in-2024-five-trends-workers-need-to-know.md)
 - **18-month displacement horizon** (MarketWatch, 2025): Framed AI job displacement as imminent with practical "survival guide" for workers. See source: [AI Will Take Your Job In The Next 18 Months](../summaries/untitled-01ke68th.md)
 
+## The Jobpocalypse Narrative and Its Incentives
+
+Andrew Ng argues the AI jobpocalypse narrative is unfounded and counterproductive. Concrete evidence against it: software engineering (the most AI-exposed sector) continues strong hiring; U.S. unemployment remains at 4.3% despite AI adoption. Multiple incentive structures sustain the narrative:
+
+- **AI labs** benefit from portraying AI as transformative (justifies valuations)
+- **AI companies** anchor pricing to displaced salaries ($100k+) rather than SaaS rates ($100-$1k)
+- **Corporations** blame AI for pandemic overhiring layoffs rather than admitting poor capital allocation
+
+Ng predicts instead an "AI jobapalooza": expansion of specialized AI engineering roles, transformed non-AI work, and greater opportunities for AI-fluent workers. Historical parallels: nuclear power safety fears, population bomb anxiety, dietary fat misconceptions — persistent false narratives with real policy consequences.
+
+See source: [There Will Be No AI Jobpocalypse](../summaries/there-will-be-no-ai-jobpocalypse.md)
+
+## Early-Career Impact and the Career Lattice
+
+Stanford Digital Economy Lab research shows young workers in AI-exposed occupations (software development, customer service, admin roles) are experiencing 16% slower employment growth compared to peers in less-exposed roles — but experienced workers are maintaining growth trends. The divergence reflects what AI can and cannot do: early-career work relies on book knowledge (implementation tasks); experienced work relies on tacit knowledge, strategic guidance, and social interaction — precisely where AI struggles most.
+
+Economist Bharat Chandar advocates for a "career lattice" model: rather than the traditional career ladder, AI could enable workers to more easily transition between professions by dramatically lowering the cost of learning adjacent skills. Three categories AI is unlikely to replace short-to-medium term: physical tasks (absent robotics advances), strategic thinking, and social interaction.
+
+> "Whether you're more automated or augmented really depends on what are the tasks that you're focusing on. Are you increasing the scope of tasks that you can do, or are your tasks getting shrunk by the introduction of this technology?"
+
+See source: [AI Is Killing the Career Ladder. A Stanford Economist Explains What Comes Next](../summaries/ai-is-killing-the-career-ladder-a-stanford-economist.md)
+
 ## The Productivity Paradox
 
 Despite bold CEO claims, evidence of actual productivity gains is mixed:

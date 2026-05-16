@@ -32,6 +32,12 @@ Additional ideas:
 
 See source: [Skill Issue: Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI](../summaries/skill-issue-andrej-karpathy-on-code-agents-autoresearch-and.md)
 
+## CLAUDE.md Rules
+
+Karpathy's January 2026 complaints about Claude coding behavior — silent assumptions, over-engineering, orthogonal damage, weak success criteria — were crystallized by Forrest Chang into 4 CLAUDE.md rules that became the fastest-growing single-file repo of 2026. Independent testing showed these 4 rules reduced coding mistakes from ~41% to under 11% on aligned tasks. See [Claude Code](claude-code.md) for the extended 12-rule framework built on this foundation.
+
+See source: [Karpathy's 4 CLAUDE.md Rules Cut Claude Mistakes From 41% to 11%](../summaries/karpathy-s-4-claude-md-rules-cut-claude-mistakes-from-41-to.md)
+
 ## Skills Profile
 
 A curated list of Karpathy's technical skills and knowledge areas — useful as a reference for AI research competencies.

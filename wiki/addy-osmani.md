@@ -13,6 +13,14 @@ Engineer and writer; the wiki's most-cited contemporary voice on the practical d
 - **Ambient anxiety tax** — The background vigilance cost of running parallel agents: continuous worry about what unmonitored threads might be getting wrong. A hidden cognitive ceiling on agent parallelism.
 - **Agentic engineering** — The professional alternative to [vibe coding](vibe-coding.md). Engineers orchestrate AI agents that handle implementation while the human acts as architect, reviewer, and decision-maker. Requires upfront planning, rigorous review, comprehensive testing, and full codebase ownership. See source: [Agentic Engineering](../summaries/agentic-engineering.md).
 
+## Agent Harness Engineering
+
+Osmani frames harness design as the emerging discipline where real competitive advantage lies. The model is only one input; the harness — prompts, tools, context policies, hooks, sandboxes — is equally critical and often determines whether an agent succeeds or fails. A decent model with an excellent harness consistently beats a great model with poor scaffolding.
+
+The **Ratchet Principle**: treat each agent failure as a permanent signal that generates lasting improvements — updated documentation, new hooks, architectural changes — so the agent never makes that exact mistake again. Effective harnesses combine filesystem/git state, general-purpose bash tools, safe sandboxes, memory files for knowledge injection, context management strategies, long-horizon execution patterns, and enforcement hooks.
+
+See source: [Agent Harness Engineering](../summaries/agent-harness-engineering.md). See also: [Agent Harness](agent-harness.md).
+
 ## Core Arguments
 
 ### Agent management is a skill

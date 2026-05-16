@@ -44,6 +44,32 @@ Mollick warns against the "lazy tyranny of the wait calculation" — procrastina
 
 See source: [The Lazy Tyranny Of The Wait Calculation](../summaries/the-lazy-tyranny-of-the-wait-calculation.md)
 
+## Context Engineering
+
+The real leverage is not in wordsmithing prompts but in designing the information environment surrounding them. A three-layer model explains why most people get generic outputs: they only use layer one.
+
+1. **Immediate context** — the prompt itself
+2. **Session context** — conversation history and uploaded files
+3. **Persistent context** — knowledge that carries across sessions (memory files, foundational docs)
+
+The practical framework: four reusable context files (identity, audience, standards, project), dynamic loading rules matched to task type rather than loading everything, and persistent memory systems that compound over time (Markdown → structured knowledge bases → RAG). At scale, MCP tools let context-rich systems act rather than merely advise.
+
+> "Prompt engineering is the syntax. Context engineering is the infrastructure. And infrastructure beats syntax every single time."
+
+See source: [How to Master Context Engineering & Build AI Systems That Actually Understand You](../summaries/how-to-master-context-engineering-build-ai-systems-that.md)
+
+## Role-Based Prompt Templates
+
+Prompt architecture matters more than model capability. Transformative outputs come from role definition, explicit context, structure rules, and format specification — not clever wording. Common patterns:
+
+- **Specialized role framing** ("senior research analyst", "brutal editor", "Socratic teacher") unlocks very different thinking patterns from the same model
+- **Multi-source synthesis** (consensus/conflicts/gaps across documents) delivers more value than sequential summarization
+- **Structured output templates** with explicit sections make output immediately actionable
+- **Explicit constraints** ("do not do X", "quote the source", "end with one sentence") produce more usable outputs than open-ended requests
+- **Learning through dialogue** — Socratic and Feynman techniques force active reasoning rather than passive consumption
+
+See source: [20 Claude Prompts That Turn a $20 Subscription into a Personal Assistant, Editor, Coach, and Analyst](../summaries/20-claude-prompts-that-turn-a-20-subscription-into-a.md)
+
 ## Beyond Prompting: Customization Levers
 
 Prompting is just one of four levers for escaping the "averaged out" default AI experience. By default, models optimize for the median user via RLHF training. The full customization stack:

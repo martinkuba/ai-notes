@@ -30,6 +30,17 @@ Sam Altman stated OpenAI shares Anthropic's red lines on military AI application
 
 See source: [Sam Altman Says Openai Shares Anthropic S Red Lines](../summaries/sam-altman-says-openai-shares-anthropic-s-red-lines-in.md)
 
+## Positive Alignment
+
+Traditional alignment research focuses on harm avoidance — ensuring AI systems don't cause damage. A newer research direction, "Positive Alignment," extends the goal beyond safety to actively enabling human flourishing. A positively aligned agent helps humans navigate complex value trade-offs, builds individual and collective resilience, and scaffolds conditions for thriving.
+
+The central design challenge: achieving these goals without descending into technocratic paternalism — where the system imposes a particular vision of human good rather than respecting human agency. This framing requires alignment research to engage with philosophical questions about wellbeing, autonomy, and what constitutes a good human-AI partnership.
+
+> "Freedom from harm isn't the same as freedom to flourish"
+> "Doing this without slipping into top-down, technocratic paternalism is the great design challenge of our time"
+
+See source: [If Anyone Builds It, Everyone Thrives](../summaries/if-anyone-builds-it-everyone-thrives.md)
+
 ## Expert Warnings
 
 - **[Geoffrey Hinton](geoffrey-hinton.md)** ("Godfather of AI") left Google to speak freely about AI dangers: misinformation, job displacement, autonomous weapons. See source: [The Godfather Of A I Leaves Google And Warns Of Danger Ahead](../summaries/the-godfather-of-a-i-leaves-google-and-warns-of-danger-ahead.md)

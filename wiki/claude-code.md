@@ -34,6 +34,16 @@ Engineers love the customizability: hooks, plugins, LSPs, MCPs, skills — every
 
 See sources: [Claude Code Creator Boris Shares His Setup With 13 Detailed Steps](../summaries/claude-code-creator-boris-shares-his-setup-with-13-detailed.md), [Reflecting On What Engineers Love About Claude Code](../summaries/reflecting-on-what-engineers-love-about-claude-code-one.md), [I Wanted To Share A Bunch Of My Favorite Hidden Features](../summaries/i-wanted-to-share-a-bunch-of-my-favorite-hidden.md), [5 Mind-Blowing Use Cases Of Claude Skills](../summaries/5-mind-blowing-use-cases-of-claude-skills.md)
 
+### CLAUDE.md Rules Engineering
+
+[Andrej Karpathy](andrej-karpathy.md)'s 4 foundational CLAUDE.md rules (originally addressing silent assumptions, over-engineering, orthogonal damage, and weak success criteria) cut Claude mistakes from 41% to 11%. These rules became the fastest-growing single-file repo of 2026 after Forrest Chang crystalized them.
+
+After testing across 30 codebases, the 4-rule foundation was extended with 8 additional rules targeting gaps in multi-step agent workflows: hard token budgets, surfacing pattern conflicts rather than averaging, read-before-write discipline, verifying test intent (not just execution), checkpointing multi-step workflows, and failing visibly instead of silently.
+
+Key constraints: CLAUDE.md files over 200 lines show sharp compliance drops. 12 carefully-chosen rules tuned to real failure modes outperform larger rulesets. The most expensive failures are those that look like success — functions returning wrong data, migrations skipping records.
+
+See source: [Karpathy's 4 CLAUDE.md Rules Cut Claude Mistakes From 41% to 11%](../summaries/karpathy-s-4-claude-md-rules-cut-claude-mistakes-from-41-to.md)
+
 ## Advanced Features
 
 Hidden and advanced capabilities: mobile app, teleport between devices, `/loop`, `/schedule`, hooks, remote control. Boris recommends running 5 parallel worktree sessions with Plan Mode and custom skills.
@@ -47,6 +57,20 @@ See sources: [I Wanted To Share A Bunch Of My Favorite Hidden Features](../summa
 Key lesson from building Claude Code: tool design matters as much as model capability. Structured tools like `AskUserQuestion` elicit better agent behavior than prompts alone.
 
 See source: [Lessons From Building Claude Code Seeing Like An Agent](../summaries/lessons-from-building-claude-code-seeing-like-an-agent.md)
+
+## Output Format: HTML over Markdown
+
+For complex AI-generated documents in Claude Code workflows, HTML has emerged as a superior alternative to Markdown. Markdown's human-editability advantage diminishes when AI outputs are consumed as reference materials and specs rather than directly edited.
+
+HTML provides higher information density through tables, CSS, SVG diagrams, interactive JavaScript elements, and spatial layouts — all impossible in Markdown. Critically, human readability degrades sharply for Markdown documents over 100 lines, while HTML allows visual organization that scales to complex information. HTML files are also easier to share via browser links than Markdown files requiring email attachments or conversion.
+
+The deeper benefit is psychological: well-structured HTML keeps users "in the loop" with what Claude is doing, maintaining oversight rather than delegating decisions entirely. Interactive HTML specs let users adjust parameters and export changes back to prompts, creating tight human-AI feedback loops.
+
+Trade-offs: HTML generation takes 2–4× longer and creates noisy version control diffs.
+
+Use cases: interactive planning documents, annotated PR explanations, design prototypes with adjustable parameters, research reports with embedded SVG diagrams.
+
+See source: [Using Claude Code: The Unreasonable Effectiveness of HTML](../summaries/using-claude-code-the-unreasonable-effectiveness-of-html.md)
 
 ## Obsidian Integration
 
