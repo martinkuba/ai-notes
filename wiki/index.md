@@ -2,6 +2,9 @@
 
 Content catalog of all wiki pages, organized by category. Updated on each ingest.
 
+## Navigation
+- [Mind Map](mind-map.md) — Conceptual map of the wiki with a Mermaid diagram and detailed outline
+
 ## Entities
 
 ### People
