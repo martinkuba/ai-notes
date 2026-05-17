@@ -89,6 +89,43 @@ See sources: [The Harness Is Everything: What Cursor, Claude Code, and Perplexit
 
 See source: [A Critical Question in Agent Design](../summaries/a-critical-question-in-agent-design-is-how-do-we.md)
 
+## Memory Architecture
+
+LLMs are stateless by default — each conversation resets all context. Memory systems transform stateless models into stateful agents, enabling genuine continuity and the ability to evolve over time.
+
+Four complementary memory types:
+- **In-context memory** — The active context window. Fast but ephemeral; lost at session end.
+- **External memory** — Persistent databases and vector stores. Searchable across sessions.
+- **Episodic memory** — Logs of past task outcomes (approach, duration, quality, errors). Enables few-shot learning from personal history rather than handcrafted datasets.
+- **Semantic/parametric memory** — General world knowledge baked into model weights. Updated only through fine-tuning.
+
+**Retrieval is 80% of the problem**: without effective retrieval, stored memories become functionally invisible despite existing in storage. Vector databases enable semantic search over episodic knowledge — finding past episodes similar to the current task without requiring exact keyword matches.
+
+**Active curation is non-negotiable**: memory systems degrade over time through accumulated noise and contradictions. Time-based decay, importance scoring at write time, and periodic consolidation prevent this.
+
+> "Memory is what turns a stateless system into something that can actually evolve."
+
+See source: [Agentic Memory: A Detailed Breakdown](../summaries/agentic-memory-a-detailed-breakdown.md)
+
+## What to Build vs. Skip (2026)
+
+The challenge in AI agents: frameworks and benchmarks become obsolete quarterly. A five-test filter for evaluating new launches: Will this matter in two years? Has someone respected built something real with it? Does it require discarding existing infrastructure? What's the cost of skipping it six months? Can you measure whether it helps?
+
+**Durable primitives** (survive paradigm shifts):
+- **Context engineering** — Treating the context window as state requiring active management
+- **Tool design** — Well-named tools with clear descriptions and actionable error messages
+- **Orchestrator-subagent pattern** — Single orchestrator delegating to focused, isolated subagents
+- **Evaluation discipline** — Golden datasets as regression tests; teams that ship reliable agents all have evals
+- **Harness mindset** — The harness does more work than the model in production agents
+
+**Anti-patterns to skip**: AutoGen, CrewAI, Semantic Kernel (established but outdated); "autonomous agent" pitches; naive multi-agent systems; treating code-writing as architecture.
+
+**Execution playbook** (deliberately boring): one measurable business outcome, tracing and evals before shipping, single-agent loop (LangGraph or Pydantic AI), product mindset, add complexity only when failure modes demand it.
+
+**Career implication**: traditional ladder-climbing (degree → junior → senior) compounds less reliably when the field changes quarterly. What still compounds: having watched systems break, debugged failures, and argued for boring choices over clever ones. What doesn't: knowing this week's framework's API surface.
+
+See source: [What to Learn, Build, and Skip in AI Agents (2026)](../summaries/what-to-learn-build-and-skip-in-ai-agents-2026.md)
+
 ## Related
 
 - [Agentic Coding](agentic-coding.md)

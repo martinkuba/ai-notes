@@ -2,6 +2,18 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-05-17] ingest | Integrate 2 new sources across 1 page (0 new)
+
+**New sources integrated (2):**
+
+- **Agentic Memory: A Detailed Breakdown** (ramakrushna, Twitter/X, May 2026) — Four-type memory architecture (in-context, external, episodic, semantic/parametric) for building stateful agents. Key insight: retrieval quality is 80% of the problem — stored memories become inaccessible without effective retrieval. Vector embeddings enable semantic search over personal episode history. Active curation (decay, importance scoring, consolidation) prevents memory systems from degrading over time.
+- **What to Learn, Build, and Skip in AI Agents (2026)** (Rohit, Twitter/X, May 2026) — Five-test filter for evaluating new AI launches. Durable primitives: context engineering, tool design, orchestrator-subagent pattern, eval discipline, harness mindset. Anti-patterns to skip: AutoGen/CrewAI/Semantic Kernel, autonomous agent pitches, naive multi-agent systems. Boring execution playbook: one outcome, tracing+evals first, single-agent start. Career implication: artifact-driven careers compound better than credential-based ones in a quarterly-changing field.
+
+**Pages updated (1):**
+- **agentic-ai.md** — Added Memory Architecture section (four types, retrieval bottleneck, vector search, active curation) and What to Build vs. Skip (2026) section (five-test filter, durable primitives, anti-patterns, execution playbook).
+
+---
+
 ## [2026-05-14] ingest | Integrate 6 new sources across 4 pages (0 new)
 
 **New sources integrated (6):**
