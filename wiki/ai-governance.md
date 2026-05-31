@@ -43,6 +43,16 @@ Sanders and Ocasio-Cortez introduced the AI Data Center Moratorium Act (federal 
 
 See source: [Welcome To March 27 2026](../summaries/welcome-to-march-27-2026.md)
 
+## AI Search and Monetization
+
+Google's 2026 I/O announcement replaced traditional search with generative UI, information agents, and the personal AI assistant Spark — while making no mention of monetization in the keynote. But research from Google's own labs revealed the infrastructure: **token auctions** (advertisers bid on individual words the model generates) and **prominence allocation** (auctions determine how enthusiastically each product is mentioned). Ads are embedded directly into LLM-generated output, indistinguishable from organic answers.
+
+This breaks the original web contract that sustained Google for 25 years: freely published content indexed and linked back to, driving traffic to sources. Generative UI absorbs content into synthesized answers without linking back. Spark's demands for personal data (emails, calendar, purchase history, files) provide the targeting context the auction system needs. Advertisers lose keyword and creative control entirely — Google's algorithms decide if and how products appear, framed as neutral advice. At the same time advertiser-focused event Marketing Live stated plainly: "The best ads must be answers."
+
+> "The ad isn't *next to* the answer. The ad *is* the answer."
+
+See source: [Ad Infinitum](../summaries/ad-infinitum.md)
+
 ## Related
 
 - [AI Safety](ai-safety.md)

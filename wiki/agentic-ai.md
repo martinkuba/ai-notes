@@ -38,6 +38,8 @@ Most agent architectures fail in production because they're stateless and optimi
 
 See source: [5 Agent Design Patterns For Long-Running AI Agents](../summaries/5-agent-design-patterns-for-long-running-ai-agents.md)
 
+[Addy Osmani](addy-osmani.md) frames the architectural challenge around three walls: **context rot** (context windows fill and degrade), **statelessness** (no persistent state between sessions without explicit persistence), and **self-grading bias** (models rate their own work too generously). The solution is decoupling brain (model loop), hands (execution environment), and session log (durable event store) — with state living outside the context window and structured handoffs enabling cold-start recovery. See source: [Long-running Agents](../summaries/long-running-agents.md).
+
 ## Human Cognitive Limits
 
 Managing multiple agents creates cognitive load — context and anxiety accumulate. Finding your personal ceiling for parallel agent sessions requires deliberate time-boxing and deep focus.

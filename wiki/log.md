@@ -2,6 +2,21 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-05-31] ingest | Integrate 3 new sources across 3 pages (0 new)
+
+**New sources integrated (3):**
+
+- **Long-running Agents** (Addy Osmani, Substack, May 2026) — Architecture for agents that maintain progress over days/weeks across multiple context windows. Three core problems: context rot, statelessness between sessions, and self-grading bias. Solution: decouple brain/hands/session log; state lives outside the context window; structured handoffs enable recovery. The Ralph loop is the practitioner starting point. Unlocks dramatically more work — owning entire features, completing multi-quarter migrations, overnight research sweeps.
+- **The Orchestration Tax** (Addy Osmani, Twitter/X, May 2026) — The hidden cost of scaling agent usage: starting agents is cheap but reviewing output is strictly serial. Human attention is the GIL of your AI agents; Amdahl's Law caps speedup at the serial fraction (judgment). Scale fleet to review rate, batch reviews, reserve human judgment only for decisions machines cannot verify.
+- **Ad Infinitum** (Matthias Ott, May 2026) — Google's 2026 I/O: generative search absorbs web content into synthesized answers without linking back, breaking the 25-year web contract. Token auctions and prominence allocation embed ads directly into LLM output, indistinguishable from organic answers. Spark's demand for personal data powers hyper-targeted placement; advertisers lose keyword and creative control.
+
+**Pages updated (3):**
+- **addy-osmani.md** — Added "The Orchestration Tax" to Coined Concepts and "Long-Running Agents Require External State" to Core Arguments.
+- **agentic-ai.md** — Extended Production Design Patterns with Osmani's brain/hands/session architecture for long-running agents.
+- **ai-governance.md** — Added AI Search and Monetization section (Google token auctions, web contract collapse, surveillance dependency).
+
+---
+
 ## [2026-05-17] ingest | Integrate 2 new sources across 1 page (0 new)
 
 **New sources integrated (2):**
