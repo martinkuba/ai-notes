@@ -253,6 +253,8 @@ def main() -> None:
     print(f"==> Found {len(new_files)} new/updated source(s) to summarize.")
 
     # 3. Create git branch (or reuse existing open ingest PR's branch)
+    run(["git", "checkout", "main"])
+    run(["git", "pull", "origin", "main", "--ff-only"])
     existing_pr_result = subprocess.run(
         ["gh", "pr", "list", "--search", "Wiki ingest", "--json", "number,headRefName,url", "--limit", "1"],
         capture_output=True, text=True,
