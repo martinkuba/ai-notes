@@ -42,6 +42,20 @@ A corollary for agent design: workflows should deliberately preserve meaningful 
 
 See source: [A Critical Question in Agent Design](../summaries/a-critical-question-in-agent-design-is-how-do-we.md)
 
+### Organizational AI Transformation: Leadership, Lab, and Crowd
+
+Mollick identifies a core paradox: individual productivity gains from AI are well-documented (workers report 2–3× speed improvements; controlled experiments confirm gains in consulting, sales, coding, law, call centers) — yet companies report only small to moderate gains, with no measurable impact on wages or hours worked as of end-2024. The gap isn't a technology problem — it's an organizational innovation problem. Individual gains don't automatically translate to organizational gains; closing the gap requires rethinking incentives, processes, and the nature of work itself.
+
+His three-part framework:
+
+- **Leadership**: Provide a vivid, concrete picture of the AI-powered future (not vague urgency). Address the "Secret Cyborg" problem — workers hiding AI use due to fear of punishment, loss of respect, or imminent layoffs. Create safe experimentation zones; build incentives (cash rewards, promotions) for surfacing discoveries; model AI use personally.
+- **Crowd**: Experienced employees who discover how to use AI for their specific work through trial and error. Official adoption tops out at ~20% even while 40%+ of workers privately use AI. Leadership action on incentives unlocks the Crowd.
+- **Lab**: An ambidextrous internal team (mix of technologists and domain experts, many recruited from the Crowd) that both explores future AI capabilities and exploits current ones. Key Lab activities: converting Crowd discoveries into distributed products, building custom benchmarks on your organization's actual tasks, prototyping workflows that don't yet work (so they're ready when models improve), and creating "provocations" (demos) that force genuine engagement with AI's potential.
+
+The deeper insight: AI shifts every bottleneck. When research takes minutes, the bottleneck becomes knowing what to research. When code writes itself, the limitation is knowing what to build. When content generates instantly, the constraint is knowing what will matter to people.
+
+See source: [Making AI Work: Leadership, Lab, and Crowd](../summaries/making-ai-work-leadership-lab-and-crowd.md)
+
 ## Related
 
 - [Prompt Engineering](prompt-engineering.md)

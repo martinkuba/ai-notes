@@ -46,6 +46,8 @@ Despite bold CEO claims, evidence of actual productivity gains is mixed:
 - **But**: Shadow AI economy is thriving — employees using AI tools independently of official programs. See source: [Mit Report Misunderstood Shadow AI Economy](../summaries/mit-report-misunderstood-shadow-ai-economy-booms-while.md)
 - **Klarna** reversed course on aggressive AI replacement after quality issues. See source: [As Ceos Push Replacing People With AI](../summaries/as-ceos-push-replacing-people-with-ai-ai-isn-t-quite-ready.md)
 
+[Ethan Mollick](ethan-mollick.md) offers a structural explanation: individual productivity gains (2–3×, confirmed by controlled experiments) are real, but they don't automatically translate to organizational gains. The reason is an organizational innovation deficit — companies have outsourced process redesign to consultants for decades and lack the muscles to rethink workflows. The "Secret Cyborg" dynamic (40%+ of workers privately use AI while only ~20% use official tools) shows fear and misaligned incentives are blocking adoption more than the technology itself. Closing the gap requires a Leadership/Lab/Crowd feedback loop, not more AI investment. See source: [Making AI Work: Leadership, Lab, and Crowd](../summaries/making-ai-work-leadership-lab-and-crowd.md)
+
 ## Work Intensification
 
 HBR research shows AI doesn't reduce work — it intensifies it. Effects include:

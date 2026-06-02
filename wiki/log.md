@@ -2,6 +2,41 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-06-01] ingest | Integrate 2 new sources across 3 pages (0 new)
+
+**New sources integrated (2):**
+
+- **One of the New, Buzzy Jobs in Silicon Valley Is...** (Andrew Ng, Twitter/X, June 2026) — Analyzes the AI Forward Deployed Engineer (FDE) role vs. the larger and more scalable AI Engineer role. FDEs (embedded engineers who build and tune agentic workflows for clients) are resurgent, but AI Engineers will vastly outnumber them: companies prefer vendor-neutral engineers who preserve optionality as the AI landscape evolves. Ng predicts AI Engineering will fragment into specializations (LLMOps, Evals, Harness, Data Engineers) mirroring how software engineering split in prior decades.
+- **Making AI Work: Leadership, Lab, and Crowd** (Ethan Mollick, One Useful Thing, June 2026) — Names and diagnoses the enterprise AI paradox: individual gains (2–3×, confirmed by experiments) are real; organizational gains are not materializing. Root cause: an organizational innovation deficit, not a technology gap. Proposes a Leadership/Lab/Crowd feedback loop. Identifies "Secret Cyborgs" (40%+ of workers privately using AI while only ~20% use official tools) as the key behavioral signal. Frames AI as a bottleneck-shifter: when research takes minutes, the constraint becomes knowing what to research.
+
+**Note:** A third synced source ("Checking your browser before accessing pmc.ncbi.nlm.nih.gov") was an empty browser-challenge page with no recoverable content; skipped.
+
+**Pages updated (3):**
+- **ai-and-software-engineering-jobs.md** — Added "New AI Engineering Specializations" section (FDE vs. AI Engineer, vendor optionality, specialization trajectory per Andrew Ng).
+- **ethan-mollick.md** — Added "Organizational AI Transformation: Leadership, Lab, and Crowd" section (Secret Cyborgs, three-part framework, bottleneck-shift thesis).
+- **ai-and-jobs.md** — Extended the Productivity Paradox section with Mollick's structural explanation (organizational innovation deficit, Secret Cyborg dynamic, Leadership/Lab/Crowd framework).
+
+---
+
+## [2026-05-31] query | Orchestration tax × long-running agents synthesis (1 new page)
+
+**Exploration:**
+User asked whether long-running agents contradict the orchestration tax. Research across summaries and wiki revealed these are complementary concepts addressing different axes: breadth (orchestration tax — how many agents?) vs. depth (long-running agents — how long per agent?). Shifting from breadth to depth directly reduces review frequency and context-switching cost, which are the mechanisms behind the tax.
+
+**New page:**
+- **orchestration-tax.md** — Dedicated concept page: Amdahl's Law framing, the GIL analogy, relationship to long-running agents, the Delegated Approval pattern as the key intersection, and practical guidance on what to learn.
+
+**Sources used:**
+- [The Orchestration Tax](../summaries/the-orchestration-tax.md) (Osmani)
+- [Long-running Agents](../summaries/long-running-agents.md) (Osmani)
+- [5 Agent Design Patterns For Long-Running AI Agents](../summaries/5-agent-design-patterns-for-long-running-ai-agents.md) (Google Cloud Tech)
+- [Your Parallel Agent Limit](../summaries/your-parallel-agent-limit.md) (Osmani)
+- [Your AI Coding Agents Need A Manager](../summaries/your-ai-coding-agents-need-a-manager.md) (Osmani)
+- [Agentic Memory: A Detailed Breakdown](../summaries/agentic-memory-a-detailed-breakdown.md)
+- [What to Learn, Build, and Skip in AI Agents (2026)](../summaries/what-to-learn-build-and-skip-in-ai-agents-2026.md)
+
+---
+
 ## [2026-05-31] ingest | Integrate 3 new sources across 3 pages (0 new)
 
 **New sources integrated (3):**
