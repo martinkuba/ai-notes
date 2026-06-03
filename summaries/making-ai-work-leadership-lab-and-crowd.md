@@ -1,33 +1,39 @@
 ---
-source_url: "https://www.oneusefulthing.org/p/making-ai-work-leadership-lab-and"
+id: "01kt20epyyeygv86848vv2yr81"
+title: "Making AI Work: Leadership, Lab, and Crowd"
 author: "Ethan Mollick"
+source_url: "https://www.oneusefulthing.org/p/making-ai-work-leadership-lab-and"
 category: "article"
-tags: [ai, work, organizations, adoption]
+tags: [ai, work]
+saved_at: "2026-06-01T16:32:15.326000+00:00"
+summarized_at: "2026-06-03T00:00:02Z"
 ---
 
 # Making AI Work: Leadership, Lab, and Crowd
 
-**Source:** [One Useful Thing](https://www.oneusefulthing.org/p/making-ai-work-leadership-lab-and) — Ethan Mollick
+**Original source:** [Making AI Work: Leadership, Lab, and Crowd](https://www.oneusefulthing.org/p/making-ai-work-leadership-lab-and)
+**Author:** Ethan Mollick
 
 ## Summary
 
-Mollick identifies a core paradox in enterprise AI adoption: individual productivity gains are well-documented (studies show workers report 2–3× speed improvements; controlled experiments confirm gains across consulting, sales, coding, law, and call centers), yet companies are reporting only small to moderate gains — with no measurable impact on wages or hours worked as of end-2024. The reason: individual gains don't automatically translate to organizational gains. Organizations need to rethink incentives, processes, and the nature of work itself, but their muscles for organizational innovation have atrophied after decades of outsourcing this to consultants and enterprise software vendors.
+While individual workers report significant productivity gains from AI (workers claim 2-3x improvements on specific tasks), organizations are failing to capture these gains at scale. The paradox stems from a fundamental mismatch: individual productivity improvements don't automatically translate to organizational performance without deliberate organizational innovation. Companies must rethink incentives, processes, and the nature of work itself—capabilities that have atrophied after decades of outsourcing innovation to consultants and software vendors.
 
-His framework for closing the gap has three components:
+Mollick proposes a framework of three interconnected mechanisms: **Leadership** provides clear vision of the AI-powered future and removes barriers to experimentation; **the Crowd** (experienced employees) discovers practical AI use cases and workflows through trial-and-error; **the Lab** (centralized teams) scales discoveries, builds custom benchmarks, prototypes future workflows, and creates visceral demos. Success requires treating AI adoption as an organizational learning challenge, not merely a technical implementation.
 
-**Leadership**: Provide a vivid, concrete picture of what the AI-powered future looks like for the organization (not just "AI is important"). Address the "Secret Cyborg" problem — the majority of workers using AI secretly because they fear punishment, loss of respect, or layoffs. Leadership must create safe experimentation zones, build incentives (cash rewards, promotions) for surfacing AI discoveries, and model AI use personally.
-
-**Crowd**: The employees who discover how to use AI for their specific work. Experienced workers are best positioned to evaluate AI's usefulness through trial and error, and to share their workflows. But organizations often see only 20% adoption of official AI tools even while 40%+ of workers privately use AI. Closing this gap requires Leadership action on incentives and fear.
-
-**Lab**: An ambidextrous internal team (mix of technologists and domain experts, many recruited from The Crowd) that both explores future AI capabilities and exploits current ones — releasing a steady stream of products into the organization. Key Lab activities: converting Crowd discoveries into distributed products, building custom benchmarks on your organization's actual tasks (not generic benchmarks), prototyping workflows that don't yet work so they're ready when models improve, and creating "provocations" (demos) that force people to genuinely engage with AI's potential.
-
-The deeper insight: AI shifts every bottleneck. When research takes minutes, the bottleneck becomes knowing what to research. When code writes itself, the limitation is knowing what to build. When content generates instantly, the constraint is knowing what will matter to people. Organizational transformation must grapple with these shifted bottlenecks, not just automate existing workflows.
+The competitive advantage goes to organizations that iterate fastest and rethink fundamental assumptions about work. As AI capabilities advance rapidly, the bottleneck shifts from execution capacity (research, coding, content production) to decision-making—determining what research to conduct, what to build, and what actually matters to users.
 
 ## Main Ideas
 
-- **Productivity paradox**: Individual AI gains (2–3×) are real; organizational gains are small — the gap is an organizational innovation problem, not a technology problem.
-- **Secret Cyborgs**: Workers hide AI use due to fear; 40% use AI privately vs. 20% using official tools openly.
-- **Leadership → Crowd → Lab feedback loop**: Companies that learn fastest from this loop outpace competitors.
-- **Custom benchmarks**: Build AI benchmarks for your organization's specific tasks; generic benchmarks are poor proxies for your use case.
-- **Bottleneck shift**: AI accelerates every step until a new bottleneck emerges — the new bottleneck (judgment, strategy, context) is where humans must focus.
-- **Vibework**: Cross-functional teams dispersed from central IT can independently build in days what coordination used to take months.
+- **Individual gains don't scale automatically.** Workers see productivity improvements (halved time for 41% of tasks, tripled productivity in some cases), but only 30-40% use AI at work, and organizational-level gains remain modest. The gap reflects hidden adoption driven by worker fear of layoffs or reduced status.
+- **Leadership must provide vision and incentives.** Clear, vivid descriptions of the AI-powered future—not just abstract performance targets—motivate behavior change. Leaders must address worker concerns about layoffs and build incentives for discovery and experimentation.
+- **The Crowd discovers what works.** Experienced workers assess AI utility through trial-and-error better than consultants or junior staff. Their workflows and discoveries become the foundation for scaling.
+- **The Lab scales and experiments.** A centralized team develops custom benchmarks, rapidly prototypes solutions from the Crowd, builds products that fail gracefully, and creates demos that spark imagination about future possibilities.
+- **No playbook exists yet.** Even AI companies release models without knowing their best uses. Organizations must figure out their own path, and speed of learning becomes the primary competitive advantage.
+- **Work fundamentals are changing.** When research takes minutes instead of weeks, the bottleneck becomes deciding what to research. This requires deeper rethinking of why tasks exist and what creates value.
+- **The pace of change is relentless.** Models improve every few weeks/months, forcing continuous adaptation. Organizations need feedback loops between Leadership, Lab, and Crowd to learn faster than competitors.
+
+## Key Quotes
+
+- "We are all figuring this out together. So, if you want to gain an advantage, you are going to have to figure it out faster than everyone else."
+- "The time to begin isn't when everything becomes clear - it's now, while everything is still messy and uncertain."
+- "Nobody has special information about how to best use AI at your company, or a playbook for how to integrate it into your organization."
