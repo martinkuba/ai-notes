@@ -45,6 +45,19 @@ Key patterns emerging across tools:
 
 See sources: [Claude Code Best Practices For Agentic Coding](../summaries/claude-code-best-practices-for-agentic-coding.md), [Best Practices For Coding With Agents](../summaries/best-practices-for-coding-with-agents.md)
 
+## Adoption Phases
+
+Mitchell Hashimoto documents a sequential six-phase journey toward effective agent use:
+
+1. **Switch to agents** — Abandon chat interfaces; only agents with file access, code execution, and HTTP capabilities provide real value.
+2. **Reproduce your own work** — Force yourself to produce results twice (manually, then via agent) to build deep empirical understanding of where agents succeed and fail.
+3. **Async timing** — Run agents during low-personal-productivity times (end-of-day, off-hours), creating "warm starts" for the next day. Turn off notifications — context switching is the enemy.
+4. **High-confidence delegation** — Only delegate tasks where you're near-certain the agent will succeed; build confidence through iteration before pushing boundaries.
+5. **Harness engineering** — Prevention beats correction. Document requirements (AGENTS.md) and build tools that stop agents from making mistakes rather than fixing them after. Each Bad Thing triggers a permanent harness fix.
+6. **Continuous background work** — Maintain ongoing low-confidence, high-value tasks in the background while focusing deeply on the work you find engaging.
+
+The core insight: efficiency gains come not from doing everything faster, but from understanding what agents *shouldn't* do and deliberately delegating at the capability edge. See source: [My AI Adoption Journey](../summaries/my-ai-adoption-journey.md)
+
 ## Multi-Agent Management
 
 As developers move from pairing with a single agent to orchestrating parallel fleets, the bottleneck shifts from "can the agent write code?" to management: clarity, delegation, verification, and async communication. [Addy Osmani](addy-osmani.md) describes the highest-leverage developers as async-first managers running small fleets, splitting work into high-touch local sessions (architecture, product nuance) and async background sessions (migrations, test generation, docs).

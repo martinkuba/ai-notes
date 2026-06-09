@@ -2,6 +2,20 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-06-08] ingest | Integrate 1 new source across 2 pages (0 new)
+
+**New sources integrated (1):**
+
+- **My AI Adoption Journey** (Mitchell Hashimoto, mitchellh.com, Feb 2026) — Practitioner's six-phase journey from chat → agents → async delegation → harness engineering. Key insight: efficiency gains come from understanding what agents *shouldn't* do and systematically delegating at the capability edge. Notable emphasis on async timing (off-hours "warm starts"), high-confidence delegation, and treating every Bad Thing as a permanent harness fix.
+
+**Note:** One source ("Checking your browser before accessing pmc.ncbi.nlm.nih.gov") was an empty browser-challenge page; skipped.
+
+**Pages updated (2):**
+- **agentic-coding.md** — Added "Adoption Phases" section documenting Hashimoto's six-phase framework (switch to agents → reproduce work → async timing → high-confidence delegation → harness engineering → continuous background work).
+- **agent-harness.md** — Extended the Ratchet Principle section with Hashimoto's corroborating account of phase-5 harness engineering as permanent-prevention practice.
+
+---
+
 ## [2026-06-01] ingest | Integrate 2 new sources across 3 pages (0 new)
 
 **New sources integrated (2):**

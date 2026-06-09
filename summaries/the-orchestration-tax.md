@@ -6,7 +6,7 @@ source_url: "https://x.com/addyosmani/status/2059844244907696186/?rw_tt_thread=T
 category: "tweet"
 tags: [ai]
 saved_at: "2026-05-29T15:12:52.388000+00:00"
-summarized_at: "2026-05-31T23:38:43Z"
+summarized_at: "2026-06-09T00:00:04Z"
 ---
 
 # The Orchestration Tax
@@ -16,26 +16,24 @@ summarized_at: "2026-05-31T23:38:43Z"
 
 ## Summary
 
-The "orchestration tax" describes the hidden cost of scaling AI agent usage: while spawning agents is trivially easy, the work of reviewing, verifying, and merging their output remains fundamentally serial and bottlenecked by human judgment. Osmani argues this creates a structural asymmetry—there exists exactly one person to close every loop an agent opens. As you add more agents, you don't multiply your output; you create a growing queue of work waiting for human review, generating cognitive overhead through context switching and decision fatigue.
+The core insight is about the fundamental asymmetry in agentic workflows: starting agents is cheap (just a keystroke or prompt), but reviewing and integrating their output is expensive because only one person can do it serially. Osmani argues that the human becomes the single-threaded bottleneck in what should be a concurrent system—analogous to Python's Global Interpreter Lock (GIL). This creates structural limits governed by Amdahl's Law: speedup from parallelization is capped by the fraction of work that remains serial. Adding more agents doesn't increase productivity; it just deepens the queue of work awaiting human review, which remains the true constraint.
 
-This is not a willpower or discipline problem but an architecture problem, best understood through the lens of concurrent systems. Just as Python's Global Interpreter Lock makes the human the serialization point, Amdahl's Law makes it clear that the speedup from parallelizing agent work is capped by the serial fraction—the judgment required. Osmani illustrates the distinction between "feeling productive" (dashboard full, many agents running) and "being productive" (shipping good code). The former masks the latter: you can run 20 agents and feel busy while barely moving the needle, accumulating both technical and cognitive debt as you merge work you didn't fully review.
+The "orchestration tax" manifests through multiple cognitive costs: context-switching between agent reviews (each cold reload takes minutes and is never perfect), tracking which agent needs attention next, and the temptation to perform shallow reviews or accept agent work without genuine judgment just to keep pace. The feeling of "maximal busyness" (busy dashboard, many running agents) can coexist with barely shipping good code. This is not a discipline problem but an architecture problem—grinding harder doesn't overcome structural limits; it just shifts the failure mode to cognitive debt, shallow code reviews, or acceptance of work you didn't actually understand.
 
-The solution is treating attention as a scarce architectural resource: scale your agent fleet to your review rate (typically low single digits), sort work by whether it requires human judgment, batch reviews to minimize context switching, restrict human involvement to decisions machines cannot verify, and protect your best cognitive hours for the serial work that genuinely matters. This reframes orchestration not as management but as system design.
+The practical solution is to architect human attention as a scarce serial resource. Key strategies include: scaling agent count to match actual review capacity (typically low single digits), separating isolated, delegable work from complex judgment-heavy problems (and never trying to parallelize the latter), batching reviews to minimize context-switching costs, automating verification through tests and screenshots so humans only review the irreducible 20%, and protecting uninterrupted deep-thinking time. The critical skill is not running more agents but designing the system to respect human cognitive throughput.
 
 ## Main Ideas
 
-- Starting agents is cheap; closing the loop (reviewing and merging) is expensive and strictly serial, creating an asymmetry that doesn't scale
-- Human attention is the bottleneck—the single-threaded resource that controls all agent output, analogous to Python's GIL
-- Amdahl's Law applies directly: speedup is capped by the serial fraction (judgment), meaning more agents don't increase throughput, only the queue depth
-- Context switching carries severe cognitive costs; jumping between agents requires expensive context reloads that compound with scale
-- Scale agent count to review capacity, not UI capability; sort work by whether judgment is central or peripheral; batch reviews to reduce switching costs
-- Reserve human judgment only for decisions machines cannot verify; let agents write tests and generate proofs for the routine 80%
-- Feeling busy is decoupled from productivity; running 20 agents can feel productive while delivering little shipped code and accumulating hidden cognitive debt
+- Human attention is the system bottleneck in agentic workflows; it acts like Python's GIL—all agents can run, but only one serial processor (human judgment) can execute, especially for architectural understanding and merge conflicts
+- The orchestration tax is structural, not a discipline issue—governed by Amdahl's Law and cognitive limits that cannot be overcome by effort alone
+- Context-switching between agent reviews is cognitively expensive; busy feeling decouples from shipped work quality, creating invisible failure modes (technical debt, stale mental models, poor code reviews)
+- Scale agent parallelization to human review capacity, not UI limits; for most people this is low single digits, not 20
+- Separate isolated/delegable work (safe to parallelize) from complex judgment-heavy work (never parallelize); the mistake is trying to scale the latter
+- Practical tactics: batch reviews, use backpressure (let agents wait), have agents self-verify with tests/screenshots, protect uninterrupted thinking time for hard problems
+- The core skill is architecting the system around the one non-parallelizable resource—human attention—not simply spawning more agents
 
 ## Key Quotes
 
-> "Running multiple agents does not mean there is more of you. Your cognitive bandwidth doesn't parallelize."
-
-> "You are the GIL of your AI agents. They all can run at once. But when any of their work needs genuine understanding of the architecture or resolving merge conflicts, that work has to acquire the lock. There is one lock. You hold it."
-
-> "The real skill is designing the system around the one serial resource that cannot be cloned or parallelized. That resource is your attention. Architect it the way you architect anything else you depend on in production."
+- "Starting an agent is very cheap. It is just a keystroke or a sentence prompt. But closing the loop on the agent is not cheap at all. Someone has to check if what came back is correct and reconcile it with whatever the other agents touched. That someone is you. And there is exactly one of you."
+- "You are the GIL of your AI agents. They all can run at once. But when any of their work needs genuine understanding of the architecture or resolving merge conflicts, that work has to acquire the lock. There is one lock. You hold it."
+- "The real skill is designing the system around the one serial resource that cannot be cloned or parallelized. That resource is your attention. Architect it the way you architect anything else you depend on in production."
