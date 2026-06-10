@@ -2,6 +2,23 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-06-09] ingest | Integrate 2 new sources across 2 pages (1 new)
+
+**New sources integrated (2):**
+
+- **How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt** (Margaret-Anne Storey, Feb 2026) — Introduces "cognitive debt" as the team-level erosion of shared understanding (Peter Naur's "program theory") as AI accelerates development velocity. Distinct from comprehension debt (individual-level) — cognitive debt lives in people, not code. Mitigation: require humans to understand AI changes, document reasoning, use TDD and pair programming to rebuild shared mental models.
+- **What I'm Hearing About Cognitive Debt (So Far)** (Margaret-Anne Storey, Feb 2026) — Community follow-up confirming the pattern: velocity outpaces understanding, manifesting as review burden, debugging friction, and onboarding slowdowns. Core insight: as AI removes other bottlenecks, shared understanding may become the primary performance bottleneck. Mitigation requires maintaining a "distributed theory" across people, documentation, tests, tooling, and AI agents.
+
+**Note:** One source ("Checking your browser before accessing pmc.ncbi.nlm.nih.gov") was again an empty browser-challenge page; skipped.
+
+**New page (1):**
+- **cognitive-debt.md** — Defines and distinguishes cognitive debt from comprehension debt; covers Storey's warning signs, mitigation framework, and community response; cross-references agentic coding and spec-driven development.
+
+**Pages updated (1):**
+- **ai-impact-on-software-engineering.md** — Extended the Comprehension Debt section with a paragraph linking to cognitive debt as the team-level complement, citing both Storey sources.
+
+---
+
 ## [2026-06-08] ingest | Integrate 1 new source across 2 pages (0 new)
 
 **New sources integrated (1):**

@@ -33,6 +33,7 @@ Content catalog of all wiki pages, organized by category. Updated on each ingest
 ### Coding
 - [Agentic Coding](agentic-coding.md) — The shift to AI agent-driven software development
 - [Claude Code](claude-code.md) — Anthropic's terminal-based agentic coding tool
+- [Cognitive Debt](cognitive-debt.md) — Team-level erosion of shared mental models as AI velocity outpaces understanding
 - [Spec Driven Development](spec-driven-development.md) — Writing specs before engaging coding agents
 - [Vibe Coding](vibe-coding.md) — Karpathy's term for prompt-and-accept AI programming
 
