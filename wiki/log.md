@@ -2,6 +2,20 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-06-10] ingest | Integrate 1 new source across 2 pages
+
+**New sources integrated (1):**
+
+- **The Zig Project's Rationale for Their Firm Anti-AI Contribution Policy** (Simon Willison, Apr 2026) — Zig's total ban on LLM contributions framed around "contributor poker": maintainer code review exists to *develop contributors as people*, not land features. LLM-authored PRs provide no signal about the submitter, breaking the contributor development loop. Creates a coordination problem where accepting AI PRs is irrational. Bun's Anthropic acquisition allows a divergent Zig fork with AI-assisted optimizations (4x speedup) the upstream project would never accept.
+
+**Note:** One source ("Checking your browser before accessing pmc.ncbi.nlm.nih.gov") was a browser-challenge page with no content; skipped (same pattern as ad1bc97).
+
+**Pages updated (2):**
+- **ai-critical-perspectives.md** — Added "Open Source Resistance: The Zig Case" section with contributor poker framing and the Bun fork divergence.
+- **agentic-coding.md** — Added note under "Reading vs Writing" linking Zig's policy to the open source contributor pipeline concern.
+
+---
+
 ## [2026-06-09] ingest | Integrate 2 new sources across 2 pages (1 new)
 
 **New sources integrated (2):**

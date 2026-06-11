@@ -83,6 +83,16 @@ AI companies are starting to show the classic VC-funded "enshittification" patte
 
 See source: [It Is Finally Happening](../summaries/it-is-finally-happening.md)
 
+## Open Source Resistance: The Zig Case
+
+The Zig programming language project maintains one of the strictest anti-LLM policies in open source, explicitly prohibiting LLM-generated contributions at all stages — issues, pull requests, and comments. The rationale, articulated by Zig Software Foundation VP Loris Cro, is "contributor poker": successful open source projects must invest in *developing contributors as people*, not just acquiring code. When maintainers review LLM-assisted PRs, they spend effort that does nothing to grow confident, trustworthy long-term contributors.
+
+This creates a coordination problem: if a PR is primarily LLM-authored, maintainers rationally ask why they should review it rather than generating their own solution. AI-assisted contributions become paradoxically *less* valuable to projects oriented toward human contributor growth.
+
+The policy has created a divergence: Bun (a Zig-based JavaScript runtime acquired by Anthropic in December 2025) maintains its own Zig fork that includes AI-assisted optimizations — achieving 4x compilation speedups — that the upstream project would never accept. Short-term velocity vs. long-term contributor compound returns.
+
+See source: [The Zig Project's Rationale For Their Firm Anti-AI Contribution Policy](../summaries/the-zig-project-s-rationale-for-their-firm-anti-ai.md)
+
 ## Related
 
 - [AI And Jobs](ai-and-jobs.md)

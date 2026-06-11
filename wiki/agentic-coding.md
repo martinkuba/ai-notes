@@ -29,6 +29,8 @@ In the agentic era, code becomes malleable material — easily reshaped, regener
 ### Reading vs Writing
 A growing tension: AI makes writing code trivially easy but reading AI-generated code remains hard. Code review burden increases as the ratio of generated-to-handwritten code grows. See source: [It S Harder To Read Code Than To Write It](../summaries/it-s-harder-to-read-code-than-to-write-it-especially-when.md)
 
+The Zig project's anti-LLM contribution policy extends this concern to open source dynamics: if maintainers can't develop contributors through code review (because AI wrote the code), the human contributor pipeline stalls. See [AI Critical Perspectives](ai-critical-perspectives.md) and source: [The Zig Project's Rationale For Their Firm Anti-AI Contribution Policy](../summaries/the-zig-project-s-rationale-for-their-firm-anti-ai.md)
+
 ## Productivity Evidence
 
 - [Andrej Karpathy](andrej-karpathy.md): Reports 10x productivity gains but warns of "slopacolypse" — a flood of low-quality AI-generated code. See source: [A Few Random Notes From Claude Coding Quite A Bit](../summaries/a-few-random-notes-from-claude-coding-quite-a-bit.md)
