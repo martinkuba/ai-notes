@@ -6,7 +6,7 @@ source_url: "https://www.oneusefulthing.org/p/making-ai-work-leadership-lab-and"
 category: "article"
 tags: [ai, work]
 saved_at: "2026-06-01T16:32:15.326000+00:00"
-summarized_at: "2026-06-09T00:00:04Z"
+summarized_at: 2026-06-12T00:00:04Z
 ---
 
 # Making AI Work: Leadership, Lab, and Crowd
@@ -16,23 +16,20 @@ summarized_at: "2026-06-09T00:00:04Z"
 
 ## Summary
 
-Individual workers are capturing significant productivity gains from AI (workers report 2-3x time savings on tasks), and 30-40% of knowledge workers are already using AI at work. However, companies are reporting only small to moderate organizational gains, indicating a critical gap: individual performance improvements do not automatically translate to organizational performance. The core problem is that no universal playbook exists for AI integration—companies must innovate faster than competitors by discovering how AI can transform their specific workflows, processes, and work structures.
-
-Mollick proposes a three-part framework for capturing organizational AI value: Leadership provides vision and rethinks how work fundamentally changes; the Lab builds and tests new AI-integrated workflows at scale; and the Crowd drives grassroots experimentation and discovery. Leadership must address "Secret Cyborgs"—workers who hide AI use due to fears of layoffs, punishment, or changed expectations. Workers need clear permission to experiment, vivid visions of the AI-powered future, and strong incentives (promotions, bonuses) for discovering transformational opportunities. The Lab, staffed by AI enthusiasts from the Crowd, rapidly builds and distributes solutions, develops organization-specific AI benchmarks, builds experimental systems to test future capabilities, and creates provocations to shift thinking about what's possible.
-
-The deeper challenge is that when capabilities shift from scarce to abundant (research from weeks to minutes, code written instantly), the bottleneck moves to strategy and direction—deciding *what* to build, not *how* to build it. Organizations must fundamentally rethink work structures, processes, and goals built around human intelligence constraints that no longer apply.
+While individual workers report substantial productivity gains from AI use—with some studies showing 40% reporting task time cuts in half and others showing 3x productivity increases—organizations are capturing only modest gains. This paradox arises because individual performance improvements don't automatically translate to organizational wins. Successful AI transformation requires organizational innovation across three interconnected areas: Leadership must articulate a vivid vision of the AI-powered future and create incentives for experimentation; the Crowd (employees) naturally discovers valuable use cases but often hides this use due to fear of layoffs, reduced autonomy, or punishment; and the Lab (a centralized, ambidextrous team) must rapidly prototype solutions, build organization-specific benchmarks, and distribute workflows enterprise-wide. Critically, AI fundamentally reshapes the nature of work—when research takes minutes instead of weeks, the bottleneck shifts from doing research to knowing what to research. Organizations must rethink assumptions about task decomposition and work itself while adapting faster than competitors.
 
 ## Main Ideas
 
-- Individual AI productivity gains are substantial and widespread (40%+ of workers using AI, reporting 2-3x time savings), but organizations are failing to capture these as organizational improvements
-- Companies cannot rely on external consultants or vendors for AI transformation—each organization must discover its own context-specific integration strategies and must move faster than competitors
-- Leadership failure to create psychological safety, clear vision, and proper incentives causes workers to hide AI use, preventing organizational learning and capability capture
-- "The Lab" should be a small, focused team that rapidly prototypes AI solutions from crowd discoveries, develops internal benchmarks, builds experimental systems to test emerging capabilities, and creates provocations to shift organizational thinking
-- As AI capabilities become abundant, organizational bottlenecks shift from execution to strategy—what research to do, what to build, what will matter to customers
-- Successful AI adoption is an organizational learning challenge, not primarily a technical one; advantage accrues to companies that can learn and experiment faster than competitors
+- Individual AI productivity gains require organizational innovation to materialize—personal performance improvements don't automatically improve organizational performance without process changes
+- Leadership must provide a clear, vivid vision of the AI-powered future state and remove disincentives that cause workers to hide their AI use (fear of layoffs, reduced recognition, or exploitation of gains)
+- The Crowd (experienced employees) discovers most valuable AI use cases, but this innovation is suppressed when companies create unsafe environments or unclear policies
+- The Lab should be ambidextrous, combining exploration of emerging capabilities with exploitation through rapid prototyping, building organization-specific benchmarks, and distributing proven solutions
+- AI transforms what constitutes work—as execution becomes fast and cheap, the constraint shifts upstream to problem definition and decision-making
+- Organizations must treat AI adoption as an organizational learning challenge requiring feedback loops between Leadership, Lab, and Crowd, not primarily as a technical implementation problem
+- The competitive advantage goes to organizations that learn fastest by experimenting now, while the technology and optimal practices remain uncertain
 
 ## Key Quotes
 
-- "There are more reasons for workers to not use AI publicly than to use it."
-- "The advantage goes to those willing to learn fastest."
-- "Organizations, from their structures to their processes to their goals, were all built around human intelligence because that's all we had. AI alters this fundamental fact."
+- "How do we reconcile the first three points with the final one? The answer is that AI use that boosts individual performance does not naturally translate to improving organizational performance."
+- "The key is treating AI adoption as an organizational learning challenge, not merely a technical one."
+- "The time to begin isn't when everything becomes clear - it's now, while everything is still messy and uncertain. The advantage goes to those willing to learn fastest."
