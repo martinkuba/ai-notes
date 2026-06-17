@@ -2,6 +2,20 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-06-16] ingest | Expand 2 pages with updated source
+
+**Sources updated (1):**
+
+- **SBSQ #17: How Should You Prepare for an AI Future?** (Nate Silver) — Re-summarized with richer detail on the G×S×P multiplicative production framework (general intelligence × specialized knowledge × personal skills), winner-take-all dynamics created by AI performing at 8.7/10, and resilience/resourcefulness as the highest-leverage personal development traits.
+
+**Note:** One source ("Checking your browser before accessing pmc.ncbi.nlm.nih.gov") was again an empty browser-challenge page with no content; skipped.
+
+**Pages updated (2):**
+- **ai-futures.md** — Expanded "Personal Preparation" section with Silver's G×S×P framework, winner-take-all analysis, and key quote.
+- **ai-and-jobs.md** — Added new "Knowledge Worker Strategy: The G×S×P Framework" section linking the framework to the broader job displacement/adaptation discussion.
+
+---
+
 ## [2026-06-10] ingest | Integrate 1 new source across 2 pages
 
 **New sources integrated (1):**

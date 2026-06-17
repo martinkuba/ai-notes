@@ -77,6 +77,12 @@ Categories of jobs most resistant to AI displacement: those requiring physical p
 
 See source: [The Jobs AI Won T Take Yet](../summaries/the-jobs-ai-won-t-take-yet.md)
 
+## Knowledge Worker Strategy: The G×S×P Framework
+
+Nate Silver proposes that knowledge-economy value is a multiplicative function: **G × S × P**, where G = general problem-solving intelligence, S = specialized domain knowledge, and P = personal and interpersonal skills. As AI automates G, the relative importance of P rises — clients increasingly pay for human judgment, relationships, and trust that AI cannot replicate. At the same time, the labor market becomes more winner-take-all: a worker at 9.7 out of 10 captures disproportionate returns when AI sits at 8.7. His strategic advice: bundle complementary skills rather than betting on any one; cultivate **resilience** (ability to pivot, absorb setbacks) and **resourcefulness** (self-directed learning, networking, entrepreneurial mindset).
+
+See source: [SBSQ #17: How Should You Prepare for an AI Future?](../summaries/sbsq-17-how-should-you-prepare-for-an-ai-future.md)
+
 ## Healthcare Example
 
 Healthcare AI, intended to save costs, turns out to require expensive human oversight — a cautionary tale about automation expectations vs. reality.
