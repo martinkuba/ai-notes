@@ -2,6 +2,14 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-06-23] ingest | No new sources — wiki fully up to date
+
+Audited all 172 summary files against wiki references. All valid summaries are already integrated.
+
+**Note:** The one unreferenced file (`checking-your-browser-before-accessing-pmc-ncbi-nlm-nih-gov.md`) is the recurring browser-challenge interstitial with no content; skipped as before.
+
+---
+
 ## [2026-06-16] ingest | Expand 2 pages with updated source
 
 **Sources updated (1):**
