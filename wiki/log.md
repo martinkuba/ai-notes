@@ -2,6 +2,16 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-06-24] ingest | No new sources — wiki fully up to date
+
+Audited all 172 summary files against wiki references. All valid summaries are already integrated.
+
+One summary was re-generated with enriched content (`claude-code-and-what-comes-next.md` — Mollick on Claude Code's compacting/skills/subagents/MCP architecture); already well-referenced in [Claude Code](claude-code.md) and [Boris Cherny](boris-cherny.md), no wiki updates needed.
+
+**Note:** The one unreferenced file (`checking-your-browser-before-accessing-pmc-ncbi-nlm-nih-gov.md`) remains the recurring browser-challenge interstitial with no content; skipped.
+
+---
+
 ## [2026-06-23] ingest | No new sources — wiki fully up to date
 
 Audited all 172 summary files against wiki references. All valid summaries are already integrated.
