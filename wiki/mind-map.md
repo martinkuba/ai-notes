@@ -13,6 +13,7 @@ mindmap
         Cognitive surrender
         Agentic engineering
         Ratchet Principle
+        Agent Autonomy Levels
       Andrej Karpathy
         Vibe coding
         Slopacolypse
@@ -102,6 +103,11 @@ mindmap
         AGENTS.md design
         Ratchet Principle
         Co-evolution
+      Agent Autonomy Levels
+        Two-axis model
+        Six levels
+        Contracts
+        Anti-patterns
       Deep Research
         OpenAI / Perplexity
         AI Co-Scientist
@@ -174,6 +180,7 @@ mindmap
     - The IDE is being de-centered
     - Specs over code (code is regenerable, intent isn't)
     - Senior engineers benefit disproportionately
+    - Autonomy is two-dimensional (agency x orchestration), not a ladder
 
 - **[Andrej Karpathy](andrej-karpathy.md)** — named the cultural moment
   - On agentic coding — ~80% agent-driven, 10x productivity, "slopacolypse" warning
@@ -345,6 +352,16 @@ mindmap
   - Behavior-driven design — name the behavior or remove the component
   - Harnesses evolve, don't shrink — co-evolution with models
   - Industry convergence — worktrees, task-based UI, async agents, CI/CD
+  - Autonomy contracts — goal, scope, tools, stopping conditions, escalation, budget
+
+- **[Agent Autonomy Levels](agent-autonomy-levels.md)** (Osmani)
+  - Two-axis model — agency vs. orchestration, replacing Yegge's single ladder
+  - Six levels — assist → supervised → scoped delegation → goal-driven → parallel agents → managed-by-exception
+  - Right level determined by — error-detection speed, reversibility, verifiability (not task name)
+  - Contracts precede execution — goal, scope, tools, stopping conditions, escalation, budget
+  - Metrics — mean time between interventions, approval rate, defect escape rate
+  - Anti-patterns — autonomy-as-status, permission laundering, summary substitution, fleet cosplay
+  - Core insight — verification is the bottleneck, not capability
 
 - **[Deep Research](deep-research.md)**
   - OpenAI Deep Research — stunned professionals, junior-analyst quality

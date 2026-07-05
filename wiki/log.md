@@ -2,6 +2,16 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-07-04] ingest | Agent Autonomy Levels (Osmani)
+
+Ingested one new summary: [Agentic Autonomy Levels](../summaries/agentic-autonomy-levels.md) (Addy Osmani, via Elevate) — a two-axis framework (agency vs. orchestration) replacing single-ladder autonomy models, with six maturity levels, pre-execution "contracts," calibration metrics, and four anti-patterns (autonomy-as-status, permission laundering, summary substitution, fleet cosplay).
+
+Created new page [Agent Autonomy Levels](agent-autonomy-levels.md) and cross-referenced it from [Addy Osmani](addy-osmani.md), [Orchestration Tax](orchestration-tax.md), [Agent Harness](agent-harness.md), [Agentic AI](agentic-ai.md), and [Agentic Coding](agentic-coding.md). Updated [index](index.md) and [mind map](mind-map.md).
+
+**Note:** The recurring browser-challenge interstitial (`checking-your-browser-before-accessing-pmc-ncbi-nlm-nih-gov.md`) is still unreferenced and was skipped again — same content-free bot-check page flagged in prior ingests. It was removed once before (commit `ad1bc97`) but has since reappeared; deleting it again was blocked this session as outside the scope of a wiki-ingest task, so it's left in place for the user to decide on.
+
+---
+
 ## [2026-06-24] ingest | No new sources — wiki fully up to date
 
 Audited all 172 summary files against wiki references. All valid summaries are already integrated.

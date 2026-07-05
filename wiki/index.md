@@ -41,6 +41,7 @@ Content catalog of all wiki pages, organized by category. Updated on each ingest
 - [Agentic AI](agentic-ai.md) — Autonomous multi-step AI systems (the "third wave")
 - [Agent Harness](agent-harness.md) — Scaffolding around models: tools, context policies, hooks, sandboxes, memory
 - [Orchestration Tax](orchestration-tax.md) — Human attention as the serial bottleneck; how long-running agents change the tradeoff
+- [Agent Autonomy Levels](agent-autonomy-levels.md) — Two-axis (agency x orchestration) framework for calibrating agent independence; contracts, metrics, anti-patterns
 - [Deep Research](deep-research.md) — AI tools for autonomous multi-step research
 
 ### Society

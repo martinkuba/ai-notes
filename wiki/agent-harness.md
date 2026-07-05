@@ -94,9 +94,14 @@ As models improve, harnesses don't become obsolete — they shift to address new
 
 Tools like Cursor, Claude Code, and GitHub Copilot have converged on similar harness patterns: git worktrees for isolation, task-based interfaces replacing file tabs, async background agents, and CI/CD integration. These patterns are becoming fundamental conventions.
 
+## Autonomy Contracts
+
+A related, higher-level discipline: before an agent run begins, define a contract specifying goal, scope, allowed tools, stopping conditions, success evidence, escalation policy, and resource budget. Contracts sit above the harness — they govern *how far* an agent is allowed to go within it — and are calibrated against how quickly errors surface, how reversible changes are, and what evidence independently verifies success. See [Agent Autonomy Levels](agent-autonomy-levels.md).
+
 ## Related
 
 - [Agentic AI](agentic-ai.md)
 - [Agentic Coding](agentic-coding.md)
 - [Claude Code](claude-code.md)
 - [Addy Osmani](addy-osmani.md)
+- [Agent Autonomy Levels](agent-autonomy-levels.md)

@@ -13,6 +13,7 @@ Engineer and writer; the wiki's most-cited contemporary voice on the practical d
 - **Ambient anxiety tax** — The background vigilance cost of running parallel agents: continuous worry about what unmonitored threads might be getting wrong. A hidden cognitive ceiling on agent parallelism.
 - **The Orchestration Tax** — The hidden cost of scaling agent usage: spawning agents is trivially easy, but reviewing, verifying, and merging their output is strictly serial. Human attention is the bottleneck — the GIL of your AI agents. Amdahl's Law applies directly: speedup is capped by the serial fraction (judgment), so more agents only deepen the queue, they don't increase throughput. The solution is treating attention as a scarce architectural resource: scale your agent fleet to your review rate (typically low single digits), batch reviews to reduce context-switching costs, and reserve human judgment only for decisions machines cannot verify. See source: [The Orchestration Tax](../summaries/the-orchestration-tax.md).
 - **Agentic engineering** — The professional alternative to [vibe coding](vibe-coding.md). Engineers orchestrate AI agents that handle implementation while the human acts as architect, reviewer, and decision-maker. Requires upfront planning, rigorous review, comprehensive testing, and full codebase ownership. See source: [Agentic Engineering](../summaries/agentic-engineering.md).
+- **Agent Autonomy Levels** — A two-axis framework (agency vs. orchestration) replacing single-ladder autonomy models, with six maturity levels, pre-execution "contracts," and calibration metrics. See [Agent Autonomy Levels](agent-autonomy-levels.md).
 
 ## Agent Harness Engineering
 
@@ -46,6 +47,9 @@ Code is regenerable; intent is not. The spec becomes the durable artifact. See [
 ### Senior engineers benefit disproportionately
 Agentic engineering rewards engineers who can efficiently review and correct AI output. Juniors risk skill atrophy. See [AI And Software Engineering Jobs](ai-and-software-engineering-jobs.md).
 
+### Autonomy is two-dimensional, not a ladder
+Yegge's single-axis autonomy scale conflates agency (how far one agent can go) with orchestration (how well an organization coordinates many agents). The right autonomy level for a task depends on error-detection speed, reversibility, and independent verifiability — not the task's name. See [Agent Autonomy Levels](agent-autonomy-levels.md), source: [Agentic Autonomy Levels](../summaries/agentic-autonomy-levels.md).
+
 ## Related
 
 - [Agentic Coding](agentic-coding.md)
@@ -53,3 +57,5 @@ Agentic engineering rewards engineers who can efficiently review and correct AI 
 - [AI Impact On Software Engineering](ai-impact-on-software-engineering.md)
 - [Spec Driven Development](spec-driven-development.md)
 - [Andrej Karpathy](andrej-karpathy.md)
+- [Agent Autonomy Levels](agent-autonomy-levels.md)
+- [Orchestration Tax](orchestration-tax.md)

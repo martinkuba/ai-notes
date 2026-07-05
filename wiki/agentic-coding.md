@@ -66,6 +66,8 @@ As developers move from pairing with a single agent to orchestrating parallel fl
 
 Four management skills transfer directly: clear task scoping with briefs, delegation judgment (hand off vs. checkpoint vs. own), verification loops (tests, lint, writer/reviewer pattern), and async check-ins with structured status updates. Merge conflicts are a boundary failure — solve with git worktrees and one-agent-one-PR rules. See source: [Your AI Coding Agents Need A Manager](../summaries/your-ai-coding-agents-need-a-manager.md)
 
+Osmani's later [Agent Autonomy Levels](agent-autonomy-levels.md) framework generalizes this delegation judgment: the right level of autonomy for a coding task depends on how fast errors surface, how reversible the change is, and what evidence verifies success — not the task's label.
+
 ### The Parallel Agent Ceiling
 
 Running parallel agents imposes hidden cognitive costs: context switching between threads, continuous judgment calls that can't be batched, and trust calibration overhead for each agent. [Addy Osmani](addy-osmani.md) identifies an "ambient anxiety tax" — background vigilance about what unmonitored threads might be getting wrong. Agent parallelism doesn't scale linearly for humans: supervision scales but understanding doesn't, and the gap is where [comprehension debt](ai-impact-on-software-engineering.md) compounds. The practical ceiling is 3-4 well-reviewed threads; three focused threads produce more mergeable output than six half-supervised ones. See source: [Your Parallel Agent Limit](../summaries/your-parallel-agent-limit.md)

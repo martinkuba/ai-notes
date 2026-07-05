@@ -58,9 +58,14 @@ The **Delegated Approval** pattern makes this concrete: the agent pauses at a de
 4. **Know your cognitive ceiling.** Osmani's typical ceiling is 3-4 threads; [Addy Osmani](addy-osmani.md) and Simon Willison both report exhaustion-by-11am at higher counts.
 5. **Shift toward depth to reduce thread count, not review volume.** Fewer long-running agents means fewer simultaneous contexts to hold — which directly reduces context switching cost and ambient anxiety. Total review work stays the same; the shape of when and how you do it improves. See [Agentic AI](agentic-ai.md).
 
+## Relationship to Agent Autonomy Levels
+
+Osmani's later [Agent Autonomy Levels](agent-autonomy-levels.md) framework formalizes the same conclusion into policy: verification, not capability, is the bottleneck at every level of autonomy. Where the orchestration tax explains *why* review is the ceiling, autonomy levels prescribe *how* to calibrate delegation against that ceiling — via contracts, escalation policies, and drift metrics like defect escape rate.
+
 ## Related
 
 - [Agentic AI](agentic-ai.md) — Long-running agent architectures, production patterns, memory systems
 - [Agent Harness](agent-harness.md) — Scaffolding that determines review quality and agent reliability
 - [Agentic Coding](agentic-coding.md) — Practical application to software development
 - [Addy Osmani](addy-osmani.md) — Coined the concept; also coined "comprehension debt" and "ambient anxiety tax"
+- [Agent Autonomy Levels](agent-autonomy-levels.md) — Formalizes the verification bottleneck into a six-level maturity model
