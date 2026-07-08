@@ -181,9 +181,9 @@ def resume() -> None:
     branch = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"],
                             capture_output=True, text=True).stdout.strip()
     print(f"==> Resuming ingest on branch: {branch}")
-    claude_bin = shutil.which("claude")
-    if not claude_bin:
-        print("Error: claude not found on PATH", file=sys.stderr)
+    claude_bin = shutil.which("claude") or str(Path.home() / ".local/bin/claude")
+    if not Path(claude_bin).exists():
+        print("Error: claude not found on PATH or ~/.local/bin/claude", file=sys.stderr)
         sys.exit(1)
     print("==> Running Claude to ingest summaries into wiki...")
     run(
@@ -272,9 +272,9 @@ def main() -> None:
         print(f"==> Creating branch: {branch}")
         run(["git", "checkout", "-b", branch])
 
-    claude_bin = shutil.which("claude")
-    if not claude_bin:
-        print("Error: claude not found on PATH", file=sys.stderr)
+    claude_bin = shutil.which("claude") or str(Path.home() / ".local/bin/claude")
+    if not Path(claude_bin).exists():
+        print("Error: claude not found on PATH or ~/.local/bin/claude", file=sys.stderr)
         sys.exit(1)
 
     # 4. Summarize via Claude CLI (parallel)
