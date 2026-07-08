@@ -2,6 +2,14 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-07-07] ingest | No new sources — wiki fully up to date
+
+Audited all 173 summary files against wiki references. All valid summaries are already integrated.
+
+**Note:** The one unreferenced file (`checking-your-browser-before-accessing-pmc-ncbi-nlm-nih-gov.md`) remains the recurring browser-challenge interstitial with no content; skipped as before.
+
+---
+
 ## [2026-07-04] ingest | Agent Autonomy Levels (Osmani)
 
 Ingested one new summary: [Agentic Autonomy Levels](../summaries/agentic-autonomy-levels.md) (Addy Osmani, via Elevate) — a two-axis framework (agency vs. orchestration) replacing single-ladder autonomy models, with six maturity levels, pre-execution "contracts," calibration metrics, and four anti-patterns (autonomy-as-status, permission laundering, summary substitution, fleet cosplay).
