@@ -30,7 +30,7 @@ CLAUDE.md     — This file. Schema and conventions. Co-evolved by human and LLM
 
 ### 1. Sync raw sources
 
-Sources are synced from Readwise Reader using `sync-readwise.py`. Only items tagged "AI" in Readwise are pulled.
+Sources are synced from Readwise Reader using `sync-readwise.py`. Only items tagged both "AI" and "kb" in Readwise are pulled.
 
 ```bash
 python3 sync-readwise.py

@@ -15,7 +15,7 @@ wiki/             LLM-generated knowledge pages (summaries, entities, concepts,
   index.md        Content catalog of every page, grouped by category
   log.md          Reverse-chronological activity log
 CLAUDE.md         Schema defining structure, conventions, and workflows
-sync-readwise.py  Pulls AI-tagged content from Readwise Reader into sources/
+sync-readwise.py  Pulls content tagged "AI" and "kb" from Readwise Reader into sources/
 ingest.py         Full pipeline: sync → summarize → ingest → PR
 .env              API tokens (not committed)
 ```
@@ -38,7 +38,7 @@ python3 ingest.py --skip-sync  # skip Readwise sync (sources already up to date)
 
 `ingest.py` runs the full pipeline:
 
-1. **Sync** — pulls AI-tagged documents from Readwise Reader into `sources/` (incremental, stdlib only, tracks state in `sources/.sync-state.json`)
+1. **Sync** — pulls documents tagged both "AI" and "kb" from Readwise Reader into `sources/` (incremental, stdlib only, tracks state in `sources/.sync-state.json`)
 2. **Summarize** — generates summary docs in `summaries/` via the Claude CLI (`claude-haiku-4-5-20251001`), parallelized up to 5 concurrent requests; skips sources whose content hasn't changed
 3. **Ingest** — runs Claude Code to read summaries and create/update wiki pages, cross-references, index, and log
 4. **PR** — commits changes and opens a pull request

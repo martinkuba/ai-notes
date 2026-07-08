@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sync AI-tagged documents from Readwise Reader to local markdown sources."""
+"""Sync documents tagged both 'AI' and 'kb' from Readwise Reader to local markdown sources."""
 
 import html.parser
 import json
@@ -200,7 +200,9 @@ def get_token():
 
 def api_request(token, params):
     """Make a GET request to the Readwise Reader API with retries."""
-    url = API_URL + "?" + urllib.parse.urlencode({k: v for k, v in params.items() if v is not None})
+    url = API_URL + "?" + urllib.parse.urlencode(
+        {k: v for k, v in params.items() if v is not None}, doseq=True
+    )
     req = urllib.request.Request(url, headers={"Authorization": f"Token {token}"})
 
     for attempt in range(MAX_RETRIES):
@@ -229,9 +231,9 @@ def api_request(token, params):
 
 
 def fetch_documents(token, updated_after=None):
-    """Fetch all AI-tagged documents, handling pagination."""
+    """Fetch all documents tagged both 'AI' and 'kb', handling pagination."""
     documents = []
-    params = {"tag": "ai", "withHtmlContent": "true"}
+    params = {"tag": ["ai", "kb"], "withHtmlContent": "true"}
     if updated_after:
         params["updatedAfter"] = updated_after
 
@@ -363,7 +365,7 @@ def main():
     if updated_after:
         print(f"Fetching documents updated after {updated_after}...")
     else:
-        print("First sync — fetching all AI-tagged documents...")
+        print("First sync — fetching all documents tagged both 'AI' and 'kb'...")
 
     documents = fetch_documents(token, updated_after)
 
