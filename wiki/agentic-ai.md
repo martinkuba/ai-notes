@@ -128,9 +128,14 @@ The challenge in AI agents: frameworks and benchmarks become obsolete quarterly.
 
 See source: [What to Learn, Build, and Skip in AI Agents (2026)](../summaries/what-to-learn-build-and-skip-in-ai-agents-2026.md)
 
+## Autonomy Levels
+
+[Addy Osmani](addy-osmani.md) frames the production patterns above (Checkpoint-and-Resume, Delegated Approval, Fleet Orchestration) as points on a six-level autonomy maturity model, separating *agency* (how independently one agent acts) from *orchestration* (how well an organization coordinates many). Delegated Approval maps to the mid-levels; Fleet Orchestration requires Level 4-5 maturity. See [Agent Autonomy Levels](agent-autonomy-levels.md).
+
 ## Related
 
 - [Agentic Coding](agentic-coding.md)
 - [AI And Jobs](ai-and-jobs.md)
 - [Deep Research](deep-research.md)
 - [AGI Timelines](agi-timelines.md)
+- [Agent Autonomy Levels](agent-autonomy-levels.md)

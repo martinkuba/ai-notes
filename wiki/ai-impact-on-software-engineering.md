@@ -26,6 +26,8 @@ Karpathy warns of a coming "slopacolypse" — a flood of low-quality AI-generate
 
 The mechanism that drives comprehension debt is **cognitive surrender**: accepting AI output without forming independent views, creating a loan of understanding that compounds each time the codebase is changed but not understood. Osmani distinguishes this from *cognitive offloading* (valid — retaining judgment while delegating execution) and identifies structural countermeasures: verification exit criteria, anti-rationalization tables, smaller PRs, and forming expectations *before* reviewing diffs. See source: [Cognitive Surrender](../summaries/cognitive-surrender.md)
 
+A closely related but team-level concept is [Cognitive Debt](cognitive-debt.md) (Margaret Storey) — the erosion of *shared* mental models across the team, not just individual understanding. Where comprehension debt is about any one developer's gap with the code, cognitive debt is about the collective "theory" of the system fragmenting across a team. Both accelerate under AI-assisted development and are invisible to standard metrics. See: [How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt](../summaries/how-generative-and-agentic-ai-shift-concern-from-technical.md), [What I'm Hearing About Cognitive Debt (So Far)](../summaries/what-im-hearing-about-cognitive-debt-so-far.md)
+
 ## The Job Market Is Shifting
 
 The data is stark but mixed:

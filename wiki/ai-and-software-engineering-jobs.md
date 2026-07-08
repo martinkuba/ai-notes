@@ -66,6 +66,14 @@ Kyle Daigle (GitHub COO) argues this is the best time ever to be a developer. Th
 
 See source: [GitHub COO: Why Now Is the BEST Time to Be a Developer](../summaries/github-coo-why-now-is-the-best-time-to-be-a-developer-kyle.md)
 
+## New AI Engineering Specializations
+
+Andrew Ng identifies the **AI Forward Deployed Engineer (FDE)** — an engineer embedded within a client organization to customize agentic workflows — as one of the buzzy new roles. FDEs were pioneered by Palantir for air-gapped government networks and require both technical and business communication skills. But Ng argues AI Engineer positions will vastly outnumber FDE slots: companies want their own employees owning AI projects, and vendor-neutral AI Engineers preserve the optionality to switch AI providers as the landscape evolves. Companies that let FDEs tightly bind their processes lose flexibility in a fast-moving market.
+
+Surging near-term demand is for AI Engineers fluent in LLM prompting, agentic frameworks, evals, and AI coding agents. Ng predicts the AI Engineer role will fragment into specializations — LLMOps, Evals Engineers, AI Data Engineers, Harness Engineers — mirroring how the generic Software Engineer role split into frontend, backend, mobile, DevOps, and data engineering over the past decades.
+
+See source: [One of the New, Buzzy Jobs in Silicon Valley Is...](../summaries/one-of-the-new-buzzy-jobs-in-silicon-valley-is.md)
+
 ## Related
 
 - [Agentic Coding](agentic-coding.md)

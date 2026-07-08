@@ -80,7 +80,7 @@ Treat each agent failure as a permanent signal, not a one-off. Every mistake sho
 - If it ran a destructive command → write a hook to block it
 - If it got lost in a 40-step task → split into planner + executor
 
-This creates a ratchet effect: the harness becomes progressively more refined, and the same mistake never recurs.
+This creates a ratchet effect: the harness becomes progressively more refined, and the same mistake never recurs. Mitchell Hashimoto describes an identical practice as phase 5 of his six-phase adoption journey: "harness engineering" — building tools that prevent bad agent behavior rather than correcting it after the fact. See source: [My AI Adoption Journey](../summaries/my-ai-adoption-journey.md)
 
 ## Behavior-Driven Design
 
@@ -94,9 +94,14 @@ As models improve, harnesses don't become obsolete — they shift to address new
 
 Tools like Cursor, Claude Code, and GitHub Copilot have converged on similar harness patterns: git worktrees for isolation, task-based interfaces replacing file tabs, async background agents, and CI/CD integration. These patterns are becoming fundamental conventions.
 
+## Autonomy Contracts
+
+A related, higher-level discipline: before an agent run begins, define a contract specifying goal, scope, allowed tools, stopping conditions, success evidence, escalation policy, and resource budget. Contracts sit above the harness — they govern *how far* an agent is allowed to go within it — and are calibrated against how quickly errors surface, how reversible changes are, and what evidence independently verifies success. See [Agent Autonomy Levels](agent-autonomy-levels.md).
+
 ## Related
 
 - [Agentic AI](agentic-ai.md)
 - [Agentic Coding](agentic-coding.md)
 - [Claude Code](claude-code.md)
 - [Addy Osmani](addy-osmani.md)
+- [Agent Autonomy Levels](agent-autonomy-levels.md)

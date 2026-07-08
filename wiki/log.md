@@ -2,6 +2,136 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-07-07] ingest | No new sources — wiki fully up to date
+
+Audited all 173 summary files against wiki references. All valid summaries are already integrated.
+
+**Note:** The one unreferenced file (`checking-your-browser-before-accessing-pmc-ncbi-nlm-nih-gov.md`) remains the recurring browser-challenge interstitial with no content; skipped as before.
+
+---
+
+## [2026-07-04] ingest | Agent Autonomy Levels (Osmani)
+
+Ingested one new summary: [Agentic Autonomy Levels](../summaries/agentic-autonomy-levels.md) (Addy Osmani, via Elevate) — a two-axis framework (agency vs. orchestration) replacing single-ladder autonomy models, with six maturity levels, pre-execution "contracts," calibration metrics, and four anti-patterns (autonomy-as-status, permission laundering, summary substitution, fleet cosplay).
+
+Created new page [Agent Autonomy Levels](agent-autonomy-levels.md) and cross-referenced it from [Addy Osmani](addy-osmani.md), [Orchestration Tax](orchestration-tax.md), [Agent Harness](agent-harness.md), [Agentic AI](agentic-ai.md), and [Agentic Coding](agentic-coding.md). Updated [index](index.md) and [mind map](mind-map.md).
+
+**Note:** The recurring browser-challenge interstitial (`checking-your-browser-before-accessing-pmc-ncbi-nlm-nih-gov.md`) is still unreferenced and was skipped again — same content-free bot-check page flagged in prior ingests. It was removed once before (commit `ad1bc97`) but has since reappeared; deleting it again was blocked this session as outside the scope of a wiki-ingest task, so it's left in place for the user to decide on.
+
+---
+
+## [2026-06-24] ingest | No new sources — wiki fully up to date
+
+Audited all 172 summary files against wiki references. All valid summaries are already integrated.
+
+One summary was re-generated with enriched content (`claude-code-and-what-comes-next.md` — Mollick on Claude Code's compacting/skills/subagents/MCP architecture); already well-referenced in [Claude Code](claude-code.md) and [Boris Cherny](boris-cherny.md), no wiki updates needed.
+
+**Note:** The one unreferenced file (`checking-your-browser-before-accessing-pmc-ncbi-nlm-nih-gov.md`) remains the recurring browser-challenge interstitial with no content; skipped.
+
+---
+
+## [2026-06-23] ingest | No new sources — wiki fully up to date
+
+Audited all 172 summary files against wiki references. All valid summaries are already integrated.
+
+**Note:** The one unreferenced file (`checking-your-browser-before-accessing-pmc-ncbi-nlm-nih-gov.md`) is the recurring browser-challenge interstitial with no content; skipped as before.
+
+---
+
+## [2026-06-16] ingest | Expand 2 pages with updated source
+
+**Sources updated (1):**
+
+- **SBSQ #17: How Should You Prepare for an AI Future?** (Nate Silver) — Re-summarized with richer detail on the G×S×P multiplicative production framework (general intelligence × specialized knowledge × personal skills), winner-take-all dynamics created by AI performing at 8.7/10, and resilience/resourcefulness as the highest-leverage personal development traits.
+
+**Note:** One source ("Checking your browser before accessing pmc.ncbi.nlm.nih.gov") was again an empty browser-challenge page with no content; skipped.
+
+**Pages updated (2):**
+- **ai-futures.md** — Expanded "Personal Preparation" section with Silver's G×S×P framework, winner-take-all analysis, and key quote.
+- **ai-and-jobs.md** — Added new "Knowledge Worker Strategy: The G×S×P Framework" section linking the framework to the broader job displacement/adaptation discussion.
+
+---
+
+## [2026-06-10] ingest | Integrate 1 new source across 2 pages
+
+**New sources integrated (1):**
+
+- **The Zig Project's Rationale for Their Firm Anti-AI Contribution Policy** (Simon Willison, Apr 2026) — Zig's total ban on LLM contributions framed around "contributor poker": maintainer code review exists to *develop contributors as people*, not land features. LLM-authored PRs provide no signal about the submitter, breaking the contributor development loop. Creates a coordination problem where accepting AI PRs is irrational. Bun's Anthropic acquisition allows a divergent Zig fork with AI-assisted optimizations (4x speedup) the upstream project would never accept.
+
+**Note:** One source ("Checking your browser before accessing pmc.ncbi.nlm.nih.gov") was a browser-challenge page with no content; skipped (same pattern as ad1bc97).
+
+**Pages updated (2):**
+- **ai-critical-perspectives.md** — Added "Open Source Resistance: The Zig Case" section with contributor poker framing and the Bun fork divergence.
+- **agentic-coding.md** — Added note under "Reading vs Writing" linking Zig's policy to the open source contributor pipeline concern.
+
+---
+
+## [2026-06-09] ingest | Integrate 2 new sources across 2 pages (1 new)
+
+**New sources integrated (2):**
+
+- **How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt** (Margaret-Anne Storey, Feb 2026) — Introduces "cognitive debt" as the team-level erosion of shared understanding (Peter Naur's "program theory") as AI accelerates development velocity. Distinct from comprehension debt (individual-level) — cognitive debt lives in people, not code. Mitigation: require humans to understand AI changes, document reasoning, use TDD and pair programming to rebuild shared mental models.
+- **What I'm Hearing About Cognitive Debt (So Far)** (Margaret-Anne Storey, Feb 2026) — Community follow-up confirming the pattern: velocity outpaces understanding, manifesting as review burden, debugging friction, and onboarding slowdowns. Core insight: as AI removes other bottlenecks, shared understanding may become the primary performance bottleneck. Mitigation requires maintaining a "distributed theory" across people, documentation, tests, tooling, and AI agents.
+
+**Note:** One source ("Checking your browser before accessing pmc.ncbi.nlm.nih.gov") was again an empty browser-challenge page; skipped.
+
+**New page (1):**
+- **cognitive-debt.md** — Defines and distinguishes cognitive debt from comprehension debt; covers Storey's warning signs, mitigation framework, and community response; cross-references agentic coding and spec-driven development.
+
+**Pages updated (1):**
+- **ai-impact-on-software-engineering.md** — Extended the Comprehension Debt section with a paragraph linking to cognitive debt as the team-level complement, citing both Storey sources.
+
+---
+
+## [2026-06-08] ingest | Integrate 1 new source across 2 pages (0 new)
+
+**New sources integrated (1):**
+
+- **My AI Adoption Journey** (Mitchell Hashimoto, mitchellh.com, Feb 2026) — Practitioner's six-phase journey from chat → agents → async delegation → harness engineering. Key insight: efficiency gains come from understanding what agents *shouldn't* do and systematically delegating at the capability edge. Notable emphasis on async timing (off-hours "warm starts"), high-confidence delegation, and treating every Bad Thing as a permanent harness fix.
+
+**Note:** One source ("Checking your browser before accessing pmc.ncbi.nlm.nih.gov") was an empty browser-challenge page; skipped.
+
+**Pages updated (2):**
+- **agentic-coding.md** — Added "Adoption Phases" section documenting Hashimoto's six-phase framework (switch to agents → reproduce work → async timing → high-confidence delegation → harness engineering → continuous background work).
+- **agent-harness.md** — Extended the Ratchet Principle section with Hashimoto's corroborating account of phase-5 harness engineering as permanent-prevention practice.
+
+---
+
+## [2026-06-01] ingest | Integrate 2 new sources across 3 pages (0 new)
+
+**New sources integrated (2):**
+
+- **One of the New, Buzzy Jobs in Silicon Valley Is...** (Andrew Ng, Twitter/X, June 2026) — Analyzes the AI Forward Deployed Engineer (FDE) role vs. the larger and more scalable AI Engineer role. FDEs (embedded engineers who build and tune agentic workflows for clients) are resurgent, but AI Engineers will vastly outnumber them: companies prefer vendor-neutral engineers who preserve optionality as the AI landscape evolves. Ng predicts AI Engineering will fragment into specializations (LLMOps, Evals, Harness, Data Engineers) mirroring how software engineering split in prior decades.
+- **Making AI Work: Leadership, Lab, and Crowd** (Ethan Mollick, One Useful Thing, June 2026) — Names and diagnoses the enterprise AI paradox: individual gains (2–3×, confirmed by experiments) are real; organizational gains are not materializing. Root cause: an organizational innovation deficit, not a technology gap. Proposes a Leadership/Lab/Crowd feedback loop. Identifies "Secret Cyborgs" (40%+ of workers privately using AI while only ~20% use official tools) as the key behavioral signal. Frames AI as a bottleneck-shifter: when research takes minutes, the constraint becomes knowing what to research.
+
+**Note:** A third synced source ("Checking your browser before accessing pmc.ncbi.nlm.nih.gov") was an empty browser-challenge page with no recoverable content; skipped.
+
+**Pages updated (3):**
+- **ai-and-software-engineering-jobs.md** — Added "New AI Engineering Specializations" section (FDE vs. AI Engineer, vendor optionality, specialization trajectory per Andrew Ng).
+- **ethan-mollick.md** — Added "Organizational AI Transformation: Leadership, Lab, and Crowd" section (Secret Cyborgs, three-part framework, bottleneck-shift thesis).
+- **ai-and-jobs.md** — Extended the Productivity Paradox section with Mollick's structural explanation (organizational innovation deficit, Secret Cyborg dynamic, Leadership/Lab/Crowd framework).
+
+---
+
+## [2026-05-31] query | Orchestration tax × long-running agents synthesis (1 new page)
+
+**Exploration:**
+User asked whether long-running agents contradict the orchestration tax. Research across summaries and wiki revealed these are complementary concepts addressing different axes: breadth (orchestration tax — how many agents?) vs. depth (long-running agents — how long per agent?). Shifting from breadth to depth directly reduces review frequency and context-switching cost, which are the mechanisms behind the tax.
+
+**New page:**
+- **orchestration-tax.md** — Dedicated concept page: Amdahl's Law framing, the GIL analogy, relationship to long-running agents, the Delegated Approval pattern as the key intersection, and practical guidance on what to learn.
+
+**Sources used:**
+- [The Orchestration Tax](../summaries/the-orchestration-tax.md) (Osmani)
+- [Long-running Agents](../summaries/long-running-agents.md) (Osmani)
+- [5 Agent Design Patterns For Long-Running AI Agents](../summaries/5-agent-design-patterns-for-long-running-ai-agents.md) (Google Cloud Tech)
+- [Your Parallel Agent Limit](../summaries/your-parallel-agent-limit.md) (Osmani)
+- [Your AI Coding Agents Need A Manager](../summaries/your-ai-coding-agents-need-a-manager.md) (Osmani)
+- [Agentic Memory: A Detailed Breakdown](../summaries/agentic-memory-a-detailed-breakdown.md)
+- [What to Learn, Build, and Skip in AI Agents (2026)](../summaries/what-to-learn-build-and-skip-in-ai-agents-2026.md)
+
+---
+
 ## [2026-05-31] ingest | Integrate 3 new sources across 3 pages (0 new)
 
 **New sources integrated (3):**

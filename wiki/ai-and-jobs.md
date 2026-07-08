@@ -46,6 +46,8 @@ Despite bold CEO claims, evidence of actual productivity gains is mixed:
 - **But**: Shadow AI economy is thriving — employees using AI tools independently of official programs. See source: [Mit Report Misunderstood Shadow AI Economy](../summaries/mit-report-misunderstood-shadow-ai-economy-booms-while.md)
 - **Klarna** reversed course on aggressive AI replacement after quality issues. See source: [As Ceos Push Replacing People With AI](../summaries/as-ceos-push-replacing-people-with-ai-ai-isn-t-quite-ready.md)
 
+[Ethan Mollick](ethan-mollick.md) offers a structural explanation: individual productivity gains (2–3×, confirmed by controlled experiments) are real, but they don't automatically translate to organizational gains. The reason is an organizational innovation deficit — companies have outsourced process redesign to consultants for decades and lack the muscles to rethink workflows. The "Secret Cyborg" dynamic (40%+ of workers privately use AI while only ~20% use official tools) shows fear and misaligned incentives are blocking adoption more than the technology itself. Closing the gap requires a Leadership/Lab/Crowd feedback loop, not more AI investment. See source: [Making AI Work: Leadership, Lab, and Crowd](../summaries/making-ai-work-leadership-lab-and-crowd.md)
+
 ## Work Intensification
 
 HBR research shows AI doesn't reduce work — it intensifies it. Effects include:
@@ -74,6 +76,12 @@ See source: [AI Will Take Your Job In The Next 18 Months — Here's Your Surviva
 Categories of jobs most resistant to AI displacement: those requiring physical presence, deep human judgment, creative originality, and trust-based relationships.
 
 See source: [The Jobs AI Won T Take Yet](../summaries/the-jobs-ai-won-t-take-yet.md)
+
+## Knowledge Worker Strategy: The G×S×P Framework
+
+Nate Silver proposes that knowledge-economy value is a multiplicative function: **G × S × P**, where G = general problem-solving intelligence, S = specialized domain knowledge, and P = personal and interpersonal skills. As AI automates G, the relative importance of P rises — clients increasingly pay for human judgment, relationships, and trust that AI cannot replicate. At the same time, the labor market becomes more winner-take-all: a worker at 9.7 out of 10 captures disproportionate returns when AI sits at 8.7. His strategic advice: bundle complementary skills rather than betting on any one; cultivate **resilience** (ability to pivot, absorb setbacks) and **resourcefulness** (self-directed learning, networking, entrepreneurial mindset).
+
+See source: [SBSQ #17: How Should You Prepare for an AI Future?](../summaries/sbsq-17-how-should-you-prepare-for-an-ai-future.md)
 
 ## Healthcare Example
 

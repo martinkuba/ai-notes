@@ -45,10 +45,14 @@ Drawing from Max Tegmark's *Life 3.0*, this framework maps twelve possible AI fu
 
 See source: [MIT Explains the 12 Possible Endings for AI](../summaries/mit-explains-the-12-possible-endings-for-ai.md)
 
-### Personal Preparation
-Nate Silver's framework for how individuals should prepare for an AI-transformed world.
+### Personal Preparation (Nate Silver)
+Silver adopts a moderate timeline view — significant human bottlenecks will persist through the next decade even as AI causes major economic disruption. For knowledge workers, he proposes a multiplicative production function: **G × S × P**, where G = general problem-solving intelligence, S = specialized domain knowledge, and P = personal/interpersonal skills.
 
-See source: [Sbsq 17 How Should You Prepare For An AI Future](../summaries/sbsq-17-how-should-you-prepare-for-an-ai-future.md)
+As AI automates G (routine cognition), relative value of P may increase — clients pay for the "human touch" AI cannot replicate. Meanwhile the economy becomes increasingly winner-take-all: being a 9.7 vs. 9.3 in a category becomes far more valuable when AI performs at 8.7. Practical preparation: regular AI tool usage, tech/finance news, growth-oriented equity investment. Key developmental traits: **resilience** (ability to pivot quickly, cope with setbacks) and **resourcefulness** (self-directed learning, networking, entrepreneurial mindset). Bundle skills strategically — complementary combinations beat any single bet.
+
+> "Being a 9.7 out of 10 in some category will potentially be much more remunerative than being a 9.3, or certainly an 8.1 — especially if AI can perform at an 8.7."
+
+See source: [SBSQ #17: How Should You Prepare for an AI Future?](../summaries/sbsq-17-how-should-you-prepare-for-an-ai-future.md)
 
 ## The Present Future
 

@@ -29,6 +29,8 @@ In the agentic era, code becomes malleable material — easily reshaped, regener
 ### Reading vs Writing
 A growing tension: AI makes writing code trivially easy but reading AI-generated code remains hard. Code review burden increases as the ratio of generated-to-handwritten code grows. See source: [It S Harder To Read Code Than To Write It](../summaries/it-s-harder-to-read-code-than-to-write-it-especially-when.md)
 
+The Zig project's anti-LLM contribution policy extends this concern to open source dynamics: if maintainers can't develop contributors through code review (because AI wrote the code), the human contributor pipeline stalls. See [AI Critical Perspectives](ai-critical-perspectives.md) and source: [The Zig Project's Rationale For Their Firm Anti-AI Contribution Policy](../summaries/the-zig-project-s-rationale-for-their-firm-anti-ai.md)
+
 ## Productivity Evidence
 
 - [Andrej Karpathy](andrej-karpathy.md): Reports 10x productivity gains but warns of "slopacolypse" — a flood of low-quality AI-generated code. See source: [A Few Random Notes From Claude Coding Quite A Bit](../summaries/a-few-random-notes-from-claude-coding-quite-a-bit.md)
@@ -45,11 +47,26 @@ Key patterns emerging across tools:
 
 See sources: [Claude Code Best Practices For Agentic Coding](../summaries/claude-code-best-practices-for-agentic-coding.md), [Best Practices For Coding With Agents](../summaries/best-practices-for-coding-with-agents.md)
 
+## Adoption Phases
+
+Mitchell Hashimoto documents a sequential six-phase journey toward effective agent use:
+
+1. **Switch to agents** — Abandon chat interfaces; only agents with file access, code execution, and HTTP capabilities provide real value.
+2. **Reproduce your own work** — Force yourself to produce results twice (manually, then via agent) to build deep empirical understanding of where agents succeed and fail.
+3. **Async timing** — Run agents during low-personal-productivity times (end-of-day, off-hours), creating "warm starts" for the next day. Turn off notifications — context switching is the enemy.
+4. **High-confidence delegation** — Only delegate tasks where you're near-certain the agent will succeed; build confidence through iteration before pushing boundaries.
+5. **Harness engineering** — Prevention beats correction. Document requirements (AGENTS.md) and build tools that stop agents from making mistakes rather than fixing them after. Each Bad Thing triggers a permanent harness fix.
+6. **Continuous background work** — Maintain ongoing low-confidence, high-value tasks in the background while focusing deeply on the work you find engaging.
+
+The core insight: efficiency gains come not from doing everything faster, but from understanding what agents *shouldn't* do and deliberately delegating at the capability edge. See source: [My AI Adoption Journey](../summaries/my-ai-adoption-journey.md)
+
 ## Multi-Agent Management
 
 As developers move from pairing with a single agent to orchestrating parallel fleets, the bottleneck shifts from "can the agent write code?" to management: clarity, delegation, verification, and async communication. [Addy Osmani](addy-osmani.md) describes the highest-leverage developers as async-first managers running small fleets, splitting work into high-touch local sessions (architecture, product nuance) and async background sessions (migrations, test generation, docs).
 
 Four management skills transfer directly: clear task scoping with briefs, delegation judgment (hand off vs. checkpoint vs. own), verification loops (tests, lint, writer/reviewer pattern), and async check-ins with structured status updates. Merge conflicts are a boundary failure — solve with git worktrees and one-agent-one-PR rules. See source: [Your AI Coding Agents Need A Manager](../summaries/your-ai-coding-agents-need-a-manager.md)
+
+Osmani's later [Agent Autonomy Levels](agent-autonomy-levels.md) framework generalizes this delegation judgment: the right level of autonomy for a coding task depends on how fast errors surface, how reversible the change is, and what evidence verifies success — not the task's label.
 
 ### The Parallel Agent Ceiling
 

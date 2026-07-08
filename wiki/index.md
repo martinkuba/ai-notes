@@ -33,12 +33,15 @@ Content catalog of all wiki pages, organized by category. Updated on each ingest
 ### Coding
 - [Agentic Coding](agentic-coding.md) — The shift to AI agent-driven software development
 - [Claude Code](claude-code.md) — Anthropic's terminal-based agentic coding tool
+- [Cognitive Debt](cognitive-debt.md) — Team-level erosion of shared mental models as AI velocity outpaces understanding
 - [Spec Driven Development](spec-driven-development.md) — Writing specs before engaging coding agents
 - [Vibe Coding](vibe-coding.md) — Karpathy's term for prompt-and-accept AI programming
 
 ### Applications
 - [Agentic AI](agentic-ai.md) — Autonomous multi-step AI systems (the "third wave")
 - [Agent Harness](agent-harness.md) — Scaffolding around models: tools, context policies, hooks, sandboxes, memory
+- [Orchestration Tax](orchestration-tax.md) — Human attention as the serial bottleneck; how long-running agents change the tradeoff
+- [Agent Autonomy Levels](agent-autonomy-levels.md) — Two-axis (agency x orchestration) framework for calibrating agent independence; contracts, metrics, anti-patterns
 - [Deep Research](deep-research.md) — AI tools for autonomous multi-step research
 
 ### Society
