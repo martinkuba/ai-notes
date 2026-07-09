@@ -14,6 +14,7 @@ mindmap
         Agentic engineering
         Ratchet Principle
         Agent Autonomy Levels
+        Owning the Outer Loop
       Andrej Karpathy
         Vibe coding
         Slopacolypse
@@ -173,6 +174,7 @@ mindmap
     - *Cognitive surrender* — accepting AI output wholesale; 73% accept incorrect answers with rising confidence
     - *Ambient anxiety tax* — vigilance cost of parallel agents
     - *Agentic engineering* — the professional alternative to vibe coding
+    - *Owning the outer loop* — Quality, Verdict, Answerability; humans own accountability, agents own execution
   - Agent harness engineering — the *Ratchet Principle* (each failure → permanent improvement)
   - Core arguments
     - Agent management is a skill (scoping, delegation, verification, async)

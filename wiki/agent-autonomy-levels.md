@@ -64,6 +64,10 @@ High autonomy does not mean removing humans from the loop. It means moving them 
 
 > "Verification will always be the bottleneck."
 
+## Relationship to Owning the Outer Loop
+
+Osmani's follow-up essay [Own the Outer Loop](../summaries/own-the-outer-loop.md) reframes this same insight in terms of loop ownership: agents should run the *inner loop* (investigate, implement, verify) while humans own the *outer loop* (constraints, sampling, audit, ownership) — rendering the Verdict and remaining Answerable for it. The autonomy-level framework's contracts, escalation policies, and drift metrics are the concrete mechanisms that make Verdicts defensible at scale.
+
 ## Related
 
 - [Addy Osmani](addy-osmani.md) — author of this framework
@@ -71,3 +75,4 @@ High autonomy does not mean removing humans from the loop. It means moving them 
 - [Agent Harness](agent-harness.md) — the scaffolding that contracts are layered on top of
 - [Agentic AI](agentic-ai.md) — Delegated Approval and Fleet Orchestration patterns map onto Levels 2-5
 - [Agentic Coding](agentic-coding.md) — practical multi-agent management this framework generalizes
+- [Cognitive Debt](cognitive-debt.md) — one of the hidden costs that unaccountable autonomy allows to accumulate

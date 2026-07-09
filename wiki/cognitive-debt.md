@@ -67,10 +67,15 @@ Repaying cognitive debt requires maintaining a distributed theory of the system 
 
 > "As AI reduces technical friction, shared understanding may become the bottleneck on performance." — Margaret Storey
 
+## Relationship to Owning the Outer Loop
+
+[Addy Osmani](addy-osmani.md) names cognitive debt as one of three hidden costs of agentic delegation, alongside cognitive surrender and the [orchestration tax](orchestration-tax.md): engineers offload thinking as they offload execution, and research shows engineers using AI score 17 percentage points lower on code comprehension. His prescription is structural — building systems with enough back pressure (type checks, tests, audit logs, monitors) that humans stay accountable for Verdicts even as agents own the inner loop. See source: [Own the Outer Loop](../summaries/own-the-outer-loop.md).
+
 ## Sources
 
 - [How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt](../summaries/how-generative-and-agentic-ai-shift-concern-from-technical.md) — Storey's introduction of the concept; the student team example; mitigation framework
 - [What I'm Hearing About Cognitive Debt (So Far)](../summaries/what-im-hearing-about-cognitive-debt-so-far.md) — Community response; shared understanding as performance bottleneck; distributed theory of the system
+- [Own the Outer Loop](../summaries/own-the-outer-loop.md) — Osmani names cognitive debt as one of three hidden costs of delegation, alongside cognitive surrender and the orchestration tax
 
 ## Related
 
@@ -78,3 +83,4 @@ Repaying cognitive debt requires maintaining a distributed theory of the system 
 - [Vibe Coding](vibe-coding.md) — Coding style that most aggressively trades understanding for velocity
 - [Spec Driven Development](spec-driven-development.md) — Specs as one mechanism to externalize intent and slow accumulation of cognitive debt
 - [Agentic Coding](agentic-coding.md) — The coding workflow in which cognitive debt accumulates fastest
+- [Orchestration Tax](orchestration-tax.md) — The sibling hidden cost of delegation; both formalized in [Own the Outer Loop](../summaries/own-the-outer-loop.md)
