@@ -2,6 +2,16 @@
 
 Reverse-chronological record of all wiki activity. Newest entries first.
 
+## [2026-07-08] ingest | Own the Outer Loop (Osmani)
+
+Ingested one new summary: [Own the Outer Loop](../summaries/own-the-outer-loop.md) (Addy Osmani, via X/Twitter thread) — a follow-up to [Agent Autonomy Levels](agent-autonomy-levels.md) arguing engineers must own the *outer loop* (constraints, sampling, audit, ownership) while agents run the inner loop (investigate, implement, verify). Introduces Quality/Verdict/Answerability as the three pillars, and names cognitive surrender, cognitive debt, and the orchestration tax as the three hidden costs of delegation.
+
+No new pages created; cross-referenced into [Addy Osmani](addy-osmani.md) (new coined-concept entry), [Orchestration Tax](orchestration-tax.md), [Cognitive Debt](cognitive-debt.md), and [Agent Autonomy Levels](agent-autonomy-levels.md). Updated [mind map](mind-map.md).
+
+**Note:** The recurring browser-challenge interstitial (`checking-your-browser-before-accessing-pmc-ncbi-nlm-nih-gov.md`) remains unreferenced (content-free bot-check page); skipped as in prior ingests.
+
+---
+
 ## [2026-07-07] ingest | No new sources — wiki fully up to date
 
 Audited all 173 summary files against wiki references. All valid summaries are already integrated.

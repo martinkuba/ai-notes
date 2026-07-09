@@ -62,6 +62,10 @@ The **Delegated Approval** pattern makes this concrete: the agent pauses at a de
 
 Osmani's later [Agent Autonomy Levels](agent-autonomy-levels.md) framework formalizes the same conclusion into policy: verification, not capability, is the bottleneck at every level of autonomy. Where the orchestration tax explains *why* review is the ceiling, autonomy levels prescribe *how* to calibrate delegation against that ceiling — via contracts, escalation policies, and drift metrics like defect escape rate.
 
+## Relationship to Owning the Outer Loop
+
+Osmani's later essay [Own the Outer Loop](../summaries/own-the-outer-loop.md) names the orchestration tax as one of three hidden costs of delegation, alongside cognitive surrender and [cognitive debt](cognitive-debt.md). It reframes the fix as keeping humans in the *outer loop* — constraints, sampling, audit, and ownership — rather than the inner execution loop, and argues the durable solution is back pressure: type checks, tests, audit logs, and monitors that generate the evidence a Verdict requires. Accountability and taste, not raw review throughput, are what actually scale.
+
 ## Related
 
 - [Agentic AI](agentic-ai.md) — Long-running agent architectures, production patterns, memory systems
@@ -69,3 +73,4 @@ Osmani's later [Agent Autonomy Levels](agent-autonomy-levels.md) framework forma
 - [Agentic Coding](agentic-coding.md) — Practical application to software development
 - [Addy Osmani](addy-osmani.md) — Coined the concept; also coined "comprehension debt" and "ambient anxiety tax"
 - [Agent Autonomy Levels](agent-autonomy-levels.md) — Formalizes the verification bottleneck into a six-level maturity model
+- [Cognitive Debt](cognitive-debt.md) — The other hidden cost of delegation named alongside the orchestration tax in [Own the Outer Loop](../summaries/own-the-outer-loop.md)
